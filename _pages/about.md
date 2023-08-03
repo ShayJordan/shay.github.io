@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Who Am I?
-======
 I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
 I am currently seeking work which would allow me to pursue my interests in **data analysis** and/or **outreach**.
+
+Who Am I?
+======
 
 Professionally
 ------
