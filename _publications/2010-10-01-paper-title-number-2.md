@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 2"
+title: "Goodstein's Theorem"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/Goodsteins_Theorem
+excerpt: 'This paper was written during the final year of my Integrated Master of Mathematics degree at the University of East Anglia (UEA), under the supervision of [Dr David Asperó](https://research-portal.uea.ac.uk/en/persons/david-aspero).'
+date: 2022-05-12
+paperurl: 'http://shayjordan.co.uk/files/Goodsteins_Theorem.pdf'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+This paper was written during the final year of my Integrated Master of Mathematics degree at the University of East Anglia (UEA), under the supervision of [Dr David Asperó](https://research-portal.uea.ac.uk/en/persons/david-aspero).
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+[Download paper here](http://shayjordan.co.uk/files/Goodsteins_Theorem.pdf)
