@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![Sword Cat](/images/SwordCat.png){: .align-right width="20%"}
+![Sword Cat](/images/SwordCat.png){: .align-right width="300px"}
 
 🎓 I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
