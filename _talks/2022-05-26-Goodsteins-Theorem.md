@@ -9,3 +9,5 @@ location: "Norwich, UK"
 ---
 
 This 15-minute talk was delivered to supplement my MMath Dissertation on Goodstein's Theorem, which can be found [here](https://shayjordan.co.uk/projects/Goodsteins_Theorem). You can view the recording of this talk on my YouTube channel, by clicking [here](https://www.youtube.com/watch?v=Vde0GE_aiIU).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vde0GE_aiIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
