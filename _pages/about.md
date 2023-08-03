@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Shay!"
+title: "👋 Hello, I'm Shay!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
+🎓 I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
-I am currently seeking work which would allow me to pursue my interests in **data analysis** and/or **outreach**.
+💼 I am currently seeking work which would allow me to pursue my interests in **data analysis** and/or **outreach**.
 
 Who Am I?
 ======
 
-Professionally
+👨‍🎓 Professionally
 ------
 I am a Master of Mathematics graduate with specialisms in pure mathematics -- namely, Combinatorics, Abstract Algebra, and Mathematical Logic. During my time studying Mathematics, I undertook many [research projects](https://shayjordan.co.uk/projects/) and delivered serveral [talks](https://shayjordan.co.uk/talks/), some of which can be found on this website. 
 
@@ -27,10 +27,10 @@ I have also worked for the UEA's Students Union *uea(su)* in several capacities.
 
 Within uea(su), I also spent three years as a Student Representative. Two of these years involved representing the views of students on my course to a School Convenor and Student Partnership Officer in a *Staff-Student Liaison Committee (SSLC)*, and in my final year I was elected as the School Convenor, so co-chaired these SSLC meetings as well as feeding back to a central *Education Subcommittee* within the Students Union.
 
-Personally
+🥋 Personally
 ------
 Outside of work and academia, I am a martial artist of over 18 years of experience in the Korean Traditional Martial Art of Kuk Sool Won. As well as training, I am a qualified instructor and lead classes at the [Lowestoft and Halesworth Kuk Sool Won schools](https://kuksoolwonlowestoft.co.uk/). I am currently a third degree black belt, with the title *Pu Sa Bum Nim (PSBN)*, and have entered a two-year testing period toward my fourth degree black belt (*Sa Bum Nim*) as of June 2023.
 
-For more info
+💁‍♂️ For more info
 ------
 For more information about me, see my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
