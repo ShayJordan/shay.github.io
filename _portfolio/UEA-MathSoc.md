@@ -12,20 +12,25 @@ As part of a rebrand of UEA MathSoc (the Mathematics Society at the University o
 <br/>
 <img src='/images/MathSoc_Logo.png' width="50%" height="50%">
 <br/>
+*UEA MathSoc's Logo.*
 <br/>
 -----
 <br/>
 <br/>
 <img src='/images/MathSoc_Text.png' width="50%" height="50%">
 <br/>
+*A text-based logo for UEA MathSoc -- used to watermark images or in the header of documents.*
 <br/>
 -----
 <br/>
 <br/>
 <img src='/images/MathSoc_Ball.png' width="50%" height="50%">
 <br/>
+*An invitation to the annual MathSoc Ball in 2020.*
 <br/>
 -----
 <br/>
 <br/>
 <img src='/images/MathSoc_Christmas.png' width="50%" height="50%">
+<br/>
+*A Christmas themed MathSoc logo, used for festive events.*
