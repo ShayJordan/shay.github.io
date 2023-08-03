@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+![Sword Cat](/images/SwordCat.png){: .align-right width="20%"}
+
 🎓 I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
 💼 I am currently seeking work which would allow me to pursue my interests in **data analysis** and/or **outreach**.
