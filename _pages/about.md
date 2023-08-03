@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hello, I'm Shay!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+Who Am I?
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I'm a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am currently seeking work which would allow me to pursue my interests in **data analysis** and/or **outreach**.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Professionally
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+I am a Master of Mathematics graduate with specialisms in pure mathematics -- namely, Combinatorics, Abstract Algebra, and Mathematical Logic. During my time studying Mathematics, I undertook many [research projects](https://shayjordan.co.uk/projects/) and delivered serveral [talks](https://shayjordan.co.uk/talks/), some of which can be found on this website. 
 
-Create content & metadata
+Following my Mathematics Degree, I undertook a Post Graduate Certificate in Education (PGCE) in Secondary Mathematics at the University of East Anglia (UEA), gaining Qualified Teacher Status (QTS). During my PGCE, I undertook placements at two contrasting schools and exceeded the requirements of the course. I also completed assignments which analysed learning theories and lived experiences in the classroom, and I analysed school data to recognise links and corrolations between student behaviour and their mathematical attainment.
+
+I have worked at the University of East Anglia (UEA) in numerous capacities, but most notably as a Student Ambassador. In this role, I produced videos, articles, and photos for UEA's digital communications; I worked on campus events, summer schools, off-campus outreach events; I led and assisted mathematics outreach events, including problem solving classes with the [Advanced Mathematics Support Programme](https://amsp.org.uk/); I featured in many university videos and outreach programmes; and I delivered the *Welcome Talk* at Open Days, alongside the Associate Pro Vice Chancellor for Admissions.
+
+I have also worked for the UEA's Students Union *uea(su)* in several capacities. For two years, I was elected onto the committee of [UEA MathSoc](https://www.ueasu.org/opportunities/society/mathsoc/), one of which as president. During my time on the committee, I helped pioneer an *Open Lecture Series*, which allowed Mathematics undergraduates a chance to deliver talks and presentations on any mathematical topics which sparked their interests. I also pioneered a rebrand of the society, being solely responsible for the creation of a new logo and other branding features, and designing a line of merchandise for the society.
+
+Within uea(su), I also spent three years as a Student Representative. Two of these years involved representing the views of students on my course to a School Convenor and Student Partnership Officer in a *Staff-Student Liaison Committee (SSLC)*, and in my final year I was elected as the School Convenor, so co-chaired these SSLC meetings as well as feeding back to a central *Education Subcommittee* within the Students Union.
+
+Personally
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Outside of work and academia, I am a martial artist of over 18 years of experience in the Korean Traditional Martial Art of Kuk Sool Won. As well as training, I am a qualified instructor and lead classes at the [Lowestoft and Halesworth Kuk Sool Won schools](https://kuksoolwonlowestoft.co.uk/). I am currently a third degree black belt, with the title *Pu Sa Bum Nim (PSBN)*, and have entered a two-year testing period toward my fourth degree black belt (*Sa Bum Nim*) as of June 2023.
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+For more information about me, see my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
