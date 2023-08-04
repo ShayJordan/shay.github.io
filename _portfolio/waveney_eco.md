@@ -1,6 +1,6 @@
 ---
 title: "Waveney Eco"
-excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><center><img src='/images/Waveney_Eco.png' width='30%' height='30%'></center>"
+excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><img src='/images/Waveney_Eco.png' width='30%' height='30%'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "UEA MathSoc Branding"
-excerpt: "A new brand identity for the Maths Society at UEA.<br/><center><img src='/images/MathSoc_Logo.png' width='30%' height='30%'></center>"
+excerpt: "A new brand identity for the Maths Society at UEA.<br/><img src='/images/MathSoc_Logo.png' width='30%' height='30%'>"
 collection: portfolio
 ---
 
