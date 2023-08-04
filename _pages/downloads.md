@@ -7,10 +7,10 @@ author_profile: true
 
 LaTeX Files
 ------
-During my time spent studying Mathematics at UEA, I created a bunch of really nice LaTeX templates and class files to make my life easier when writing courseworks and various other documents. They're not much use to me now, but I'm sure they will be to someone -- so here they are!
-
-**Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your LaTeX system files.
+**Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
 {: .notice}
+
+During my time spent studying Mathematics at UEA, I created a bunch of really nice LaTeX templates and class files to make my life easier when writing courseworks and various other documents. They're not much use to me now, but I'm sure they will be to someone -- so here they are!
 
 **Coursework Template**
 
@@ -23,6 +23,12 @@ This coursework template is available with or without a cover page which looks v
 I used this during the CoViD days of submitting handwritten exams online. I'd write my exam script by hand, number the pages, fill this in on the cover page and then scan the lot ready to upload. Extremely extra and unnecessary, but I like it. 
 
 [`Preview`](https://shayjordan.co.uk/files/coverpage.pdf)    [`Download .cls File`](https://shayjordan.co.uk/files/coverpage.cls)    [`Download .tex Template`](https://shayjordan.co.uk/files/coverpage.tex)
+
+**Revision Notes Template**
+
+I used this to produce some concise, bulleted revision notes which decorated my surroundings during online open-book exams during the CoViD days of my studies.
+
+[`Preview`](https://shayjordan.co.uk/files/revision.pdf)    [`Download .cls File`](https://shayjordan.co.uk/files/revision.cls)    [`Download .tex Template`](https://shayjordan.co.uk/files/revision.tex)
 
 
 Other Downloads
