@@ -10,7 +10,7 @@ As part of a rebrand of UEA MathSoc (the Mathematics Society at the University o
 -----
 <br/>
 <br/>
-<img src='/images/MathSoc_Logo.png' width="50%" height="50%">
+<img src='/images/MathSoc_Logo.png' width="60%" height="60%">
 <br/>
 <br/>
 *UEA MathSoc's Logo.*
@@ -19,7 +19,7 @@ As part of a rebrand of UEA MathSoc (the Mathematics Society at the University o
 -----
 <br/>
 <br/>
-<img src='/images/MathSoc_Text.png' width="50%" height="50%">
+<img src='/images/MathSoc_Text.png' width="60%" height="60%">
 <br/>
 <br/>
 *A text-based logo for UEA MathSoc -- used to watermark images or in the header of documents.*
@@ -28,7 +28,7 @@ As part of a rebrand of UEA MathSoc (the Mathematics Society at the University o
 -----
 <br/>
 <br/>
-<img src='/images/MathSoc_Ball.png' width="50%" height="50%">
+<img src='/images/MathSoc_Ball.png' width="60%" height="60%">
 <br/>
 <br/>
 *An invitation to the annual MathSoc Ball in 2020.*
@@ -37,7 +37,7 @@ As part of a rebrand of UEA MathSoc (the Mathematics Society at the University o
 -----
 <br/>
 <br/>
-<img src='/images/MathSoc_Christmas.png' width="50%" height="50%">
+<img src='/images/MathSoc_Christmas.png' width="60%" height="60%">
 <br/>
 <br/>
 *A Christmas themed MathSoc logo, used for festive events.*
