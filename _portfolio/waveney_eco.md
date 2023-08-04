@@ -1,6 +1,6 @@
 ---
 title: "Waveney Eco"
-excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><img src='/images/Waveney_Eco.png' width='50%' height='50%'>"
+excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><center><img src='/images/Waveney_Eco.png' width='30%' height='30%'></center>"
 collection: portfolio
 ---
 
@@ -10,7 +10,7 @@ In 2017, I founded the youth-led *Waveney Eco* group, whose sole purpose was to 
 -----
 <br/>
 <br/>
-<img src='/images/Waveney_Eco.png' width="60%" height="60%">
+<center><img src='/images/Waveney_Eco.png' width="60%" height="60%"></center>
 <br/>
 <br/>
 *Waveney Eco's Logo.*
@@ -19,7 +19,7 @@ In 2017, I founded the youth-led *Waveney Eco* group, whose sole purpose was to 
 -----
 <br/>
 <br/>
-<img src='/images/WE_Banner.png' width="60%" height="60%">
+<center><img src='/images/WE_Banner.png'></center>
 <br/>
 <br/>
 *A banner photo used on the group's social media pages, aiming to recruit new members.*
