@@ -10,4 +10,4 @@ Goodstein's Theorem claims that every Goodstein Sequence converges to 0, despite
 
 This paper was written during the final year of my Integrated Master of Mathematics degree at the University of East Anglia (UEA), under the supervision of [Dr David Asperó](https://research-portal.uea.ac.uk/en/persons/david-aspero).
 
-[Download paper here](http://shayjordan.co.uk/files/Goodsteins_Theorem.pdf)
+[Download the paper here.](http://shayjordan.co.uk/files/Goodsteins_Theorem.pdf)
