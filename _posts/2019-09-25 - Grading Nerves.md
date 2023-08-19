@@ -14,4 +14,3 @@ Many see a grading as the day of judgement; the day for you to impress the instr
 Of course, the instructors and masters are looking to see if you’re where you should be and what you can do well, but they’re not looking for you to have every detail nailed flawlessly. They’re looking to see if your standard of training is in fitting with your rank level, they’re looking to see that you’re giving it your best effort, and they’re looking for that indominable Kuk Sool Won spirit.
 
 A grading is a time to reflect on your progress over the past three months and to see what your next steps are. A grading isn’t a time for fear, a grading is a time for confidence in your ability and pride in your effort. A grading is just another class.
-------

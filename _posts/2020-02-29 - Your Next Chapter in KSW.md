@@ -20,4 +20,3 @@ My instructor, and seventh degree black belt, JDKJN Martin Ducker repeatedly tel
 A promotion brings a perfect time reflect on your journey so far, so what will your next chapter in Kuk Sool Won be about?</p>
 
 <em><strong>I originally wrote this post for the Kuk Sool Won of Lowestoft blog. You can view this article <a href="https://kuksoolwonlowestoft.co.uk/your-next-chapter-in-kuk-sool-won/">here</a>.</strong></em>
-------
