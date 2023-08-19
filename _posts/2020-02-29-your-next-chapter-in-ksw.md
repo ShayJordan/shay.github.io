@@ -17,6 +17,6 @@ Through the coloured belt stages of Kuk Sool Won, it is often easy to focus on&n
 
 My instructor, and seventh degree black belt, JDKJN Martin Ducker repeatedly tells us to train in a mirror, saying that we will learn more from our reflection than we ever will from another instructor. Whilst he may be talking about a literal reflection in a mirror, I like include reflection on our past selves in this too. By reflecting and reviewing our Kuk Sool journey so far, we can see what we are proud of in ourselves, what&nbsp;we’ve achieved&nbsp;and what our next steps and goals really need to be.
 
-A promotion brings a perfect time reflect on your journey so far, so what will your next chapter in Kuk Sool Won be about?</p>
+A promotion brings a perfect time reflect on your journey so far, so what will your next chapter in Kuk Sool Won be about?
 
 <em><strong>I originally wrote this post for the Kuk Sool Won of Lowestoft blog. You can view this article <a href="https://kuksoolwonlowestoft.co.uk/your-next-chapter-in-kuk-sool-won/">here</a>.</strong></em>
