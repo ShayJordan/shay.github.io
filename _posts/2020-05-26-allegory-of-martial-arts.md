@@ -7,7 +7,7 @@ tags:
 ---
 On the surface, to most who don't practice, martial arts training is all about kicking, punching, and self defence. Of course, this is understandable. When you mention martial arts to someone they are likely to have only been exposed to it in movies: The Karate Kid, Jackie Chan films, etc. At a seminar last year (2019), SIKJN Alex Suh told us to stop watching these. He claimed they aren't about martial arts, they're about fighting; they provide the biggest misconception of what martial arts is about, and they don't even begin to showcase true martial arts to even the slightest degree. When you begin training for yourself however, you begin to see that there is a lot more to it and the physical, self-defence side of it really is just the tip of the iceberg. 
 
-![KSW Short Swords](/images/KSW_Short_Swords.jpg){: .align-right width="300px"}
+![KSW Short Swords](/images/KSW_Short_Swords.JPG){: width="70%"}
 
 For most, the first further aspect of training which gets exposure is the importance of good etiquette and respect. These are key principles in Kuk Sool, and most other martial arts for that matter. They really are the most important things to the point that they are the first thing that appear on every grading sheet in Kuk Sool -- even for senior black belt gradings. It is upon this realisation that you begin to see that martial arts training is just as much about your attitude and mindset as it is your physical ability. 
 

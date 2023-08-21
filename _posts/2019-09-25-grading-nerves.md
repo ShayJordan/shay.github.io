@@ -7,7 +7,7 @@ tags:
 ---
 Don’t let the shiny uniforms and masters/instructors sat at the front phase you. If you’re training right, a grading is just another class.
 
-![KSW Grading](/images/KSW_Grading.jpg){: .align-right width="300px"}
+![KSW Grading](/images/KSW_Grading.jpg){: width="70%"}
 
 A few months ago, I took part in my first grading toward Pu Sa Bum Nim (third degree black belt), having not graded since my promotion to Kyo Sa Nim (second degree black belt) in June 2015. You may expect that I would have been nervous for my first grading in four years, but I wasn’t, and this is just down to my perception of what a grading is.
 
