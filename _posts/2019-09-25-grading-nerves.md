@@ -5,7 +5,7 @@ permalink: /posts/2019/09/GradingNerves/
 tags:
   - Kuk Sool Won
 ---
-Don’t let the shiny uniforms and masters/instructors sat at the front phase you. If you’re training right, a grading is just another class.
+Don’t let the shiny uniforms and masters or instructors sat at the front phase you. If you’re training right, a grading is just another class.
 
 ![KSW Grading](/images/KSW_Grading.jpg)
 
