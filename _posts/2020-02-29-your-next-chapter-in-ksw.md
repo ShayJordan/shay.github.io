@@ -5,9 +5,9 @@ permalink: /posts/2020/02/NextChapterKSW/
 tags:
   - Kuk Sool Won
 ---
-![KSW Technique](/images/KSW_Technique.jpg){: .align-right width="300px"} Every three months in Kuk Sool, we progress to our next grade at colour-belt level. Whether this is a full belt or just a stripe, it signifies progress and achievement, but what does it mean in terms of your training? I like to think of a new under-black-belt promotion as a new chapter to the book that is your Kuk Sool Won journey.
+Every three months in Kuk Sool, we progress to our next grade at colour-belt level. Whether this is a full belt or just a stripe, it signifies progress and achievement, but what does it mean in terms of your training? I like to think of a new under-black-belt promotion as a new chapter to the book that is your Kuk Sool Won journey.
 
-When you begin training, you begin writing the first chapter of your Kuk Sool Won journey.&nbsp;You don’t entirely know what you’re doing, where you’re going or what it’s leading to. You require a lot of guidance to get you going. It’s easily the hardest part.
+![KSW Technique](/images/KSW_Technique.jpg){: .align-right width="300px"} When you begin training, you begin writing the first chapter of your Kuk Sool Won journey.&nbsp;You don’t entirely know what you’re doing, where you’re going or what it’s leading to. You require a lot of guidance to get you going. It’s easily the hardest part.
 
 Then your first promotion comes around and&nbsp;you get your yellow stripe. Although you’re&nbsp;still very much a beginner, you begin to get&nbsp;a feel for what’s going on, who everyone is and what is happening. You begin to find your feet, and you gain a little more fluency in writing your Kuk Sool journey.
 
