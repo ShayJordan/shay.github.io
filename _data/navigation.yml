@@ -1,5 +1,7 @@
 # main links links
 main:
+  - title: "CV"
+    url: /files/ShayCV.pdf
                 
   - title: "Blog"
     url: /year-archive/
@@ -15,9 +17,6 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
-  
-  - title: "CV"
-    url: /files/ShayCV.pdf
     
   - title: "Downloads"
     url: /downloads/
