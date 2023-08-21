@@ -1,7 +1,7 @@
 ---
 title: '"Magic Moments" in Kuk Sool'
 date: 2016-06-27
-permalink: /posts/2016/06/GradingNerves/
+permalink: /posts/2016/06/MagicMoments/
 tags:
   - Kuk Sool Won
 ---
