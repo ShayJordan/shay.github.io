@@ -4,9 +4,9 @@ date: 2020-05-26
 permalink: /posts/2020/05/allegory-of-martial-arts/
 tags:
   - Kuk Sool Won
-excerpt: 'On the surface, to most who don't practice, martial arts training is all about kicking, punching, and self defence. When you begin training for yourself however, you begin to see that there is a lot more to it than this.'
+excerpt: 'To the uninitiated, martial arts training is all about kicking, punching, and self defence. When you begin training for yourself however, you begin to see that there is a lot more to it than this.'
 ---
-On the surface, to most who don't practice, martial arts training is all about kicking, punching, and self defence. Of course, this is understandable. When you mention martial arts to someone they are likely to have only been exposed to it in movies: The Karate Kid, Jackie Chan films, etc. At a seminar last year (2019), SIKJN Alex Suh told us to stop watching these. He claimed they aren't about martial arts, they're about fighting; they provide the biggest misconception of what martial arts is about, and they don't even begin to showcase true martial arts to even the slightest degree. When you begin training for yourself however, you begin to see that there is a lot more to it and the physical, self-defence side of it really is just the tip of the iceberg. 
+To the uninitiated, martial arts training is all about kicking, punching, and self defence. Of course, this is understandable. When you mention martial arts to someone they are likely to have only been exposed to it in movies: The Karate Kid, Jackie Chan films, etc. At a seminar last year (2019), SIKJN Alex Suh told us to stop watching these. He claimed they aren't about martial arts, they're about fighting; they provide the biggest misconception of what martial arts is about, and they don't even begin to showcase true martial arts to even the slightest degree. When you begin training for yourself however, you begin to see that there is a lot more to it and the physical, self-defence side of it really is just the tip of the iceberg. 
 
 ![KSW Short Swords](/images/KSW_Short_Swords.JPG)
 
