@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: "👋 Hello, I'm Shay!"
-excerpt: "About me"
+excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-![Sword Cat](/images/SwordCat.png){: .align-right width="300px"}
+![Sword Cat](/images/SwordCat.png){: .align-right width="256px"}
 
 🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 

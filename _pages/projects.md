@@ -2,6 +2,7 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
+excerpt: "A selection of research projects I have carried out, primarily during the course of my Integrated Master of Mathematics degree at the University of East Anglia (UEA)."
 author_profile: true
 ---
 
