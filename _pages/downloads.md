@@ -2,6 +2,8 @@
 permalink: /downloads/
 title: "Downloads"
 excerpt: "Here, you can download various files which seem fit to be on my website."
+header:
+  overlay_color: "#33335a"
 author_profile: true
 ---
 
