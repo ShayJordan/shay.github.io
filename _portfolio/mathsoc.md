@@ -2,7 +2,8 @@
 title: "UEA MathSoc Branding"
 excerpt: "A new brand identity for the Maths Society at UEA.<br/><br/><img src='/images/MathSoc_Logo.png' width='30%' height='30%'>"
 collection: portfolio
-image: "/og_image.png"
+header:
+  image: og_image.png
 ---
 
 As part of a rebrand of UEA MathSoc (the Mathematics Society at the University of East Anglia), I created a logo and various other graphical elements to be used in materials and communications by the society. Here are just a few of the things I produced for this.
