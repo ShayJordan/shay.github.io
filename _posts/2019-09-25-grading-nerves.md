@@ -9,7 +9,6 @@ header:
   teaser: KSW_Grading.jpg
   overlay_image: KSW_Grading.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
-  caption: "**Published:** 25/09/2019"
 ---
 Don’t let the shiny uniforms and masters or instructors sat at the front phase you. If you’re training right, a grading is just another class.
 

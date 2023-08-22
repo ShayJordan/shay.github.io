@@ -9,7 +9,6 @@ header:
   teaser: KSW_Kick.jpg
   overlay_image: KSW_Kick.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
-  caption: "**Published:** 27/06/2016"
 ---
 Over the years of training Kuk Sool Won, you will be faced with many *magic moments*: moments of realisation that you can; moments of inspiration; moments that stick in your head for the rest of your life. Everyone has these “moments”, but everyone’s are different and unique respectively.
 

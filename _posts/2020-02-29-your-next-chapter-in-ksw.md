@@ -9,7 +9,6 @@ header:
   teaser: KSW_Technique.jpg
   overlay_image: KSW_Technique.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
-  caption: "**Published:** 29/02/2020"
 ---
 Every three months in Kuk Sool, we progress to our next grade at colour-belt level. Whether this is a full belt or just a stripe, it signifies progress and achievement, but what does it mean in terms of your training? I like to think of a new under-black-belt promotion as a new chapter to the book that is your Kuk Sool Won journey.
 
