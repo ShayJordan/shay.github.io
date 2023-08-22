@@ -7,10 +7,11 @@ tags:
 excerpt: 'Over the years of training Kuk Sool Won, you will be faced with many *magic moments*: moments of realisation that you can; moments of inspiration; moments that stick in your head for the rest of your life.'
 header:
   teaser: KSW_Kick.jpg
+  overlay_image: KSW_Kick.jpg
+  overlay_filter: rgba(51, 51, 90, 0.75)
+  caption: "**Published:** 27/06/2016"
 ---
 Over the years of training Kuk Sool Won, you will be faced with many *magic moments*: moments of realisation that you can; moments of inspiration; moments that stick in your head for the rest of your life. Everyone has these “moments”, but everyone’s are different and unique respectively.
-
-![KSW Kick](/images/KSW_Kick.jpg)
 
 For myself, I have had many *moments* in Kuk Sool, the most prominent of which being the moment of realisation that I could jump high. It may seem like a small thing, but to me this moment was huge and certainly one that will always stick in my head. I was in the coloured belt kids’ class, probably a blue belt and about 6 years old. We were doing our kicks and Master Martin -- our school owner -- was encouraging us to jump high when we changed stances. When we were doing this, he pointed out that I was able to jump significantly higher than anyone else, and from that moment on people referred to the jumping change as the “Shay change”. That was my magic moment in Kuk Sool, and it still has an impact on my training today. That moment made me see that actually there was something that I was good at, and over the years that has stuck in my head as motivation to continue working on that aspect of my training. As a result I am now able to do jump kicks quite high, all because of the motivation from my “moment” as a blue belt all those years ago.
 
