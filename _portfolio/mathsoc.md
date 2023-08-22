@@ -1,5 +1,7 @@
 ---
 title: "UEA MathSoc Branding"
+date: 2019-05-28
+show_date: false
 excerpt: "A new brand identity for the Maths Society at UEA.<br/><br/><img src='/images/MathSoc_Logo.png' width='30%' height='30%'>"
 collection: portfolio
 ---

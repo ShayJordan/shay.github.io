@@ -1,10 +1,13 @@
 ---
 title: "Waveney Eco"
+date: 2016-05-29
+show_date: false
 excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><br/><img src='/images/Waveney_Eco.png' width='30%' height='30%'>"
 collection: portfolio
+
 ---
 
-In 2017, I founded the youth-led *Waveney Eco* group, whose sole purpose was to raise awareness of environmental issues in the Lowestoft area and to engage in outreach surrounding these issues. I am also solely responsible for the group's brand identity, including their logo, [website](https://web.archive.org/web/20180412215726/http://www.bbhseco.org/), and other branding presence.
+In 2016, I founded the youth-led *Waveney Eco* group, whose sole purpose was to raise awareness of environmental issues in the Lowestoft area and to engage in outreach surrounding these issues. I am also solely responsible for the group's brand identity, including their logo, [website](https://web.archive.org/web/20180412215726/http://www.bbhseco.org/), and other branding presence.
 <br/>
 <br/>
 -----

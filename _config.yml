@@ -236,7 +236,6 @@ defaults:
       author_profile: false
       share: true
       comment: false
-      show_date: false
   # _talks
   - scope:
       path: ""
