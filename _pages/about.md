@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello, I'm Shay!"
+title: "Hello, I'm Shay! 👋"
 excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
 author_profile: true
 redirect_from: 
@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-![Sword Cat](/images/SwordCat.png){: .align-right width="228px"}
+![Sword Cat](/images/SwordCat.png){: .align-right width="212px"}
 
 🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
 💼 I am incoming Outreach Project Officer at the University of East Anglia (UEA) in Norwich, UK.
 
-🙋🏻‍♂️ Who Am I?
+Who Am I? 🙋🏻‍♂️
 ======
 
-👨‍🎓 Professionally
+Professionally 👨‍🎓
 ------
 
 I am a Master of Mathematics graduate with specialisms in pure mathematics -- namely, Combinatorics, Abstract Algebra, and Mathematical Logic. During my time studying Mathematics, I undertook many [research projects](https://shayjordan.co.uk/projects/) and delivered serveral [talks](https://shayjordan.co.uk/talks/), some of which can be found on this website. Following my Mathematics Degree, I undertook a Post Graduate Certificate in Education (PGCE) in Secondary Mathematics at the University of East Anglia (UEA), gaining Qualified Teacher Status (QTS).
@@ -28,14 +28,14 @@ I have also worked for the UEA's Students Union *uea(su)* in several capacities.
 
 Within uea(su), I also spent three years as a Student Representative. Two of these years involved representing the views of students on my course to a School Convenor and Student Partnership Officer in a *Staff-Student Liaison Committee (SSLC)*, and in my final year I was elected as the School Convenor, so co-chaired these SSLC meetings as well as feeding back to a central *Education Subcommittee* within the Students Union.
 
-🥋 Personally
+Personally 🥋
 ------
 
 Outside of work and academia, I am a martial artist of over 18 years of experience in the Korean Traditional Martial Art of [Kuk Sool Won](https://kuksoolwon.com). As well as training, I am a qualified instructor and lead classes at the [Lowestoft and Halesworth Kuk Sool Won schools](https://kuksoolwonlowestoft.co.uk/). I am currently a third degree black belt (*Pu Sa Bum Nim / 부사범님*), and have entered a two-year testing period toward my fourth degree black belt (*Sa Bum Nim / 사범님*) as of June 2023.
 
 I enjoy reading, with my favourite books being [The Cat and the City](https://www.waterstones.com/book/the-cat-and-the-city/nick-bradley/9781786499912) by [Nick Bradley](https://www.nickbradleywriter.com/), and [Tokyo Express](https://www.penguin.co.uk/books/316578/tokyo-express-by-matsumoto-seicho/9780241439081) by [Seichō Matsumoto](https://en.wikipedia.org/wiki/Seich%C5%8D_Matsumoto). Quite fittingly, these books both dwell on Japanese culture -- and South-East Asian culture is something which I am very interested in. I am a keen traveller and have visited Thailand many times, and hope to travel more of South-East Asia in the future -- including Japan and South Korea.
 
-💁‍♂️ For more info
+For more info 💁‍♂️
 ------
 
 For more information about me, view [my CV](https://shayjordan.co.uk/files/ShayCV.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
