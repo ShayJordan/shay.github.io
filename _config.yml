@@ -56,6 +56,10 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
+linkedin:
+  username:              : "shayjordan"
+instagram:
+  username               : "sh4yj"
 twitter:
   username               : &twitter
 facebook:
