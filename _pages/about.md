@@ -6,7 +6,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-<meta property="og:image" content="/images/og_image.png"/>
 ---
 
 ![Sword Cat](/images/SwordCat.png){: .align-right width="196px"}
