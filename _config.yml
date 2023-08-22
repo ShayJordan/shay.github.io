@@ -9,6 +9,7 @@
 locale                   : "en-GB"
 title                    : "Shay Jordan"
 title_separator          : "-"
+logo                     : logo.png
 name                     : &name "Shay Jordan"
 description              : &description "The personal website of Shay Jordan."
 url                      : https://shayjordan.co.uk # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
