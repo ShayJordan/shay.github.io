@@ -3,8 +3,6 @@ permalink: /downloads/
 title: "Downloads"
 excerpt: "Here, you can download various files which seem fit to be on my website."
 author_profile: true
-header:
-  image: og_image.png
 ---
 
 LaTeX Files
