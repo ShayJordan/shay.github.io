@@ -6,7 +6,6 @@ header:
   overlay_color: "#33335a"
 author_profile: true
 ---
-
 LaTeX Files
 ------
 **Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
