@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello, I'm Shay!"
+title: "Hello, I'm Shay!"
 excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
 author_profile: true
 redirect_from: 
@@ -8,20 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-![Sword Cat](/images/SwordCat.png){: .align-right width="196px"}
+#![Sword Cat](/images/SwordCat.png){: .align-right width="196px"}
 
 🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
-💼 I am currently seeking work which would allow me to pursue my interests in **data analysis**, **problem solving**, and/or **outreach**.
+💼 I am incoming Outreach Project Officer at the UEA.
 
 Who Am I?
 ======
 
 👨‍🎓 Professionally
 ------
-I am a Master of Mathematics graduate with specialisms in pure mathematics -- namely, Combinatorics, Abstract Algebra, and Mathematical Logic. During my time studying Mathematics, I undertook many [research projects](https://shayjordan.co.uk/projects/) and delivered serveral [talks](https://shayjordan.co.uk/talks/), some of which can be found on this website. 
-
-Following my Mathematics Degree, I undertook a Post Graduate Certificate in Education (PGCE) in Secondary Mathematics at the University of East Anglia (UEA), gaining Qualified Teacher Status (QTS). During my PGCE, I undertook placements at two contrasting schools and exceeded the requirements of the course. I also completed assignments which analysed learning theories and lived experiences in the classroom, and I analysed school data to recognise links and corrolations between student behaviour and their mathematical attainment.
+I am a Master of Mathematics graduate with specialisms in pure mathematics -- namely, Combinatorics, Abstract Algebra, and Mathematical Logic. During my time studying Mathematics, I undertook many [research projects](https://shayjordan.co.uk/projects/) and delivered serveral [talks](https://shayjordan.co.uk/talks/), some of which can be found on this website. Following my Mathematics Degree, I undertook a Post Graduate Certificate in Education (PGCE) in Secondary Mathematics at the University of East Anglia (UEA), gaining Qualified Teacher Status (QTS).
 
 I have worked at the University of East Anglia (UEA) in numerous capacities, but most notably as a Student Ambassador. In this role, I produced videos, articles, and photos for UEA's digital communications; I worked at on-campus events, summer schools, and off-campus outreach events; I led and assisted mathematics outreach events, including problem solving classes with the [Advanced Mathematics Support Programme](https://amsp.org.uk/) (AMSP); I featured in [many university videos](https://youtube.com/playlist?list=PL7TuvPgbczmCP7rbkkv4MdvUH8K9kRxqK), [employability projects](https://www.uea.ac.uk/employability/mmath-master-of-mathematics-shay-jordan), and outreach programmes; and I delivered the *Welcome Talk* to thousands of guests at Open Days alongside the Associate Pro Vice Chancellor for Admissions.
 
@@ -37,4 +35,4 @@ I enjoy reading, with my favourite books being [The Cat and the City](https://ww
 
 💁‍♂️ For more info
 ------
-For more information about me, see my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
+For more information about me, view [my CV](https://shayjordan.co.uk/files/ShayCV.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
