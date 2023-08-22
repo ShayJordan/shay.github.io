@@ -43,7 +43,7 @@
 	     <p class="page__date"><font color="white"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></font></p>
       {% endif %}
       {% if site.read_time or page.read_time %}
-        <p class="page__date"><font color="white"><i class="fa fa-fw fa-clock" aria-hidden="true"></i> {% include read-time.html %}</font></p>
+        <p class="page__meta"><font color="white"><i class="fa fa-fw fa-clock" aria-hidden="true"></i> {% include read-time.html %}</font></p>
       {% endif %}
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
