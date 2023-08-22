@@ -1,7 +1,13 @@
 ---
 permalink: /
 title: "Hello, I'm Shay! 👋"
-excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
+excerpt: "This post should [...]"
+header:
+  overlay_color: "#333"
+  actions:
+    - label: "Download my CV"
+      url: "https://shayjordan.co.uk/files/ShayCV.pdf"
+excerpt: "🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.<br><br>💼 I am incoming Outreach Project Officer at the University of East Anglia (UEA) in Norwich, UK."
 author_profile: true
 redirect_from: 
   - /about/
