@@ -1,5 +1,6 @@
 ---
 title: "Waveney Eco"
+permalink: /portfolio/waveney_eco/
 date: 2016-05-29
 show_date: false
 excerpt: "I founded the youth-led *Waveney Eco* and created their brand identity.<br/><br/><img src='/images/Waveney_Eco.png' width='30%' height='30%'>"
