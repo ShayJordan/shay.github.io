@@ -1,7 +1,7 @@
 ---
 title: 'The Theory of *YOU-WON-HWA*'
 date: 2023-08-23
-permalink: /posts/2015/11/you-won-hwa/
+permalink: /posts/2023/08/you-won-hwa/
 tags:
   - Kuk Sool Won
 excerpt: 'For your movements and techniques to be effective and efficient in Kuk Sool, you must apply the theory of *YOU-WON-HWA*. Before you apply it however, you must have an understanding of what it is.'
