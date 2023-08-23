@@ -37,7 +37,7 @@ The Theory of HWA
 We are at our best when we are at harmony with our environment. A sailor does best when they are at one with the sea; a swimmer does best when they are at one with the water; a martial artist does best when they are at one with themselves. To be at one with yourself, you must find harmony in your family and in society. The philosophy of Korean culture plays heavily on the idea of *Um-Yang* (more commonly known by its Chinese name, *Yin-Yang*). This is the idea of the harmonious co-existence of naturally opposing forces as a single entity: good and bad; man and woman; day and night. All exist to allow for the other to exist, and would not exist without each other. They exist in harmony, as a martial artist should with themselves, and as their body should with the mind.
 
 ![Um Yang](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Taegeuk.svg/1024px-Taegeuk.svg.png){: width="60%"}
-***Image: *** *The Taegeuk  symbol from the flag of South Korea, representing the "great duality" of Um (negative, in blue) and Yang (positive, in red).*
+***Image: *** *The Taegeuk symbol from the flag of South Korea, representing the "great duality" of Um (negative, in blue) and Yang (positive, in red).*
 
 The manifestation of the Theory of YOU-WON-HWA is that as flowing water seeks to be in harmony with its surroundings, adapting effortlessly to external influences, we should also maintain harmony within our personal circle and redirect any disturbances with equal magnitude to the force which they introduce.
 
