@@ -4,13 +4,13 @@ date: 2019-09-25
 permalink: /posts/2019/09/GradingNerves/
 tags:
   - Kuk Sool Won
-excerpt: 'Don’t let the shiny uniforms and masters or instructors sat at the front phase you. If you’re training right, a grading is just another class.'
+excerpt: 'Don’t let the shiny uniforms and masters or instructors sat at the front faze you. If you’re training right, a grading is just another class.'
 header:
   teaser: KSW_Grading.jpg
   overlay_image: KSW_Grading.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
 ---
-Don’t let the shiny uniforms and masters or instructors sat at the front phase you. If you’re training right, a grading is just another class.
+Don’t let the shiny uniforms and masters or instructors sat at the front faze you. If you’re training right, a grading is just another class.
 
 A few months ago, I took part in my first grading toward Pu Sa Bum Nim (third degree black belt), having not graded since my promotion to Kyo Sa Nim (second degree black belt) in June 2015. You may expect that I would have been nervous for my first grading in four years, but I wasn’t, and this is just down to my perception of what a grading is.
 
