@@ -3,6 +3,7 @@ permalink: /downloads/
 title: "Downloads"
 excerpt: "Here, you can download various files which seem fit to be on my website."
 header:
+  og_image: og_image.png
   overlay_image: downloads.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true

@@ -4,6 +4,7 @@ title: "Projects"
 permalink: /projects/
 excerpt: "A selection of research projects I have carried out, primarily during the course of my Integrated Master of Mathematics degree at the University of East Anglia (UEA)."
 header:
+  og_image: og_image.png
   overlay_image: projects.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true
