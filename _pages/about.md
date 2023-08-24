@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Hello, I'm Shay! 👋"
-excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
+excerpt: "Master of Mathematics graduate and Martial Artist."
 header:
   overlay_image: home.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
