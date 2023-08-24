@@ -3,10 +3,10 @@ permalink: /
 title: "Hello, I'm Shay! 👋"
 excerpt: "The website of Master of Mathematics graduate and Martial Artist, Shay Jordan."
 header:
-  og_image: og_image.png
   overlay_image: home.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true
+og_image: og_image.png
 redirect_from: 
   - /about/
   - /about.html
