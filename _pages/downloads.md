@@ -3,7 +3,8 @@ permalink: /downloads/
 title: "Downloads"
 excerpt: "Here, you can download various files which seem fit to be on my website."
 header:
-  overlay_color: "#33335a"
+  overlay_image: downloads.JPG
+  overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true
 ---
 LaTeX Files
