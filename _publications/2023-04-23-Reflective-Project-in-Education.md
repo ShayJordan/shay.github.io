@@ -6,7 +6,7 @@ excerpt: 'This research project involved the use of existing data within a schoo
 date: 2023-04-23
 paperurl: 'http://shayjordan.co.uk/files/RPE.pdf'
 ---
-Conducted for partial fulfilment of the Post Graduate Certificate in Education, this research project explored ecisting data within one of my placement schools to recognise links between behaviour points given to students as a metric for behaviour and the ability set class for Mathematics whcih students have been placed in as a metric for their Mathematical ability. Data is also compared across different year groups within the school to recognise any longitudinal trends
+Conducted in partial fulfilment of the Post Graduate Certificate in Education, this research project explored existing data within one of my placement schools to recognise links between students' behaviour in school and their mathematical ability. Behaviour points (both positive and negative) given to students were used as a metric for behaviour, and the ability set class for Mathematics which students have been placed in as a metric for their mathematical ability. Ratios are utilised to negate the impact of class sizes or any abnormalities in the data, and data is also compared across different year groups within the school to recognise any longitudinal trends.
 
 My findings are presented in an academic poster, and supported by a ~1500 word report -- both of which can be read below.
 
