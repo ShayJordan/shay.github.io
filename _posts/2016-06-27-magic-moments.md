@@ -1,5 +1,5 @@
 ---
-title: '"Magic Moments" in Kuk Sool'
+title: '*Magic Moments* in Kuk Sool'
 date: 2016-06-27
 permalink: /posts/2016/06/MagicMoments/
 tags:
