@@ -16,7 +16,7 @@ redirect_from:
 
 🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
-💼 I am an incoming Outreach Project Officer at the University of East Anglia (UEA) in Norwich, UK.
+💼 I am an Outreach Project Officer at the University of East Anglia (UEA) in Norwich, UK.
 
 Who am I Professionally? 👨‍🎓
 ------
