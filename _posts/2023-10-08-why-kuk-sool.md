@@ -4,7 +4,7 @@ date: 2023-10-08
 permalink: /posts/2023/10/why-kuk-sool/
 tags:
   - Kuk Sool Won
-excerpt: 'A key element of Kuk Sool, taught right from beginner level, is Nahk Bup (낙법), or *falling principles*. Nahk Bup are essentially set ways of exiting a fall which prevent injury and protect the body -- both inside and out.'
+excerpt: 'I have been training in Kuk Sool Won for the best part of two decades, and I am still being fascinated by new material and the development of a deeper understanding of the material I have been practising for years. There is always something more to learn in Kuk Sool, and it never gets stale.'
 header:
   teaser: KSW-why-kuk-sool.jpg
   overlay_image: KSW-why-kuk-sool.jpg
