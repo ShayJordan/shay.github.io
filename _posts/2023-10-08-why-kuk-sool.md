@@ -24,7 +24,7 @@ My favourite element of the physical aspect of training has to be traditional fo
 
 It’s fascinating to not just practise the forms, but also to understand the purpose of the movements and why they’ve been put where they have. 
 
-An interesting fact that I learnt last year is that when Kuk Sool Won's founder and grandmaster *Kuk Sa Nim* set about creating the Kuk Sool curriculum, he started by creating with Guhm Moo Hyung (검무형), Baek Pahl Ki Hyung (108기형), and Kyuk Pah Hyung (격파형) (the forms required for 1st, 2nd, and 3rd degree black belt respectively) first. Each of these is inspired by one of the three origins of Kuk Sool: 
+An interesting fact that I learnt last year is that when Kuk Sool Won's founder and grandmaster *Kuk Sa Nim* set about creating the Kuk Sool curriculum, he started by creating Guhm Moo Hyung (검무형), Baek Pahl Ki Hyung (108기형), and Kyuk Pah Hyung (격파형) (the forms required for 1st, 2nd, and 3rd degree black belt respectively) first. Each of these is inspired by one of the three origins of Kuk Sool: 
 - Guhm Moo Hyung is based upon Korean Royal Court Martial Arts; 
 - Baek Pahl Ki Hyung is inspired by Buddhist Temple Martial Arts, and; 
 - Kyuk Pah Hyung draws from Tribal Clan or Family Martial Arts. 
