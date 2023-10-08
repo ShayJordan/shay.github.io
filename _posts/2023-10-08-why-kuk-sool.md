@@ -4,7 +4,7 @@ date: 2023-10-08
 permalink: /posts/2023/10/why-kuk-sool/
 tags:
   - Kuk Sool Won
-excerpt: 'I have been training in Kuk Sool Won for the best part of two decades. After such a substantial period of consistently training the same art, some may conjecture that the training might get stale. After all, there’s only so much you can learn from one art -- right?'
+excerpt: 'I have been practising Kuk Sool Won for the best part of two decades. After such a substantial period of training the same art, some may conjecture that it might get stale -- because there’s only so much you can learn from one art, right?'
 header:
   teaser: KSW-why-kuk-sool.jpg
   overlay_image: KSW-why-kuk-sool.jpg
