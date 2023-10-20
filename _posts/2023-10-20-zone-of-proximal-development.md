@@ -4,8 +4,8 @@ date: 2023-10-20
 permalink: /posts/2023/10/zone-of-proximal-development/
 tags:
   - Kuk Sool Won
-  - teaching
-excerpt: 'Soviet era psychologist, Lev Vygotsky's ideas about a Zone of Proximal Development (ZPD) are hugely influential in education, and can also be explored in the context of physical development within martial arts training.'
+  - Teaching
+excerpt: "Soviet era psychologist, Lev Vygotsky's ideas about a Zone of Proximal Development (ZPD) are hugely influential in education, and can also be explored in the context of physical development within martial arts training."
 header:
   teaser: KSW_Plank.jpg
   overlay_image: KSW_Plank.jpg
