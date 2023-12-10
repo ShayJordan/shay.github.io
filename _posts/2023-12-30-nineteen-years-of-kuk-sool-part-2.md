@@ -89,7 +89,7 @@ In 2011, I pestered Master Martin to run an instructors course as I was extremel
 In 2013, I entered my first tournament -- The WKSA European Championships, in Kings Lynn. The tournaments had run annually for the whole time I'd been training, even being hosted in Lowestoft in my earlier years, as Lowestoft was the strongest club in the UK, winning the championships year after year. I never felt inclined to enter though, as I'd never been a confident person and the idea of standing in front of masters I didn't know, and being watched by people I'm competing against and other spectators sounded like the worst thing to me. In 2013 though, I bit the bullet and entered for the first time. I entered in four of the five divisions available to me: traditional forms, self-defence techniques, staff, and sword, and I made off with one copper (fourth place) medal, for the techniques division. I owe this win largely to the technical expertise of Master Alison, who was able to share her fantastic knowledge with me to improve my techniques immensely.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lDrrvVDr4DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- 
+<br>
 
 I was a little upset at the time, as one copper doesn't sound that good when they had four golds up for grabs, but looking back I am so proud that I entered, as that set me off to enter every subsequent year, and each year I began getting more medals.
 
@@ -120,7 +120,8 @@ In November 2021, I completed my centre judging certification which enables me t
 On the same day, I received the devastating and heartbreaking news that our school owner JDKJN Master Alison Ducker (seventh degree black belt) had passed away after a relatively short illness. This news came completely unexpected and caused me to break down. I am not one to show emotions often, but Master Alison meant a lot to me and her passing left me feeling a little broken. A few weeks later, the first European Championships were hosted since before COVID and they were dedicated to Master Alison and the incredible woman and influential martial artist she was and will always be remembered as, with a beautiful tribute demonstration given by the UK Women's Demonstration Team. Master Alison was the highest-ranking martial artist in the UK and, in the words of Master Martin Ducker, her husband of over 35 years, she was a special woman who quietly touched many people's hearts.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UV0lsCfnd3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- 
+
+<br>
 
 ![Master Alison leading at the Lowestoft Kuk Sool Won 30th Anniversary Extravaganza.](/images/KSW-Alison.png){: .align-center width="100%"}
 
