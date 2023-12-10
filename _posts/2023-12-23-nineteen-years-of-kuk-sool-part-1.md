@@ -7,7 +7,7 @@ tags:
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my first five years of training, up to Black Belt.'
 header:
   teaser: KSW-Nineteen-1.png
-  overlay_image: KSW_Nineteen-1.png
+  overlay_image: KSW-Nineteen-1.png
   overlay_filter: rgba(51, 51, 90, 0.75)
 ---
 My journey through Kuk Sool and the inspirational figures to whom I have looked up to along the way have influenced my life and development massively, and a huge part of who I am is owed to this. On my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. Without this journey and the experiences I have gained throughout, the timid 5-year-old I was nineteen years ago certainly would not have developed into the confident 24-year-old that I am today.
@@ -18,7 +18,7 @@ In January 2005, my dad decided to take me along to the local Sports Centre one 
 
 The next week, we returned again, and this became my Saturday morning routine from that point onward: wake up, have some breakfast, catch Dick and Dom on the telly, and then head to Kuk Sool. 
 
-![Me as a white belt in 2005.](/images/KSW-White-Belt.JPG){: .align-center width="60%"}
+![Me as a white belt in 2005.](/images/KSW-White-Belt.JPG){: .align-center width="70%"}
 
 At first, I was extremely nervous to join in. It even got to the point where KSN Jon didn't want us to keep putting our money in the jar at the front for each lesson, because I just wasn't joining in! Weeks past, and my dad finally cracked the code for how to get me on the mats -- he offered me 50p if I stepped onto the mats. I stepped on the mats for a fraction of a second, and took my seat again. Maybe I was cut out to be an entrepreneur, because I continued to rack up funds for a few more weeks (or maybe it's just because I have a brilliant dad who didn't want to let me give up). After some time, my dad's persistence in bringing me along finally paid off as I began to join in with the classes, and the rest became history.
 
@@ -28,7 +28,7 @@ Another early memory I have of the tiny dragons class was when our school owner,
 
 After almost a year of training, I achieved my yellow belt, and soon after came my grading for my blue-stripe. The stripe gradings serve as a halfway checkup to the next belt, so my blue-stripe grading was the instructors' chance to make sure I was on track to achieving my blue belt in another three-months-time. Why am I mentioning this? I'm mentioning it, because this is the grading I remember more than any other. This is the first grading I failed. I was only given one of my blue stripes, instead of the two that I had tested for, and was made to re-test a couple of weeks later, after I had received additional instruction on the content I wasn't up to scratch with. I did get my second blue stripe after those couple of weeks though, which felt great after having to work that little bit extra for.
 
-![Me as a blue belt in 2006.](/images/KSW-Blue-Belt.jpg){: .align-center width="60%"}
+![Me as a blue belt in 2006.](/images/KSW-Blue-Belt.jpg){: .align-center width="90%"}
 
 When I achieved blue belt, I was invited to graduate the Tiny Dragons class and move up to the regular children's class. This meant accelerating my training to twice-a-week, on Monday and Friday evenings. It felt good to be moving up, and integrating more with the rest of the practitioners. Training in the kids' class was absolutely fantastic. The regular instructor was Master Martin, the man I'd once been scared of but whose toughness I'd learnt to appreciate as it made training more fun, and it encouraged me to train harder. I also came to realise that actually he wasn't that scary at all!
 
@@ -43,14 +43,16 @@ One of the things I miss most about those days and being in the kids' class was 
 
 The atmosphere during that was incredible. We could have blown the roof off of the place! The student creed went away quite a few years ago now, so I'm writing that from a very distant memory, but one which is so clear because we chanted it hundreds of times. The fourth part was reserved for brown belts and above, so we had to sit and listen in awe as only the advanced kids shouted that one, and man did it make me want to be where they were.
 
-![Me as a red belt in 2007.](/images/KSW-Red-Belt.jpg){: .align-center width="60%"}
+![Me as a red belt in 2007.](/images/KSW-Red-Belt.jpg){: .align-center width="90%"}
 
 In the kids' class, my training continued to progress well. I got to the penultimate rank before moving up to the next class, when I got quite unwell with glandular fever and had to take a short period out of training as I spent a couple of nights in hospital, and then subsequently had to have my tonsils removed a short while after. I don't remember clearly how long I had off, but I don't think it was too long. A requirement for grading though is that you must train for at least 24 hours between gradings, which equates to twelve-weeks' worth of classes. I didn't meet this requirement due to my absence, and so my grading and promotion to brown-belt was delayed very slightly. When I did eventually achieve this though, I was able to finally move up to the next class.
 
 The advanced juniors' class was run by SBN Kevin Cullen (SBN meaning fourth degree black belt), and I absolutely loved being in this class. Whilst in this class, I continued my progression toward black belt, and in 2010 I completed my final test in front of Kuk Sa Nim, the grandmaster, toward my first degree black belt, after testing for ten *patience stripes* over the course of a couple of years, and completing a written exam. The testing was busy, as it wasn't just for students in my class, it was for adults and children from various local Kuk Sool schools who were testing toward not just first degree black belt, but also subsequent black belt ranks. At the end of the testing, we were asked to sit down and stand if our name was called, as this meant that we had passed. Listening to the master call out names from the list made some of the most anxious minutes of my life, but then I heard my name. I had done it. I has passed. I had achieved my black belt!
 
-![My final testing for Black Belt in June 2010.](/images/KSW-Black-Belt-Grading.jpg){: .align-center width="60%"}
+![My final testing for Black Belt in June 2010.](/images/KSW-Black-Belt-Grading.jpg){: .align-center width="90%"}
 
 A week later, we travelled to Kings Lynn for the European Championships, where I received my promotion in front of hundreds (or maybe even thousands) or other practitioners, masters, black belts, and spectators. It was one of the proudest moments of my life. I still remember going to class the next week for the first time in my shiny new uniform, complete with golden tassels, and that black belt which symbolises so much to anyone, regardless of their involvement in martial arts. It was straight back to training though. No time to hang about -- there was new stuff to learn: a new form; new self-defence techniques; the staff form; the sword form. Lots of new and exciting stuff!
 
-![Me promoting to Black Belt in June 2010.](/images/KSW-Black-Belt.JPG){: .align-center width="60%"}
+![Me promoting to Black Belt in June 2010.](/images/KSW-Black-Belt.JPG){: .align-center width="90%"}
+
+You can read about my training as a black belt [here](/posts/2023/12/nineteen-years-of-kuk-sool-part-2/).
