@@ -212,7 +212,7 @@ My parents have been incredible in supporting me through my journey in Kuk Sool 
 
 Of course, I also have my instructors to thank for everything too, as without them and their inspiration, I wouldn't be there. My original instructors are all still actively training now as masters, with Master Martin ranked as an executive 8th degree master who oversees the practise of Kuk Sool nationally as well as travelling overseas to the Netherlands to support the growth and teaching of Kuk Sool over there, and KSN Jon and PSBN Dave are now Pyuhng Kwahn Jahng Nims (fifth degree masters), testing for sixth degree.
 
-{% include gallery id="gallery13" layout="full" caption="My instructors (Master Martin, Master Jon, and Master David) with me in recent years." %}
+{% include gallery id="gallery13" caption="My instructors (Master Martin, Master Jon, and Master David) with me in recent years." %}
 
 I have also had some fantastic training partners over the years who have made training fun, and who have aided my learning and development greatly. To name a few who are no longer training, there was Billy, Adam, Tommy, Luke, Ben, Wayne, Tom, Oakley, Cordell, Dion, and Elise, and there are lots more who are still training today.
 
