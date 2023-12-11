@@ -76,13 +76,6 @@ gallery3:
    image_path: KSW-Extravaganza.JPG
    alt: Leading the Staff demo at the Lowestoft Kuk Sool 30th Anniversary Extravaganza.
 gallery4:
- - url: KSW_Shay.jpg
-   image_path: KSW_Shay.jpg
-   alt: Myself and Master Martin.
- - url: KSW-Jon-David.JPG
-   image_path: KSW-Jon-David.JPG
-   alt: Masters Jon and David and myself at the top table of a grading.
-gallery5:
  - url: KSW-Kuk-Sa-Nim-1.jpg
    image_path: KSW-Kuk-Sa-Nim-1.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2006.
@@ -140,7 +133,8 @@ In 2011, I pestered Master Martin to run an instructors course as I was extremel
 
 In 2013, I entered my first tournament -- The WKSA European Championships, in Kings Lynn. The tournaments had run annually for the whole time I'd been training, even being hosted in Lowestoft in my earlier years, as Lowestoft was the strongest club in the UK, winning the championships year after year. I never felt inclined to enter though, as I'd never been a confident person and the idea of standing in front of masters I didn't know, and being watched by people I'm competing against and other spectators sounded like the worst thing to me. In 2013 though, I bit the bullet and entered for the first time. I entered in four of the five divisions available to me: traditional forms, self-defence techniques, staff, and sword, and I made off with one copper (fourth place) medal, for the techniques division. I owe this win largely to the technical expertise of Master Alison, who was able to share her fantastic knowledge with me to improve my techniques immensely.
 
-{% include video id="lDrrvVDr4DQ" provider="youtube" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDrrvVDr4DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
 I was a little upset at the time, as one copper doesn't sound that good when they had four golds up for grabs, but looking back I am so proud that I entered, as that set me off to enter every subsequent year, and each year I began getting more medals.
 
@@ -177,7 +171,8 @@ In November 2021, I completed my centre judging certification which enables me t
 
 On the same day, I received the devastating and heartbreaking news that our school owner JDKJN Master Alison Ducker (seventh degree black belt) had passed away after a relatively short illness. This news came completely unexpected and caused me to break down. I am not one to show emotions often, but Master Alison meant a lot to me and her passing left me feeling a little broken. A few weeks later, the first European Championships were hosted since before COVID and they were dedicated to Master Alison and the incredible woman and influential martial artist she was and will always be remembered as, with a beautiful tribute demonstration given by the UK Women's Demonstration Team. Master Alison was the highest-ranking martial artist in the UK and, in the words of Master Martin Ducker, her husband of over 35 years, she was a special woman who quietly touched many people's hearts.
 
-{% include video id="UV0lsCfnd3Q" provider="youtube" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UV0lsCfnd3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
 <figure>
 	<img src="/images/KSW-Alison.png">
@@ -204,10 +199,18 @@ My parents have been incredible in supporting me through my journey in Kuk Sool 
 
 Of course, I also have my instructors to thank for everything too, as without them and their inspiration, I wouldn't be there. My original instructors are all still actively training now as masters, with Master Martin ranked as an executive 8th degree master who oversees the practise of Kuk Sool nationally as well as travelling overseas to the Netherlands to support the growth and teaching of Kuk Sool over there, and KSN Jon and PSBN Dave are now Pyuhng Kwahn Jahng Nims (fifth degree masters), testing for sixth degree.
 
-{% include gallery id="gallery4" layout="full" caption="My instructors (Master Martin, Master Jon, and Master David) with me in recent years." %}
+<figure>
+	<img src="/images/KSW_Shay.jpg">
+	<figcaption>Myself and Master Martin at the 2022 WKSA European Championships.</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/KSW-Jon-David.JPG">
+	<figcaption>Masters Jon and David and myself at the top table of a grading.</figcaption>
+</figure>
 
 I have also had some fantastic training partners over the years who have made training fun, and who have aided my learning and development greatly. To name a few who are no longer training, there was Billy, Adam, Tommy, Luke, Ben, Wayne, Tom, Oakley, Cordell, Dion, and Elise, and there are lots more who are still training today.
 
 Thank you to everyone who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold.
 
-{% include gallery id="gallery5" caption="Photos of myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won, over the years." %}
+{% include gallery id="gallery4" caption="Photos of myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won, over the years." %}
