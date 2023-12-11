@@ -7,7 +7,7 @@ tags:
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my first five years of training, up to Black Belt.'
 header:
   teaser: KSW-Nineteen-1.png
-  overlay_image: KSW-Nineteen-1.png
+  overlay_image: KSW-yellow-belt.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
 ---
 My journey through Kuk Sool and the inspirational figures whom I have looked up to along the way have influenced my life and development massively, and a huge part of who I am is owed to this. Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far, as without this journey and the experiences I have gained throughout, the timid 5-year-old I was nineteen years ago certainly would not have developed into the confident 24-year-old that I am today.

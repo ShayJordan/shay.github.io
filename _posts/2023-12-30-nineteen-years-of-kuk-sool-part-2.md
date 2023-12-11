@@ -7,7 +7,7 @@ tags:
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
 header:
   teaser: KSW-Nineteen-2.png
-  overlay_image: KSW-Nineteen-2.png
+  overlay_image: KSW-Alison.png
   overlay_filter: rgba(51, 51, 90, 0.75)
 gallery1:
  - url: KSW-BBC-1.JPG
