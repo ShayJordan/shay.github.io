@@ -29,6 +29,11 @@ Whilst in the tiny dragons class, I have quite a few fond memories. One of the e
 
 Another early memory I have of the tiny dragons class was when our school owner, PKJN Martin (PKJN meaning fifth degree black belt and master) took our class one Saturday morning. Master Martin's style of teaching was different to Jon's -- a little more old school as I now understand it; a little more *hardcore* as it were. I was so scared of Master Martin that I was stood in line training, but in tears. I cried to much that at one point I had to run off the mats, making a dart for the toilets at the back of the room where I threw up!
 
+<figure>
+	<a href="/images/KSW-yellow-belt.jpg"><img src="/images/KSW-yellow-belt.jpg"></a>
+	<figcaption>Me as a yellow belt, grading for my blue stripe in 2006.</figcaption>
+</figure>
+
 After almost a year of training, I achieved my yellow belt, and soon after came my grading for my blue-stripe. The stripe gradings serve as a halfway checkup to the next belt, so my blue-stripe grading was the instructors' chance to make sure I was on track to achieving my blue belt in another three-months-time. Why am I mentioning this? I'm mentioning it, because this is the grading I remember more than any other. This is the first grading I failed. I was only given one of my blue stripes, instead of the two that I had tested for, and was made to re-test a couple of weeks later, after I had received additional instruction on the content I wasn't up to scratch with. I did get my second blue stripe after those couple of weeks though, which felt great after having to work that little bit extra for.
 
 <figure>
