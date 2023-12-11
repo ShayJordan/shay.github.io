@@ -109,14 +109,14 @@ I promoted to First Degree Black Belt in June 2010, after five years of training
 I still remember going to class the week following my promotion for the first time in my shiny new uniform, complete with golden tassels, and that black belt which symbolises so much to anyone, regardless of their involvement in martial arts. It was straight back to training though. No time to hang about -- there was new stuff to learn: a new form; new self-defence techniques; the staff form; the sword form. Lots of new and exciting stuff!
 
 <figure>
-	<img src="/images/KSW-Board.JPG">
+	<a href="/images/KSW-Board.JPG"><img src="/images/KSW-Board.JPG"></a>
 	<figcaption>Me as a black belt breaking a board.</figcaption>
 </figure>
 
 Shortly after promoting to black belt, I introduced my new friend Tom to Kuk Sool, and Master Martin said that my introduction of a friend to Kuk Sool granted me access to the *Black Belt Club*. The Black Belt Club met roughly once-a-month at the Halesworth Dojang and was there for students who wanted to take their training a little further than what's done in class, and to expand their knowledge beyond the curriculum. At my first Black Belt Club, we did some Korean Archery, and we also practised acupressure -- and it was awesome. We got up to some really great stuff at these sessions, including some fantastic sessions on meditation and yoga, led by our fantastic and dearly missed Master Alison.
 
 <figure>
-	<img src="/images/KSW-BBC-Archery.JPG">
+	<a href="/images/KSW-BBC-Archery.JPG"><img src="/images/KSW-BBC-Archery.JPG"></a>
 	<figcaption>Archery at my first ever Black Belt Club.</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Here's some photos from black belt clubs over the years:
 In 2011, I pestered Master Martin to run an instructors course as I was extremely keen to develop myself as an instructor and to further my involvement in Kuk Sool. As a result, Master Martin delivered a fantastic *Junior Leadership Programme* for a handful of junior black belts. This entailed completing various written tasks as well as completing 72 hours of assisting in classes, which had to be signed off by an instructor -- so it took a long time to complete! As we neared the end of the course in late 2012, we had a final essay to write about why we want to be an instructor. I have found and attached mine below, along with a photo of myself and the other two remaining students of the five or six who started the course, receiving our certificates at the end of the course.
 
 <figure>
-	<img src="/images/KSW-Instructors-Course.jpg">
+	<a href="/images/KSW-Instructors-Course.jpg"><img src="/images/KSW-Instructors-Course.jpg"></a>
 	<figcaption>Myself and two classmates graduating from the Junior Leadership Programme in November 2012.</figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ Here are some photos from my tournaments over the years:
 In 2013, I began testing toward Kyo Sa Nim (second degree black belt), and this is a big deal. Eight years prior, when my dad had first brought me along, my instructor was a Kyo Sa Nim. Never did I dream that one day I'd achieve that rank too, but after two years of regular testing, I did just that, and in June 2015 I promoted to second degree black belt at the European Championships which had now moved slightly closer to home, taking place at the UEA SportsPark in Norwich. I had the pleasure of promoting at the same time as my best friend Tom, who achieved his first degree black belt, four years after I had brought him along to Kuk Sool.
 
 <figure>
-	<img src="/images/KSW-KSN.jpg">
+	<a href="/images/KSW-KSN.jpg"><img src="/images/KSW-KSN.jpg"></a>
 	<figcaption>Me promoting to Second Degree Black Belt in June 2015.</figcaption>
 </figure>
 
@@ -156,14 +156,14 @@ In 2016, whilst I was doing my GCSEs, I had been in the adult black belt class f
 In 2017, I received my application for Pu Sa Bum Nim (third degree black belt). I didn't go for this straight away though, as I was due to be off to uni in 2018 and had no idea where I'd be going -- whether I'd even be able to continue training whilst at uni. When that eventually did come around, I ended up going just down the road to UEA in Norwich -- so I could have gone for it in the end, and that I did in 2019 when I embarked on a two-year testing period which was quite unusually conducted due to global events. Gradings over Zoom became the new norm, and eventually when we were allowed to train outside, we had a couple of gradings out on the playing fields at the Halesworth Dojang, and I promoted to PSBN in August 2021.
 
 <figure>
-	<img src="/images/KSW-COVID.JPG">
+	<a href="/images/KSW-COVID.JPG"><img src="/images/KSW-COVID.JPG"></a>
 	<figcaption>Kuk Sool Classes on Zoom.</figcaption>
 </figure>
 
 Black Belt promotions usually happen at the Championships, but due to travel restrictions and restrictions of social gatherings, the championships were unable to go ahead for the year of 2020 and 2021. This meant that my promotion was instead held locally, and despite missing out on the big event that it should have been, it felt all the more special being a small event surrounded by the people I knew and loved training alongside. Promotion to third degree comes with a new, thicker black belt too, which meant I could wave goodbye to the belt that was now older than I was when I received it (the same belt I received in 2010 when I promoted to first degree black belt).
 
 <figure>
-	<img src="/images/KSW-PSBN.JPG">
+	<a href="/images/KSW-PSBN.JPG"><img src="/images/KSW-PSBN.JPG"></a>
 	<figcaption>Me promoting to Third Degree Black Belt in August 2021.</figcaption>
 </figure>
 
@@ -175,14 +175,14 @@ On the same day, I received the devastating and heartbreaking news that our scho
 <br>
 
 <figure>
-	<img src="/images/KSW-Alison.png">
+	<a href="/images/KSW-Alison.png"><img src="/images/KSW-Alison.png"></a>
 	<figcaption>Master Alison leading at the Lowestoft Kuk Sool Won 30th Anniversary Extravaganza.</figcaption>
 </figure>
 
 Following from this, I found it hard to train as I felt so affected by what had happened. My attendance began to fall and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time with Master Alison no longer being around.
 
 <figure>
-	<img src="/images/KSW-Alex.JPG">
+	<a href="/images/KSW-Alex.JPG"><img src="/images/KSW-Alex.JPG"></a>
 	<figcaption>Myself and Master Alex Suh at the Championships dedicated to Master Alison.</figcaption>
 </figure>
 
@@ -193,19 +193,19 @@ My journey so far through Kuk Sool has been full of ups and downs. In this post,
 My parents have been incredible in supporting me through my journey in Kuk Sool in many ways. They have motivated me; they have been there at tournaments, gradings, promotions, and demonstrations; they paid for me to do Kuk Sool and progress through the ranks for over a decade; and, most importantly, they never hid how proud they were of me and the things I have achieved in Kuk Sool, which served as a great motivator for me.
 
 <figure>
-	<img src="/images/KSW-Parents.jpg">
+	<a href="/images/KSW-Parents.jpg"><img src="/images/KSW-Parents.jpg"></a>
 	<figcaption>My parents supporting me at my promotion to PSBN.</figcaption>
 </figure>
 
 Of course, I also have my instructors to thank for everything too, as without them and their inspiration, I wouldn't be there. My original instructors are all still actively training now as masters, with Master Martin ranked as an executive 8th degree master who oversees the practise of Kuk Sool nationally as well as travelling overseas to the Netherlands to support the growth and teaching of Kuk Sool over there, and KSN Jon and PSBN Dave are now Pyuhng Kwahn Jahng Nims (fifth degree masters), testing for sixth degree.
 
 <figure>
-	<img src="/images/KSW_Shay.jpg">
+	<a href="/images/KSW_Shay.jpg"><img src="/images/KSW_Shay.jpg"></a>
 	<figcaption>Myself and Master Martin at the 2022 WKSA European Championships.</figcaption>
 </figure>
 
 <figure>
-	<img src="/images/KSW-Jon-David.JPG">
+	<a href="/images/KSW-Jon-David.JPG"><img src="/images/KSW-Jon-David.JPG"></a>
 	<figcaption>Masters Jon and David and myself at the top table of a grading.</figcaption>
 </figure>
 
