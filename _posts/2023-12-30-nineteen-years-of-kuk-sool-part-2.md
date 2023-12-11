@@ -188,7 +188,7 @@ On the same day, I received the devastating and heartbreaking news that our scho
 
 <figure>
 	<a href="/images/KSW-Alison.png"><img src="/images/KSW-Alison.png"></a>
-	<figcaption>Master Alison leading at the Lowestoft Kuk Sool Won 30th Anniversary Extravaganza.</figcaption>
+	<figcaption>Master Alison opening our Lowestoft & Halesworth interclub mini tournament in April 2018.</figcaption>
 </figure>
 
 Following from this, I found it hard to train as I felt so affected by what had happened. My attendance began to fall and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time with Master Alison no longer being around.
