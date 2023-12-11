@@ -32,7 +32,7 @@ Another early memory I have of the tiny dragons class was when our school owner,
 My earliest memory of being recognised for the effort I was putting into my training occured in the tiny dragons class too. I don't remember the specifics, but we were challenged with demonstrating a particular technique or move, and one of the assistant instructors was asked to choose the student who was best at it. The assistant instructor was a young lady named Rachel (I don't remember her last name), but I do remember that she chose me and I got to go home with a red and blue Kuk Sool headband which still sits proudly on display almost two decades later, hanging from my bookshelf.
 
 <figure class="half">
-	<a href="/images/KSW-yellow-belt.jpg"><img src="/images/KSW-yellow-belt.jpg"></a>
+	<a href="/images/KSW-yellow-belt.jpg"><img src="/images/KSW-yellow-belt-square.jpg"></a>
 	<a href="/images/KSW-Kuk-Sa-Nim-1.jpg"><img src="/images/KSW-Kuk-Sa-Nim-1.jpg"></a>
 	<figcaption>Me as a yellow belt in 2006.</figcaption>
 </figure>
