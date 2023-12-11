@@ -5,8 +5,8 @@ permalink: /posts/2023/12/nineteen-years-of-kuk-sool-part-2/
 tags:
   - Kuk Sool Won
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
+og_image: KSW-Nineteen-2.png
 header:
-  og_image: KSW-Nineteen-2.png
   teaser: KSW-Nineteen-2.png
   overlay_image: KSW-Alison.png
   overlay_filter: rgba(51, 51, 90, 0.75)
