@@ -5,7 +5,6 @@ permalink: /posts/2023/12/nineteen-years-of-kuk-sool-part-1/
 tags:
   - Kuk Sool Won
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my first five years of training, up to Black Belt.'
-og_image: KSW-Nineteen-1.png
 header:
   teaser: KSW-Nineteen-1.png
   overlay_image: KSW-yellow-belt.jpg
@@ -32,15 +31,17 @@ Another early memory I have of the tiny dragons class was when our school owner,
 
 My earliest memory of being recognised for the effort I was putting into my training occured in the tiny dragons class too. I don't remember the specifics, but we were challenged with demonstrating a particular technique or move, and one of the assistant instructors was asked to choose the student who was best at it. The assistant instructor was a young lady named Rachel (I don't remember her last name), but I do remember that she chose me and I got to go home with a red and blue Kuk Sool headband which still sits proudly on display almost two decades later, hanging from my bookshelf.
 
-<figure>
+<figure class="half">
 	<a href="/images/KSW-yellow-belt.jpg"><img src="/images/KSW-yellow-belt.jpg"></a>
-	<figcaption>Me as a yellow belt, grading for my blue stripe in 2006.</figcaption>
+	<a href="/images/KSW-Kuk-Sa-Nim-1.jpg"><img src="/images/KSW-Kuk-Sa-Nim-1.jpg"></a>
+	<figcaption>Me as a yellow belt in 2006.</figcaption>
 </figure>
 
 I achieved my yellow belt after almost a year of training, and soon after came my grading for blue stripe. The stripe gradings serve as a halfway checkup to the next belt, so my blue stripe grading was the instructors' chance to make sure I was on track to achieving my blue belt in another three-months-time. Why am I mentioning this? I'm mentioning it, because this is the grading I remember more than any other. This is the first grading I failed. I was only given one of my blue stripes instead of the two that I had tested for, and was made to re-test a couple of weeks later after I had received additional instruction on the content I wasn't up to scratch with. I did get my second blue stripe after those couple of weeks though, which felt great after having to work that little bit extra for.
 
-<figure>
+<figure class="half">
 	<a href="/images/KSW-Blue-Belt.jpg"><img src="/images/KSW-Blue-Belt.jpg"></a>
+	<a href="/images/KSW-Blue-Belt-2.jpg"><img src="/images/KSW-Blue-Belt-2.jpg"></a>
 	<figcaption>Me as a blue belt in 2006.</figcaption>
 </figure>
 
