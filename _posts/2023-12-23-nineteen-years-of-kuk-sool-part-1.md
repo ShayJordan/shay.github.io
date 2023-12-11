@@ -19,7 +19,7 @@ In January 2005, my dad decided to take me along to the local Sports Centre one 
 The next week, we returned again, and this became my Saturday morning routine from that point onward: wake up, have some breakfast, catch Dick and Dom on the telly, and then head to Kuk Sool. 
 
 <figure>
-	<img src="/images/KSW-White-Belt.JPG">
+	<a href="/images/KSW-White-Belt.JPG"><img src="/images/KSW-White-Belt.JPG"></a>
 	<figcaption>Me as a white belt in 2005.</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Another early memory I have of the tiny dragons class was when our school owner,
 After almost a year of training, I achieved my yellow belt, and soon after came my grading for my blue-stripe. The stripe gradings serve as a halfway checkup to the next belt, so my blue-stripe grading was the instructors' chance to make sure I was on track to achieving my blue belt in another three-months-time. Why am I mentioning this? I'm mentioning it, because this is the grading I remember more than any other. This is the first grading I failed. I was only given one of my blue stripes, instead of the two that I had tested for, and was made to re-test a couple of weeks later, after I had received additional instruction on the content I wasn't up to scratch with. I did get my second blue stripe after those couple of weeks though, which felt great after having to work that little bit extra for.
 
 <figure>
-	<img src="/images/KSW-Blue-Belt.jpg">
+	<a href="/images/KSW-Blue-Belt.jpg"><img src="/images/KSW-Blue-Belt.jpg"></a>
 	<figcaption>Me as a blue belt in 2006.</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ One of the things I miss most about those days and being in the kids' class was 
 The atmosphere during that was incredible. We could have blown the roof off of the place! The student creed went away quite a few years ago now, so I'm writing that from a very distant memory, but one which is so clear because we chanted it hundreds of times. The fourth part was reserved for brown belts and above, so we had to sit and listen in awe as only the advanced kids shouted that one, and man did it make me want to be where they were.
 
 <figure>
-	<img src="/images/KSW-Red-Belt.jpg">
+	<a href="/images/KSW-Red-Belt.jpg"><img src="/images/KSW-Red-Belt.jpg"></a>
 	<figcaption>Me as a red belt in 2007.</figcaption>
 </figure>
 
@@ -59,14 +59,14 @@ In the kids' class, my training continued to progress well. I got to the penulti
 The advanced juniors' class was run by SBN Kevin Cullen (SBN meaning fourth degree black belt), and I absolutely loved being in this class. Whilst in this class, I continued my progression toward black belt, and in 2010 I completed my final test in front of Kuk Sa Nim, the grandmaster, toward my first degree black belt, after testing for ten *patience stripes* over the course of a couple of years, and completing a written exam. The testing was busy, as it wasn't just for students in my class, it was for adults and children from various local Kuk Sool schools who were testing toward not just first degree black belt, but also subsequent black belt ranks. At the end of the testing, we were asked to sit down and stand if our name was called, as this meant that we had passed. Listening to the master call out names from the list made some of the most anxious minutes of my life, but then I heard my name. I had done it. I has passed. I had achieved my black belt!
 
 <figure>
-	<img src="/images/KSW-Black-Belt-Grading.jpg">
+	<a href="/images/KSW-Black-Belt-Grading.jpg"><img src="/images/KSW-Black-Belt-Grading.jpg"></a>
 	<figcaption>My final testing for Black Belt in June 2010.</figcaption>
 </figure>
 
 A week later, we travelled to Kings Lynn for the European Championships, where I received my promotion in front of hundreds (or maybe even thousands) or other practitioners, masters, black belts, and spectators. It was one of the proudest moments of my life. 
 
 <figure>
-	<img src="/images/KSW-Black-Belt.JPG">
+	<a href="/images/KSW-Black-Belt.JPG"><img src="/images/KSW-Black-Belt.JPG"></a>
 	<figcaption>Me promoting to Black Belt in June 2010.</figcaption>
 </figure>
 
