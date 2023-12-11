@@ -136,7 +136,19 @@ In 2013, I entered my first tournament -- The WKSA European Championships, in Ki
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lDrrvVDr4DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 
-I was a little upset at the time, as one copper doesn't sound that good when they had four golds up for grabs, but looking back I am so proud that I entered, as that set me off to enter every subsequent year, and each year I began getting more medals.
+I was a little upset at the time, as one copper doesn't sound that good when they had four golds up for grabs, but looking back I am so proud that I entered, as that set me off to enter every subsequent year, and each year I began getting more medals. Here are some videos from later tournaments:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j2g3PRCzQuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xzlKz-o8YLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XJm_TrVzjlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R0khyTjaXwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
 Here are some photos from my tournaments over the years:
 
