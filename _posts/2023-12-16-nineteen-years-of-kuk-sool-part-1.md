@@ -1,6 +1,6 @@
 ---
 title: 'Nineteen Years of Kuk Sool: The Journey to Black Belt'
-date: 2023-12-23
+date: 2023-12-16
 permalink: /posts/2023/12/nineteen-years-of-kuk-sool-part-1/
 tags:
   - Kuk Sool Won
