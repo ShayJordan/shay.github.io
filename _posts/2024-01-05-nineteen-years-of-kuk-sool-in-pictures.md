@@ -177,17 +177,12 @@ gallery2:
    
 ---
 This month, I am celebrating my nineteenth anniversary of training in Kuk Sool Won. Over the past few weeks, I have been reflecting on my years of training and have shared my memories and reflections in two posts: [The Journey to Black Belt](/posts/2023/12/nineteen-years-of-kuk-sool-part-1/), and [Beyond Black Belt](/posts/2023/12/nineteen-years-of-kuk-sool-part-2/). Without words, here is the same story told (albeit naturally with less detail) in pictures.
-
 {% include gallery id="gallery1" %}
-
 <figure>
 	<a href="/images/KSW-Alison.png"><img src="/images/KSW-Alison.png"></a>
 </figure>
-
 {% include gallery id="gallery2" %}
-
 Thank you very much to my parents, masters, instructors, classmates, and everyone else who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
-
 <figure>
 	<a href="/images/KSW-Jon-David.JPG"><img src="/images/KSW-Jon-David.JPG"></a>
 </figure>
