@@ -94,8 +94,8 @@ gallery1:
  - url: KSW-KSN.jpg
    image_path: KSW-KSN.jpg
    alt: Promotion to Second Degree Black Belt.   
- - url: KSW-Kuk-Sa-Nim-5-square.png
-   image_path: KSW-Kuk-Sa-Nim-5-square.png
+ - url: KSW-Kuk-Sa-Nim-5-square.jpg
+   image_path: KSW-Kuk-Sa-Nim-5-square.jpg
    alt: Myself and Kuk Sa Nim in 2015.
  - url: KSW-BBC-2.JPG
    image_path: KSW-BBC-2.JPG
@@ -120,8 +120,8 @@ gallery2:
  - url: KSW-Instructing.JPG
    image_path: KSW-Instructing.JPG
    alt: Promoting one of our students.  
- - url: KSW-Kuk-Sa-Nim-6-square.png
-   image_path: KSW-Kuk-Sa-Nim-6-square.png
+ - url: KSW-Kuk-Sa-Nim-6-square.jpg
+   image_path: KSW-Kuk-Sa-Nim-6-square.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2016.
  - url: KSW-BBC-4.JPG
    image_path: KSW-BBC-4.JPG
@@ -147,8 +147,8 @@ gallery2:
  - url: KSW-Parents.jpg
    image_path: KSW-Parents.jpg
    alt: My parents supporting me promoting to Third Degree Black Belt in 2021.    
- - url: KSW-Alex.png
-   image_path: KSW-Alex.png
+ - url: KSW-Alex.JPG
+   image_path: KSW-Alex.JPG
    alt: Myself and Master Alex Suh in 2021.
  - url: KSW-Kuk-Sa-Nim-9.jpg
    image_path: KSW-Kuk-Sa-Nim-9.jpg
@@ -186,8 +186,8 @@ This month, I am celebrating my nineteenth anniversary of training in Kuk Sool W
 
 {% include gallery id="gallery2" %}
 
+Thank you very much to my parents, masters, instructors, classmates, and everyone else who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
+
 <figure>
 	<a href="/images/KSW-Jon-David.JPG"><img src="/images/KSW-Jon-David.JPG"></a>
 </figure>
-
-Thank you to my parents, masters, instructors, classmates, and everyone else who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
