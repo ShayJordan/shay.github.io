@@ -6,7 +6,7 @@ tags:
   - Kuk Sool Won
 excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
 header:
-  teaser: KSW-Alison.png
+  teaser: KSW-Alison-cropped.png
   overlay_image: KSW-Alison.png
   overlay_filter: rgba(51, 51, 90, 0.75)
 gallery1:
