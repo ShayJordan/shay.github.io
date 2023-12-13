@@ -5,7 +5,6 @@ permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
   - Kuk Sool Won
 excerpt: 'On my nineteenth anniversary of training in Kuk Sool Won, I am sharing my Kuk Sool journey so far in pictures.'
-og_image: KSW-White-Belt-cropped.JPG
 header:
   teaser: KSW-White-Belt-cropped.JPG
   overlay_image: KSW-yellow-belt.jpg
