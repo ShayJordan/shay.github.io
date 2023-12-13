@@ -183,6 +183,7 @@ This month, I am celebrating my nineteenth anniversary of training in Kuk Sool W
 </figure>
 {% include gallery id="gallery2" %}
 Thank you very much to my parents, masters, instructors, classmates, and everyone else who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
+
 <figure>
 	<a href="/images/KSW-Jon-David.JPG"><img src="/images/KSW-Jon-David.JPG"></a>
 </figure>
