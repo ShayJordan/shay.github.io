@@ -1,7 +1,7 @@
 ---
-title: 'Nineteen Years of Kuk Sool: Beyond Black Belt'
+title: 'Nineteen Years of Kuk Sool in Pictures'
 date: 2023-12-23
-permalink: /posts/2023/12/nineteen-years-of-kuk-sool-part-2/
+permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
   - Kuk Sool Won
 excerpt: 'On my nineteenth anniversary of training in Kuk Sool Won, I am sharing my Kuk Sool journey so far in pictures.'
