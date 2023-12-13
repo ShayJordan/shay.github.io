@@ -110,10 +110,10 @@ I still remember going to class the week following my promotion for the first ti
 
 <figure>
 	<a href="/images/KSW-Board.JPG"><img src="/images/KSW-Board.JPG"></a>
-	<figcaption>Me as a black belt breaking a board.</figcaption>
+	<figcaption>Me as a Black Belt breaking a board.</figcaption>
 </figure>
 
-Shortly after promoting to black belt, I introduced my new friend Tom from middle school to Kuk Sool, and Master Martin said that my introduction of a friend to Kuk Sool granted me access to the *Black Belt Club*. The Black Belt Club met roughly once-a-month at the Halesworth Dojang and was there for students who wanted to take their training a little further than what's done in class, and to expand their knowledge beyond the curriculum. 
+Shortly after promoting to Black Belt, I introduced my new friend Tom from middle school to Kuk Sool, and Master Martin said that my introduction of a friend to Kuk Sool granted me access to the *Black Belt Club*. The Black Belt Club met roughly once-a-month at the Halesworth Dojang and was there for students who wanted to take their training a little further than what's done in class, and to expand their knowledge beyond the curriculum. 
 
 At my first Black Belt Club, we did some Korean Archery and we also practised acupressure -- and it was awesome. We got up to some really great stuff at these sessions, including some fantastic sessions on meditation and yoga which were led by our fantastic and dearly missed Master Alison.
 
@@ -126,7 +126,7 @@ Here are some photos from Black Belt Clubs over the years:
 
 {% include gallery id="gallery1" caption="Photos from Kuk Sool Black Belt Clubs over the years." %}
 
-In 2011, I pestered Master Martin to run an instructors course as I was extremely keen to develop myself as an instructor and to further my involvement in Kuk Sool. As a result, Master Martin delivered a fantastic *Junior Leadership Programme* for a handful of junior black belts. This entailed completing various written tasks as well as completing 72 hours of assisting in classes, which had to be signed off by an instructor -- so it took a long time to complete! As we neared the end of the course in late 2012, we had a final essay to write about why we want to be an instructor. Below is a photo of myself and the other two remaining students of the five or six who started the course, receiving our certificates at the end of the course.
+In 2011, I pestered Master Martin to run an instructors course as I was extremely keen to develop myself as an instructor and to further my involvement in Kuk Sool. As a result, Master Martin delivered a fantastic *Junior Leadership Programme* for a handful of junior Black Belts. This entailed completing various written tasks as well as completing 72 hours of assisting in classes, which had to be signed off by an instructor -- so it took a long time to complete! As we neared the end of the course in late 2012, we had a final essay to write about why we want to be an instructor. Below is a photo of myself and the other two remaining students of the five or six who started the course, receiving our certificates at the end of the course.
 
 <figure>
 	<a href="/images/KSW-Instructors-Course.jpg"><img src="/images/KSW-Instructors-Course.jpg"></a>
@@ -156,25 +156,25 @@ Here are some photos from my tournaments over the years:
 
 {% include gallery id="gallery2" caption="Photos from Kuk Sool tournaments over the years." %}
 
-In 2013, I began testing toward Kyo Sa Nim (second degree black belt), and this is a big deal. Eight years prior, when my dad had first brought me along, my instructor was a Kyo Sa Nim. Never did I dream that one day I'd achieve that rank too, but after two years of regular testing, I did just that; in June 2015 I promoted to second degree black belt at the European Championships which had now moved slightly closer to home, taking place at the UEA SportsPark in Norwich. I had the pleasure of promoting at the same time as my best friend Tom, who achieved his first degree black belt, four years after I had brought him along to Kuk Sool.
+In 2013, I began testing toward Kyo Sa Nim (Second Degree Black Belt), and this is a big deal. Eight years prior, when my dad had first brought me along, my instructor was a Kyo Sa Nim. Never did I dream that one day I'd achieve that rank too, but after two years of regular testing, I did just that; in June 2015 I promoted to Second Degree Black Belt at the European Championships which had now moved slightly closer to home, taking place at the UEA SportsPark in Norwich. I had the pleasure of promoting at the same time as my best friend Tom, who achieved his First Degree Black Belt, four years after I had brought him along to Kuk Sool.
 
 <figure>
 	<a href="/images/KSW-KSN.jpg"><img src="/images/KSW-KSN.jpg"></a>
 	<figcaption>Me promoting to Second Degree Black Belt in June 2015.</figcaption>
 </figure>
 
-By 2016, whilst I was doing my GCSEs, I had been in the adult black belt class for a few years but was still coming in to assist with the kids classes which began three hours before my class, and I also assisted with the newly revived Tiny Dragons class on Saturday mornings after it had taken a hiatus for a few years. I was taking instructing very seriously, and was approached by my original instructor, SBN Jon, who after discussion with Master Martin wished to hand over the Advanced Kids class to myself and my friend JKN Oakley (JKN meaning first degree black belt). I was being given the class that I had once looked up to in awe, and I was being made a proper instructor at the age of 16. I was so proud, and this opportunity provided me with some of the best experience I've ever had in Kuk Sool. One of the most rewarding parts of being an instructor was watching as students developed over time, and we recognised students' progression by introducing a *Student of the Month* award each month to students who we thought had put in the most effort during that month.
+By 2016, whilst I was doing my GCSEs, I had been in the adult Black Belt class for a few years but was still coming in to assist with the kids classes which began three hours before my class, and I also assisted with the newly revived Tiny Dragons class on Saturday mornings after it had taken a hiatus for a few years. I was taking instructing very seriously, and was approached by my original instructor, SBN Jon, who after discussion with Master Martin wished to hand over the Advanced Kids class to myself and my friend JKN Oakley (JKN meaning First Degree Black Belt). I was being given the class that I had once looked up to in awe, and I was being made a proper instructor at the age of 16. I was so proud, and this opportunity provided me with some of the best experience I've ever had in Kuk Sool. One of the most rewarding parts of being an instructor was watching as students developed over time, and we recognised students' progression by introducing a *Student of the Month* award each month to students who we thought had put in the most effort during that month.
 
 {% include gallery id="gallery3" caption="Some photos from my time instructing." %}
 
-In 2017, I received my application for Pu Sa Bum Nim (third degree black belt). I didn't go for this straight away though, as I was due to be off to uni in 2018 and had no idea where I'd be going -- whether I'd even be able to continue training whilst at uni. When that eventually did come around, I ended up going just down the road to UEA in Norwich -- so I could have gone for it in the end, and that I did in 2019 when I embarked on a two-year testing period which was quite unusually conducted due to global events. Gradings over Zoom became the new norm, and eventually when we were allowed to train outside together, we had a couple of gradings out on the playing fields at the Halesworth Dojang, and I promoted to PSBN in August 2021.
+In 2017, I received my application for Pu Sa Bum Nim (Third Degree Black Belt). I didn't go for this straight away though, as I was due to be off to uni in 2018 and had no idea where I'd be going -- whether I'd even be able to continue training whilst at uni. When that eventually did come around, I ended up going just down the road to UEA in Norwich -- so I could have gone for it in the end, and that I did in 2019 when I embarked on a two-year testing period which was quite unusually conducted due to global events. Gradings over Zoom became the new norm, and eventually when we were allowed to train outside together, we had a couple of gradings out on the playing fields at the Halesworth Dojang, and I promoted to PSBN in August 2021.
 
 <figure>
 	<a href="/images/KSW-COVID.JPG"><img src="/images/KSW-COVID.JPG"></a>
 	<figcaption>Kuk Sool Classes on Zoom.</figcaption>
 </figure>
 
-Black Belt promotions usually happen at the Championships, but due to government restrictions on travel and social gatherings, the championships were unable to go ahead for the year of 2020 and 2021. This meant that my promotion was instead held locally. Despite missing out on the big event that it should have been, my promotion felt all the more special being a small event surrounded by the people I knew and loved training alongside. Promotion to third degree comes with a new, thicker black belt too, which meant I could wave goodbye to the belt that was now older than I was when I received it (the belt I received in 2010 when I promoted to first degree black belt).
+Black Belt promotions usually happen at the Championships, but due to government restrictions on travel and social gatherings, the championships were unable to go ahead for the year of 2020 and 2021. This meant that my promotion was instead held locally. Despite missing out on the big event that it should have been, my promotion felt all the more special being a small event surrounded by the people I knew and loved training alongside. Promotion to third degree comes with a new, thicker black belt too, which meant I could wave goodbye to the belt that was now older than I was when I received it (the belt I received in 2010 when I promoted to First Degree Black Belt).
 
 <figure>
 	<a href="/images/KSW-PSBN.JPG"><img src="/images/KSW-PSBN.JPG"></a>
@@ -183,7 +183,7 @@ Black Belt promotions usually happen at the Championships, but due to government
 
 In November 2021, I completed my centre judging certification which enables me to centre judge at championships. This was a huge achievement for me, and enabled me to reflect on how far I'd come. I began as someone who was scared to enter a tournament, and now I'm qualified and experienced in judging at one.
 
-On the same day, I received the devastating and heartbreaking news that our school owner JDKJN Master Alison Ducker (seventh degree black belt) had passed away after a relatively short illness. This news came completely unexpected and caused me to break down. I am not one to show emotions often, but Master Alison meant a lot to me and her passing left me feeling a little broken. 
+On the same day, I received the devastating and heartbreaking news that our school owner JDKJN Master Alison Ducker (Seventh Degree Black Belt) had passed away after a relatively short illness. This news came completely unexpected and caused me to break down. I am not one to show emotions often, but Master Alison meant a lot to me and her passing left me feeling a little broken. 
 
 A few weeks later, the first European Championships were hosted since before COVID. The Championships were dedicated to Master Alison and the incredible woman and influential martial artist she was and will always be remembered as, with a beautiful tribute demonstration given by the UK Women's Demonstration Team. Master Alison was and still is the highest-ranking female martial artist in the UK and and the highest ranking non-Korean female within the World Kuk Sool Association. In the words of Master Martin Ducker, her husband of over 35 years, she was a special woman who quietly touched many people's hearts.
 
@@ -202,7 +202,7 @@ Following from this, I found it hard to train as I felt so affected by what had 
 	<figcaption>Myself and Master Alex Suh at the Championships dedicated to Master Alison.</figcaption>
 </figure>
 
-This year, in 2023, I received and submitted my application for Sa Bum Nim (fourth degree black belt), and am currently six months into the two-year testing period toward that rank. 
+This year, in 2023, I received and submitted my application for Sa Bum Nim (Fourth Degree Black Belt), and am currently six months into the two-year testing period toward that rank. 
 
 My journey so far through Kuk Sool has been full of ups and downs. In this post, I have mainly recognised the highlights, but there have been times where I have even thought about stopping. I remember distinctly talking to my mum when I was a blue belt, and telling her that I wanted to stop. Fortunately, this was just after the new year and she had just paid my membership renewal and there was no way that her £10 was going to waste -- so I was made to continue training, and I'm so grateful for that.
 
