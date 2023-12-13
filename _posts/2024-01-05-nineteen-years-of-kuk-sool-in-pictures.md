@@ -1,6 +1,6 @@
 ---
 title: 'Nineteen Years of Kuk Sool in Pictures'
-date: 2023-12-23
+date: 2024-01-05
 permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
   - Kuk Sool Won
@@ -70,8 +70,8 @@ gallery1:
  - url: KSW-Tournament-5.JPG
    image_path: KSW-Tournament-5.JPG
    alt: Kuk Sool Tournament.
- - url: KSW-Kuk-Sa-Nim-4-square.png
-   image_path: KSW-Kuk-Sa-Nim-4-square.png
+ - url: KSW-Kuk-Sa-Nim-4-square.jpg
+   image_path: KSW-Kuk-Sa-Nim-4-square.jpg
    alt: Myself and Kuk Sa Nim in 2014.
  - url: KSW-Tournament-6.JPG
    image_path: KSW-Tournament-6.JPG
