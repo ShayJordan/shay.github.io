@@ -225,7 +225,7 @@ Of course, I also have my instructors to thank for everything too. They have tru
 	<figcaption>Masters Jon and David and myself at the top table of a grading. Never did I think I'd be sat next to them at the head of a grading!</figcaption>
 </figure>
 
-I have also had some fantastic training partners over the years who have made training fun, and who have aided my learning and development greatly. To name a few who are no longer training, there was Malik, Matthew, Billy, Adam, Tommy, Luke, Ben, Wayne, Tom, Oakley, Cordell, Dion, and Elise, and there are lots more who are still training today.
+I have also had some fantastic training partners over the years who have made training fun, and who have aided my learning and development greatly. To name a few who are no longer training, there was Malik, Matthew, Billy, Adam, Tommy, Luke, Ben, Wayne, Tom, Oakley, Cordell, Dion, Will, and Elise, and there are lots more who are still training today.
 
 Thank you to everyone who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
 
