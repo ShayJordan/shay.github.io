@@ -28,12 +28,12 @@ gallery1:
  - url: KSW-Red-Belt.jpg
    image_path: KSW-Red-Belt.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2007.
- - url: KSW-Black-Belt-Grading.jpg
-   image_path: KSW-Black-Belt-Grading.jpg
-   alt: Me grading for Black Belt in 2010.
  - url: KSW-Black-Belt.JPG
    image_path: KSW-Black-Belt.JPG
    alt: Me promoting to Black Belt in 2010.
+ - url: KSW-Black-Belt-Promotions.jpg
+   image_path: KSW-Black-Belt-Promotions.jpg
+   alt: The June 2010 Lowestoft first degree black belt promotions.
  - url: KSW-Board.JPG
    image_path: KSW-Board.JPG
    alt: Me as a Black Belt, breaking a board.
