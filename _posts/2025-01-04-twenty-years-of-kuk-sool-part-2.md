@@ -1,10 +1,10 @@
 ---
-title: 'Nineteen Years of Kuk Sool: Beyond Black Belt'
-date: 2023-12-23
-permalink: /posts/2023/12/nineteen-years-of-kuk-sool-part-2/
+title: 'Twenty Years of Kuk Sool: Beyond Black Belt'
+date: 2025-01-04
+permalink: /posts/2025/01/twenty-years-of-kuk-sool-part-2/
 tags:
   - Kuk Sool Won
-excerpt: 'Approaching my nineteenth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
+excerpt: 'Approaching my twentieth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
 header:
   teaser: KSW-Alison-cropped.png
   overlay_image: KSW-Alison.png
@@ -104,7 +104,7 @@ gallery4:
    image_path: KSW-Kuk-Sa-Nim-9.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2022.
 ---
-I promoted to First Degree Black Belt in June 2010 after five years of training. You can read about my first five years of training [here](/posts/2023/12/nineteen-years-of-kuk-sool-part-1/).
+I promoted to First Degree Black Belt in June 2010 after five years of training. You can read about my first five years of training [here](/posts/2023/12/twenty-years-of-kuk-sool-part-1/).
 
 I still remember going to class the week following my promotion for the first time in my shiny new uniform, complete with golden tassels and that black belt which symbolises so much to anyone, regardless of their involvement in martial arts. It was straight back to training though. No time to hang about -- there was new stuff to learn: a new form; new self-defence techniques; the staff form; the sword form. Lots of new and exciting stuff!
 
@@ -213,7 +213,7 @@ My parents have been absolutely incredible in supporting me through my journey i
 	<figcaption>My parents supporting me at my promotion to PSBN.</figcaption>
 </figure>
 
-Of course, I also have my instructors to thank for everything too. They have truly been the best role models anyone could ever ask for, and without them and their inspiration, I wouldn't be there. My original instructors are still actively training today as masters, with Master Martin ranked as an executive 8th degree master who oversees the practise of Kuk Sool nationally as well as travelling overseas to places like the Netherlands to support the growth and teaching of Kuk Sool over there, and KSN Jon and PSBN Dave are now both Pyuhng Kwahn Jahng Nims (fifth degree masters), testing for sixth degree.
+Of course, I also have my instructors to thank for everything too. They have truly been the best role models anyone could ever ask for, and without them and their inspiration, I wouldn't be there. My original instructors are still actively training today as masters, with Master Martin ranked as an executive eighth degree master who oversees the practise of Kuk Sool nationally as well as travelling overseas to places like the Netherlands to support the growth and teaching of Kuk Sool over there, and KSN Jon and PSBN Dave are now Pyuhng Kwahn Jahng Nim and Joo Im Kwahn Jahng Nim (fifth degree and sixth degree masters respectively), with Master Jon currently testing for sixth degree.
 
 <figure>
 	<a href="/images/KSW_Shay.jpg"><img src="/images/KSW_Shay.jpg"></a>
@@ -227,6 +227,6 @@ Of course, I also have my instructors to thank for everything too. They have tru
 
 I have also had some fantastic training partners over the years who have made training fun, and who have aided my learning and development greatly. To name a few who are no longer training, there was Malik, Matthew, Billy, Adam, Tommy, Luke, Ben, Wayne, Tom, Oakley, Cordell, Dion, Will, and Elise, and there are lots more who are still training today.
 
-Thank you to everyone who has been a part of my Kuk Sool Won journey so far. It has been an incredible nineteen years, and I am so excited to find out what the next nineteen hold and whom they are shared with.
+Thank you to everyone who has been a part of my Kuk Sool Won journey so far. It has been an incredible twenty years, and I am so excited to find out what the next twenty hold and whom they are shared with.
 
 {% include gallery id="gallery4" caption="Photos of myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won, over the years." %}
