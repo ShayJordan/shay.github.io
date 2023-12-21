@@ -174,6 +174,15 @@ gallery2:
  - url: KSW-archery-23.JPG
    image_path: KSW-archery-23.JPG
    alt: Kuk Sool Archery in September 2023.
+ - url: KSW-grading-november-2023.jpg
+   image_path: KSW-grading-november-2023.jpg
+   alt: Kuk Sool grading in November 2023.
+ - url: KSW-seminar-november-2023.JPG
+   image_path: KSW-seminar-november-2023.JPG
+   alt: Kuk Sool seminar in November 2023.
+ - url: KSW-grading-results-december-2023.JPG
+   image_path: KSW-grading-results-december-2023.JPG
+   alt: The Lowestoft Kuk Sool Won adults, December 2023.
    
 ---
 This month, I am celebrating my nineteenth anniversary of training in Kuk Sool Won. Over the past few weeks, I have been reminiscing and reflecting on my years of training, which has brought me great joy. I have set myself the challenge of sharing my Kuk Sool journey in an unconventional way, and so -- without any more words -- here is the story of the past nineteen years told in pictures.
