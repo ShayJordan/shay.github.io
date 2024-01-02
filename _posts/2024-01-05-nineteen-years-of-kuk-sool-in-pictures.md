@@ -165,6 +165,15 @@ gallery2:
  - url: KSW-Tournament-23.JPG
    image_path: KSW-Tournament-23.JPG
    alt: The Lowestoft tournament team in 2023.
+ - url: KSW-Tournament-group.jpg
+   image_path: KSW-Tournament-group.jpg
+   alt: The Lowestoft tournament team in 2023.
+ - url: KSW-archery-roo.jpg
+   image_path: KSW-archery-roo.jpg
+   alt: Helping with the kids' archery class in April 2023.
+ - url: KSW-reydon-sword.jpg
+   image_path: KSW-reydon-sword.jpg
+   alt: Teaching sword sparring at the Reydon classes in 2023.
  - url: KSW-short-swords-square.jpg
    image_path: KSW-short-swords-square.jpg
    alt: Practising Short Swords.
@@ -177,11 +186,11 @@ gallery2:
  - url: KSW-grading-november-2023.jpg
    image_path: KSW-grading-november-2023.jpg
    alt: Kuk Sool grading in November 2023.
- - url: KSW-seminar-november-2023.JPG
-   image_path: KSW-seminar-november-2023.JPG
+ - url: KSW-seminar-november-2023.jpg
+   image_path: KSW-seminar-november-2023.jpg
    alt: Kuk Sool seminar in November 2023.
- - url: KSW-grading-results-december-2023.JPG
-   image_path: KSW-grading-results-december-2023.JPG
+ - url: KSW-grading-results-december-2023.jpg
+   image_path: KSW-grading-results-december-2023.jpg
    alt: The Lowestoft Kuk Sool Won adults, December 2023.
    
 ---
