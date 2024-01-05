@@ -1,7 +1,8 @@
 ---
 title: 'Nineteen Years of Kuk Sool in Pictures'
 date: 2024-01-08
-read_time: 3
+read_time: true
+words: 365
 share: true
 permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
