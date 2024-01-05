@@ -1,7 +1,9 @@
 ---
 title: 'The Allegory of Martial Arts'
 date: 2020-05-26
-permalink: /posts/2020/05/allegory-of-martial-arts/
+permalink: /posts/2020/05/the-allegory-of-martial-arts/
+redirect_from:
+  - /posts/2020/05/allegory-of-martial-arts/
 tags:
   - Kuk Sool Won
 excerpt: 'To the uninitiated, martial arts training is all about kicking, punching, and self defence. When you begin training for yourself however, you begin to see that there is a lot more to it than this.'

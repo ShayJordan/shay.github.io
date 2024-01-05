@@ -1,7 +1,9 @@
 ---
 title: 'Grading Nerves'
 date: 2019-09-25
-permalink: /posts/2019/09/GradingNerves/
+permalink: /posts/2019/09/grading-nerves/
+redirect_from:
+  - /posts/2019/09/GradingNerves/
 tags:
   - Kuk Sool Won
 excerpt: 'Don’t let the shiny uniforms and masters or instructors sat at the front faze you. If you’re training right, a grading is just another class.'

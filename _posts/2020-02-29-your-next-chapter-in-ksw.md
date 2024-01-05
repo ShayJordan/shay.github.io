@@ -1,7 +1,9 @@
 ---
 title: 'Your Next Chapter in Kuk Sool Won'
 date: 2020-02-29
-permalink: /posts/2020/02/NextChapterKSW/
+permalink: /posts/2020/02/your-next-chapter-in-kuk-sool-won/
+redirect_from:
+  - /posts/2020/02/NextChapterKSW/
 tags:
   - Kuk Sool Won
 excerpt: 'Every three months in Kuk Sool, we progress to our next grade at colour-belt level. Whether this is a full belt or just a stripe, it signifies progress and achievement, but what does it mean in terms of your training?'
