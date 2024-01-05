@@ -33,12 +33,4 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-{%- for post in site.posts -%}
-  {% if post.hide == null or post.hide == false %}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {{ post.date | date: date_format }}
-      {{ post.title | escape }}
-  {% endif %}
-{%- endfor -%}
-
 <!-- end custom head snippets -->

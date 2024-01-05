@@ -12,6 +12,14 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{%- for post in site.posts -%}
+  {% if post.hide == null or post.hide == false %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {{ post.date | date: date_format }}
+      {{ post.title | escape }}
+  {% endif %}
+{%- endfor -%}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
