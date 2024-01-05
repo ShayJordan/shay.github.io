@@ -5,7 +5,7 @@ main:
 #   url: /files/ShayCV.pdf
 
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
 
   - title: "Projects"
     url: /projects/
