@@ -1,9 +1,7 @@
 ---
 title: '*Magic Moments* in Kuk Sool'
 date: 2016-06-27
-permalink: /blog/2016/06/magic-moments/
-redirect_from:
-  - /posts/2016/06/MagicMoments/
+permalink: /posts/2016/06/MagicMoments/
 tags:
   - Kuk Sool Won
 excerpt: 'Over the years of training Kuk Sool Won, you will be faced with many *magic moments*: moments of realisation that you can; moments of inspiration; moments that stick in your head for the rest of your life.'

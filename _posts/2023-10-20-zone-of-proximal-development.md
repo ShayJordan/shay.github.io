@@ -1,9 +1,7 @@
 ---
 title: 'The Zone of Proximal Development'
 date: 2023-10-20
-permalink: /blog/2023/10/the-zone-of-proximal-development/
-redirect_from:
-  - /posts/2023/10/zone-of-proximal-development/
+permalink: /posts/2023/10/zone-of-proximal-development/
 tags:
   - Kuk Sool Won
   - Teaching

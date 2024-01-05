@@ -1,10 +1,8 @@
 ---
 title: 'Nineteen Years of Kuk Sool in Pictures'
-date: 2024-01-08
+date: 2024-01-07
 published: false
-permalink: /blog/2024/01/nineteen-years-of-kuk-sool-in-pictures/
-redirect_from:
-  - /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
+permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
   - Kuk Sool Won
 excerpt: 'On my nineteenth anniversary of training in Kuk Sool Won, I am sharing my Kuk Sool journey so far in pictures.'
