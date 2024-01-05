@@ -1,7 +1,7 @@
 ---
 title: 'Nineteen Years of Kuk Sool in Pictures'
 date: 2024-01-07
-published: false
+hidden: true
 permalink: /posts/2024/01/nineteen-years-of-kuk-sool-in-pictures/
 tags:
   - Kuk Sool Won
