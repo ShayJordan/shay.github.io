@@ -132,12 +132,12 @@ gallery2:
  - url: KSW-Kuk-Sa-Nim-7.jpg
    image_path: KSW-Kuk-Sa-Nim-7.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2017.
- - url: KSW-Kuk-Sa-Nim-8.jpg
-   image_path: KSW-Kuk-Sa-Nim-8.jpg
-   alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2019.
  - url: KSW-Seminar-19.JPG
    image_path: KSW-Seminar-19.JPG
    alt: Jool Bong at the 2019 Seminar.
+ - url: KSW-Kuk-Sa-Nim-8.jpg
+   image_path: KSW-Kuk-Sa-Nim-8.jpg
+   alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2019.
  - url: KSW-COVID.JPG
    image_path: KSW-COVID.JPG
    alt: Kuk Sool classes on Zoom during the COVID pandemic.
@@ -192,7 +192,6 @@ gallery2:
  - url: KSW-grading-results-december-2023.jpg
    image_path: KSW-grading-results-december-2023.jpg
    alt: The Lowestoft Kuk Sool Won adults, December 2023.
-   
 ---
 This month, I am celebrating my nineteenth anniversary of training in Kuk Sool Won. Over the past few weeks, I have been reminiscing and reflecting on my years of training, which has brought me great joy. I have set myself the challenge of sharing my Kuk Sool journey in an unconventional way, and so -- without any more words -- here is the story of the past nineteen years told in pictures.
 {% include gallery id="gallery1" %}
