@@ -12,7 +12,7 @@ redirect_from:
   - /about.html
 ---
 
-![Sword Cat](/images/SwordCat.png){: .align-right width="220px"}
+![Sword Cat](/images/sword-cat.png){: .align-right width="220px"}
 
 🎓 I am a Master of Mathematics Graduate from the University of East Anglia (UEA) in Norwich, UK.
 
@@ -41,4 +41,4 @@ I enjoy reading, with my favourite books being [The Cat and the City](https://at
 For more info 💁‍♂️
 ------
 
-For more information about me, view [my CV](https://shayjordan.co.uk/files/ShayCV.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
+For more information about me, view [my CV](https://shayjordan.co.uk/files/shay-jordan-cv.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
