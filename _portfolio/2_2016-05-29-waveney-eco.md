@@ -30,7 +30,7 @@ In 2016, I founded the youth-led *Waveney Eco* group, whose sole purpose was to 
 -----
 <br/>
 <br/>
-[Click here](https://shayjordan.co.uk/files/WE_Letter.pdf) to see a letter template used for the group's communications.
+[Click here](https://shayjordan.co.uk/files/waveney-eco-letter.pdf) to see a letter template used for the group's communications.
 <br/>
 <br/>
 -----
