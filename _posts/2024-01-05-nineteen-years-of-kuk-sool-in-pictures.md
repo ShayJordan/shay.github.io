@@ -109,7 +109,6 @@ gallery1:
  - url: KSW-Tournament-12.JPG
    image_path: KSW-Tournament-12.JPG
    alt: Kuk Sool Tournament.
-
 gallery2:
  - url: KSW-Extravaganza.JPG
    image_path: KSW-Extravaganza.JPG
