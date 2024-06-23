@@ -22,7 +22,7 @@ In January 2023, I was involved in a serious car crash. When driving home from u
 
 *My 2019 Volkswagen Polo, whose safety features kept me alive after a 100+mph combined speed head-on collision.*
 
-The Fire Service, Paramedics, and Police who arrived on the scene very promptly and were incredible in supporting me all said the same thing: "you are lucky to be alive". I felt that -- it definitely could have gone much differently, and I was lucky to be there, despite the condition I was in. Whilst this really had an impact on me, it wasn't until a friend of mine phrased it slightly differently with "how are you not dead?" that it really hit home.
+The Fire Service, Paramedics, and Police who arrived on the scene very promptly and were incredible in supporting me all said the same thing: "you are lucky to be alive". I felt that -- it definitely could have gone much differently, and I was lucky to be there, despite the condition I was in (and the ongoing effects still very much felt today). Whilst this really had an impact on me, it wasn't until a friend of mine phrased it slightly differently with "how are you not dead?" that it really hit home.
 
 Up until this point, I had been quite reserved in navigating life, and had settled for dissatisfactory situations for the promise of the end result being worth it, but this experience really changed my outlook on this as there is no guarantee of tomorrow. I've always been a careful person, but the realisation that other people's carelessness can ruin this in an instant changed things.
 
