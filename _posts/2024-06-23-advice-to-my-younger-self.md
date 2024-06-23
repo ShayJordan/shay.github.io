@@ -4,7 +4,7 @@ date: 2024-06-23
 permalink: /posts/2024/06/advice-to-my-younger-self/
 tags:
   - Musing
-excerpt: "At a recent event at work, the students behind the incredible project were asked, "if you had one piece of advice to give to your Year 9 self, what would it be?". Whilst the question wasn't for me, it certainly got me thinking -- what would my answer be?"
+excerpt: "At a recent event at work, the students behind the incredible project were asked, 'if you had one piece of advice to give to your Year 9 self, what would it be?'. Whilst the question wasn't for me, it certainly got me thinking -- what would my answer be?"
 header:
   teaser: car-crash.jpg
   overlay_image: car-crash.jpg
