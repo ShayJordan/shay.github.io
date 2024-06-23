@@ -16,7 +16,9 @@ At the end of the event, the UEA students behind the incredible project were ask
 
 In January 2023, I was involved in a serious car crash. When driving home from university one night during my PGCE, another driver in a much larger car than mine took a sharp blind bend on a country road in excess of 60mph -- a speed too high for the road conditions -- and exited the corner well over onto the wrong side of the road. Unfortunately for me, I was on the approach to the bend at around 40mph in the other direction and the other driver collided head on with my car.
 
-![Car Crash](car-crash.jpg){: .align-center width="75%"}
+<figure>
+	<a href="/images/car-crash.jpg"><img src="/images/car-crash.jpg"></a>
+</figure>
 
 *My 2019 Volkswagen Polo, whose safety features kept me alive after a 100+mph combined speed head-on collision.*
 
