@@ -15,12 +15,10 @@ I recently had the pleasure of attending [*Expose. Explore. Empower*](https://ou
 At the end of the event, the UEA students behind the incredible project were asked, "if you had one piece of advice to give to your Year 9 self, what would it be?". Whilst the question wasn't for me, it certainly got me thinking -- what would my answer be? When faced with these kinds of hypothetical questions, I usually struggle to come up with an answer. I've always been a very academic/career focussed person, and so I'd probably default to something along the lines of staying focussed and putting in the work. Life events I have experienced over the past couple of years have definitely changed this, though.
 
 In January 2023, I was involved in a serious car crash. When driving home from university one night during my PGCE, another driver in a much larger car than mine took a sharp blind bend on a country road in excess of 60mph -- a speed too high for the road conditions -- and exited the corner well over onto the wrong side of the road. Unfortunately for me, I was on the approach to the bend at around 40mph in the other direction and the other driver collided head on with my car.
-
 <figure>
 	<a href="/images/car-crash.jpg"><img src="/images/car-crash.jpg"></a>
 	<figcaption>My 2019 Volkswagen Polo, whose safety features kept me alive after a 100+mph combined speed head-on collision.</figcaption>
 </figure>
-
 The Fire Service, Paramedics, and Police who arrived on the scene very promptly and were incredible in supporting me all said the same thing: "you are lucky to be alive". I felt that -- it definitely could have gone much differently, and I was lucky to be there, despite the condition I was in (and the ongoing effects still very much felt today). Whilst this really had an impact on me, it wasn't until a friend of mine phrased it slightly differently with "how are you not dead?" that it really hit home.
 
 Up until this point, I had been quite reserved in navigating life, and had settled for dissatisfactory situations for the promise of the end result being worth it, but this experience really changed my outlook on this as it made it very real that there is no guarantee of tomorrow. I've always been a careful person, but the realisation that other people's carelessness can ruin this in an instant changed things.
