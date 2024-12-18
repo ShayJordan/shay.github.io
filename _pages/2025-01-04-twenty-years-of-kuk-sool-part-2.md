@@ -214,14 +214,14 @@ A few weeks later, the first European Championships were hosted since before COV
 	<figcaption>Master Alison opening our Lowestoft & Halesworth interclub mini tournament in April 2018.</figcaption>
 </figure>
 
-Following from this, I found it hard to train as I felt so affected by our loss, and my involvement in a serious car accident also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
+Following from this, I found it hard to train as I felt so affected by our loss, and my later involvement in a serious car accident also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
 
 <figure>
 	<a href="/images/KSW-Alex.JPG"><img src="/images/KSW-Alex.JPG"></a>
 	<figcaption>Myself and Master Alex Suh at the Championships dedicated to Master Alison.</figcaption>
 </figure>
 
-In 2023, I received and submitted my application for Sa Bum Nim (Fourth Degree Black Belt), and am currently (hopefully) just six months away from promoting to that rank, as I approach the end of the minimum period of two years. Between then and now, I have kept up training and attendance to WKSA events such as workshops, seminars, and tournaments -- and although I only attended tournaments to judge and did not compete for a long while, I did enter the WKSA UK Championships in November 2024 for the first time. Owing to my long period out of competing in tournaments and a lack of training on the lead-up to the event, I wasn't expecting to come away with any medals but I was pleasantly surprised to achieve a fourth-place copper medal in self-defense techniques!
+In 2023, I received and submitted my application for Sa Bum Nim (Fourth Degree Black Belt), and am currently (hopefully) just six months away from promoting to that rank, as I approach the end of the minimum period of two years. Since applying for Sa Bum Nim, I have kept up training and attendance to WKSA events such as workshops, seminars, and tournaments -- and although I only attended tournaments to judge and did not compete for a long while, I did enter the WKSA UK Championships in November 2024 for the first time. Owing to my long period out of competing in tournaments and a lack of training on the lead-up to the event, I wasn't expecting to come away with any medals but I was pleasantly surprised to achieve a fourth-place copper medal in self-defense techniques!
 
 {% include gallery id="gallery5" caption="Photos from WKSA Tournaments in 2024." %}
 
