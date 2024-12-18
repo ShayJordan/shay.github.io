@@ -81,4 +81,4 @@ A week later, we travelled to Kings Lynn for the European Championships where I 
 	<figcaption>Me promoting to Black Belt in June 2010.</figcaption>
 </figure>
 
-You can read about my training as a Black Belt [here](/posts/2023/12/twenty-years-of-kuk-sool-part-2/) *(from 30/12/2023)*.
+You can read about my training as a Black Belt [here](/posts/2023/12/twenty-years-of-kuk-sool-part-2/).
