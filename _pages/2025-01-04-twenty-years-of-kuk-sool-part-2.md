@@ -103,6 +103,25 @@ gallery4:
  - url: KSW-Kuk-Sa-Nim-9.jpg
    image_path: KSW-Kuk-Sa-Nim-9.jpg
    alt: Myself and Kuk Sa Nim, the grandmaster of Kuk Sool Won in 2022.
+gallery5:
+ - url: tournament-1-2024.jpg
+   image_path: tournament-1-2024.jpg
+   alt: Myself and SIKJN Master Martin Ducker at the WKSA European Championships 2024.
+ - url: tournament-2-2024.jpg
+   image_path: tournament-2-2024.jpg
+   alt: Myself and classmates at the WKSA European Championships 2024.
+ - url: tournament-3-2024.jpg
+   image_path: tournament-3-2024.jpg
+   alt: PSBNs Charlie, Liam, and I at the WKSA UK Championships 2024.
+ - url: tournament-4-2024.jpg
+   image_path: tournament-4-2024.jpg
+   alt: On the podium at the WKSA UK Championships 2024.
+ - url: tournament-5-2024.jpg
+   image_path: tournament-5-2024.jpg
+   alt: Me at the WKSA UK Championships 2024.
+ - url: tournament-6-2024.jpg
+   image_path: tournament-6-2024.jpg
+   alt: Team Lowestoft and Halesworth at the WKSA UK Championships 2024.
 ---
 I promoted to First Degree Black Belt in June 2010 after five years of training. You can read about my first five years of training [here](/posts/2023/12/twenty-years-of-kuk-sool-part-1/).
 
@@ -195,14 +214,16 @@ A few weeks later, the first European Championships were hosted since before COV
 	<figcaption>Master Alison opening our Lowestoft & Halesworth interclub mini tournament in April 2018.</figcaption>
 </figure>
 
-Following from this, I found it hard to train as I felt so affected by what had happened. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time with Master Alison no longer being around.
+Following from this, I found it hard to train as I felt so affected by our loss, and my involvement in a serious car accident also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
 
 <figure>
 	<a href="/images/KSW-Alex.JPG"><img src="/images/KSW-Alex.JPG"></a>
 	<figcaption>Myself and Master Alex Suh at the Championships dedicated to Master Alison.</figcaption>
 </figure>
 
-This year, in 2023, I received and submitted my application for Sa Bum Nim (Fourth Degree Black Belt), and am currently six months into the two-year testing period toward that rank. 
+In 2023, I received and submitted my application for Sa Bum Nim (Fourth Degree Black Belt), and am currently (hopefully) just six months away from promoting to that rank, as I approach the end of the minimum period of two years. Between then and now, I have kept up training and attendance to WKSA events such as workshops, seminars, and tournaments -- and although I only attended tournaments to judge and did not compete for a long while, I did enter the WKSA UK Championships in November 2024 for the first time. Owing to my long period out of competing in tournaments and a lack of training on the lead-up to the event, I wasn't expecting to come away with any medals but I was pleasantly surprised to achieve a fourth-place copper medal in self-defense techniques!
+
+{% include gallery id="gallery5" caption="Photos from WKSA Tournaments in 2024." %}
 
 My journey so far through Kuk Sool has been full of ups and downs. In this post, I have mainly recognised the highlights, but there have been times where I have even thought about stopping. I remember distinctly talking to my mum when I was a blue belt, and telling her that I wanted to stop. Fortunately, this was just after the new year and she had just paid my membership renewal and there was no way that her £10 was going to waste -- so I was made to continue training, and I'm so grateful for that.
 
