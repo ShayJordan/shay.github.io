@@ -214,7 +214,7 @@ A few weeks later, the first European Championships were hosted since before COV
 	<figcaption>Master Alison opening our Lowestoft & Halesworth interclub mini tournament in April 2018.</figcaption>
 </figure>
 
-Following from this, I found it hard to train as I felt so affected by our loss, and my later involvement in a serious car accident also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
+Following from this, I found it hard to train as I felt so affected by our loss, and my later involvement in a [serious car crash](https://shayjordan.co.uk/posts/2024/06/advice-to-my-younger-self/) also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
 
 <figure>
 	<a href="/images/KSW-Alex.JPG"><img src="/images/KSW-Alex.JPG"></a>
