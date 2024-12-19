@@ -1,7 +1,7 @@
 ---
 title: 'Twenty Years of Kuk Sool: Beyond Black Belt'
-date: 2025-01-04
-permalink: /posts/2025/01/twenty-years-of-kuk-sool-part-2/
+date: 2024-12-28
+permalink: /posts/2024/12/twenty-years-of-kuk-sool-part-2/
 tags:
   - Kuk Sool Won
 excerpt: 'Approaching my twentieth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far. This post talks about my training from 2010 upwards.'
@@ -123,7 +123,10 @@ gallery5:
    image_path: tournament-6-2024.jpg
    alt: Team Lowestoft and Halesworth at the WKSA UK Championships 2024.
 ---
-I promoted to First Degree Black Belt in June 2010 after five years of training. You can read about my first five years of training [here](/posts/2023/12/twenty-years-of-kuk-sool-part-1/).
+This post is the second part of a two-part post. You can read part one [here](/posts/2024/12/twenty-years-of-kuk-sool-part-1/).
+{: .notice}
+
+I promoted to First Degree Black Belt in June 2010 after five years of training. You can read about my first five years of training [here](/posts/2024/12/twenty-years-of-kuk-sool-part-1/).
 
 I still remember going to class the week following my promotion for the first time in my shiny new uniform, complete with golden tassels and that black belt which symbolises so much to anyone, regardless of their involvement in martial arts. It was straight back to training though. No time to hang about -- there was new stuff to learn: a new form; new self-defence techniques; the staff form; the sword form. Lots of new and exciting stuff!
 
@@ -214,7 +217,7 @@ A few weeks later, the first European Championships were hosted since before COV
 	<figcaption>Master Alison opening our Lowestoft & Halesworth interclub mini tournament in April 2018.</figcaption>
 </figure>
 
-Following from this, I found it hard to train as I felt so affected by our loss, and my later involvement in a [serious car crash](https://shayjordan.co.uk/posts/2024/06/advice-to-my-younger-self/) also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
+Following from this, I found it hard to train as I felt so affected by our loss, and my later involvement in a [serious car crash](/posts/2024/06/advice-to-my-younger-self/) also impacted my ability to train for a while and still impacts me to this day. My attendance began to fall noticeably and my training became less regular for a while. I was able to bounce back and am still working on keeping my attendance as regular as it should be (twice a week), but I do still struggle with training from time-to-time due to these things.
 
 <figure>
 	<a href="/images/KSW-Alex.JPG"><img src="/images/KSW-Alex.JPG"></a>

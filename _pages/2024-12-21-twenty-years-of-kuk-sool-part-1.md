@@ -1,6 +1,6 @@
 ---
 title: 'Twenty Years of Kuk Sool: The Journey to Black Belt'
-date: 2024-12-28
+date: 2024-12-21
 permalink: /posts/2024/12/twenty-years-of-kuk-sool-part-1/
 tags:
   - Kuk Sool Won
@@ -10,6 +10,9 @@ header:
   overlay_image: KSW-yellow-belt.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
 ---
+This post is the first part of a two-part post. You can read part two [here](/posts/2024/12/twenty-years-of-kuk-sool-part-2/).
+{: .notice}
+
 My journey through Kuk Sool and the inspirational figures whom I have looked up to along the way have influenced my life and development massively, and a huge part of who I am is owed to this. Approaching my twentieth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far, as without this journey and the experiences I have gained throughout, the timid 5-year-old I was twenty years ago certainly would not have developed into the confident 25-year-old that I am today.
 
 In Kuk Sool, it is customary to greet your instructors and classmates with a bow, mirroring the culture of South Korea (Kuk Sool's country of origin). It was this custom which my dad observed from his friend Ashley at the end of 2004, which prompted him to ask what on Earth that was all about. After all, it's not every day you see a grown man bowing to another grown man in the streets of twenty-first century Britain. As it turns out, my dad's friend was a Black Belt in a martial art called *Kuk Sool Won*, and he was greeting his instructor to whom they'd run into.
@@ -81,4 +84,4 @@ A week later, we travelled to Kings Lynn for the European Championships where I 
 	<figcaption>Me promoting to Black Belt in June 2010.</figcaption>
 </figure>
 
-You can read about my training as a Black Belt [here](/posts/2023/12/twenty-years-of-kuk-sool-part-2/).
+You can read about my training as a Black Belt [here](/posts/2024/12/twenty-years-of-kuk-sool-part-2/).
