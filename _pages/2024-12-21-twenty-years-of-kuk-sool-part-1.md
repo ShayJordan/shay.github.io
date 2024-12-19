@@ -85,3 +85,4 @@ A week later, we travelled to Kings Lynn for the European Championships where I 
 </figure>
 
 You can read about my training as a Black Belt [here](/posts/2024/12/twenty-years-of-kuk-sool-part-2/).
+{: .notice}
