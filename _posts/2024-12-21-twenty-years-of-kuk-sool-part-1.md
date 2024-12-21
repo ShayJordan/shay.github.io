@@ -10,7 +10,7 @@ header:
   overlay_image: KSW-yellow-belt.jpg
   overlay_filter: rgba(51, 51, 90, 0.75)
 ---
-This post is the first part of a two-part post. You can read part two [here](/posts/2024/12/twenty-years-of-kuk-sool-part-2/).
+This post is the first part of a two-part post. You can read part two from 28 December 2024.
 {: .notice}
 
 My journey through Kuk Sool and the inspirational figures whom I have looked up to along the way have influenced my life and development massively, and a huge part of who I am is owed to this. Approaching my twentieth anniversary of training in Kuk Sool, I thought it would be fitting to look back and reflect on my martial arts journey so far, as without this journey and the experiences I have gained throughout, the timid 5-year-old I was twenty years ago certainly would not have developed into the confident 25-year-old that I am today.
@@ -84,5 +84,5 @@ A week later, we travelled to Kings Lynn for the European Championships where I 
 	<figcaption>Me promoting to Black Belt in June 2010.</figcaption>
 </figure>
 
-You can read about my training as a Black Belt [here](/posts/2024/12/twenty-years-of-kuk-sool-part-2/).
+You can read about my training as a Black Belt in part two, from 28 December 2024.
 {: .notice}
