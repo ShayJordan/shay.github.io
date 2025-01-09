@@ -37,4 +37,4 @@ I am also a keen photographer, and share my images on [Instagram](https://instag
 For more info 💁‍♂️
 ------
 
-For more information about me, view [my CV](https://shayjordan.co.uk/files/shay-jordan-cv.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there. Alternatively, [drop me an email](mailto:shay@shayjordan.co.uk)!
+For more information about me, view [my CV](https://shayjordan.co.uk/files/shay-jordan-cv.pdf), or visit my [LinkedIn page](https://www.linkedin.com/in/shayjordan/) and feel free to shoot me a message there.
