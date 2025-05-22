@@ -82,7 +82,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   
   .checkbox-grid label {
     display: flex;                /* Keep checkbox + text on same line */
-    align-items: top;
+    align-items: flex-start;
     break-inside: avoid;         /* Prevent splitting across columns */
     margin-bottom: 6px;
   }
