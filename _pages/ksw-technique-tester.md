@@ -1,6 +1,6 @@
 ---
 permalink: /ksw-technique-tester/
-title: "Kuk Sool Won Technique Tester"
+title: "Kuk Sool Technique Tester"
 excerpt: "A random generator for Kuk Sool Won self-defense techniques."
 header:
   overlay_image: home.JPG
@@ -8,10 +8,7 @@ header:
 author_profile: false
 og_image: og_image.png
 ---
-LaTeX Files
-------
-**Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
-{: .notice}
+Select your rank to be tested on all technique sets up to your next grade, or manually select which sets you wish to be tested from.
 
 {% raw %}
 <style>
