@@ -78,8 +78,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: auto auto;
-    grid-auto-columns: minmax(0,180px);
-    gap: 10px 40px;
+    grid-auto-columns: 180px;
+    gap: 10px 30px;
     align-items: start;
   }
 </style>
