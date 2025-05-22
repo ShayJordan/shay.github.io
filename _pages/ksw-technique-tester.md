@@ -189,9 +189,10 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       sets.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
-        for (let i = 0; i < count; i++) {
-          const n = Math.floor(Math.random() * limit) + 1;
-          list.push(`${setName} ${n}`);
+        const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
+        shuffle(availableNumbers);
+        for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
+        list.push(`${setName}: ${availableNumbers[i]}`);
         }
       });
     } else {
