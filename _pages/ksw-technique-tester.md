@@ -59,7 +59,7 @@ LaTeX Files
 </style>
 
 <div class="form-section">
-  <strong>Select Sets by Rank</strong><br>
+  <strong>Select Sets by Rank</strong><br><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="white">White Belt</label><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="yellow">Yellow Belt</label><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="blue">Blue Belt</label><br>
@@ -72,7 +72,7 @@ LaTeX Files
 </div>
 
 <div class="form-section">
-  <strong>Or Select Specific Sets</strong><br>
+  <strong>Or Select Specific Sets</strong><br><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label><br>
@@ -112,14 +112,14 @@ LaTeX Files
 </div>
 
 <div class="form-section">
-  <label><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
+  <label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
-    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
+    <label class="inline-label">How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
   </div>
   <div id="perItemInputs" style="display:none;">
-    <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
+    <label class="inline-label">How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
   </div>
-  <label><input type="checkbox" id="randomOrder" checked> Randomise order</label><br><br>
+  <label class="inline-label"><input type="checkbox" id="randomOrder" checked> Randomise order</label><br><br>
   <button onclick="startGeneration()">Start</button>
 </div>
 
@@ -169,16 +169,16 @@ LaTeX Files
 
     if (perMode) {
       sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        const checkbox = document.querySelector(\`.item[value="\${setName}"]\`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
         for (let i = 0; i < count; i++) {
           const n = Math.floor(Math.random() * limit) + 1;
-          list.push(`${setName}: ${n}`);
+          list.push(\`\${setName}: \${n}\`);
         }
       });
     } else {
       const pool = sets.map(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        const checkbox = document.querySelector(\`.item[value="\${setName}"]\`);
         return {
           setName,
           limit: parseInt(checkbox?.dataset.limit || '10')
@@ -188,7 +188,7 @@ LaTeX Files
       for (let i = 0; i < count; i++) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(`${entry.setName}: ${n}`);
+        list.push(\`\${entry.setName}: \${n}\`);
       }
     }
 
@@ -254,23 +254,23 @@ LaTeX Files
     displayNext();
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.category').forEach(radio => {
-      radio.addEventListener('change', () => {
-        const sets = expandCategory(radio.dataset.category);
-        document.querySelectorAll('.item').forEach(cb => {
-          cb.checked = sets.includes(cb.value);
-        });
+  // Safe to bind immediately, works in Markdown/Jekyll
+  document.querySelectorAll('.category').forEach(radio => {
+    radio.addEventListener('change', () => {
+      const sets = expandCategory(radio.dataset.category);
+      document.querySelectorAll('.item').forEach(cb => {
+        cb.checked = sets.includes(cb.value);
       });
     });
-
-    document.querySelectorAll('.item').forEach(cb => {
-      cb.addEventListener('change', () => {
-        document.querySelectorAll('.category').forEach(r => r.checked = false);
-      });
-    });
-
-    togglePerItemInput(); // show/hide input fields on load
   });
+
+  document.querySelectorAll('.item').forEach(cb => {
+    cb.addEventListener('change', () => {
+      document.querySelectorAll('.category').forEach(r => r.checked = false);
+    });
+  });
+
+  // Run toggle immediately in case the checkbox is already active
+  togglePerItemInput();
 </script>
 {% endraw %}
