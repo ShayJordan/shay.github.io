@@ -32,25 +32,35 @@ LaTeX Files
   }
 
   #output {
-    margin: 20px 0;
-    font-size: 1.5em;
+    margin: 30px 0;
+    font-size: 2.2em;
     font-weight: bold;
+    text-align: center;
+    min-height: 40px;
   }
 
   #feedback-buttons button {
-    font-size: 1.2em;
-    margin-right: 10px;
-    padding: 8px 12px;
+    font-size: 3em;
+    margin: 0 15px;
+    padding: 20px 30px;
+    cursor: pointer;
   }
 
   #summary {
-    margin-top: 20px;
-    font-size: 1.1em;
+    margin-top: 30px;
+    font-size: 1.2em;
   }
 
   input[type="radio"],
   input[type="checkbox"] {
     margin-right: 8px;
+  }
+  
+  #start-button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 15px;
   }
 
   .form-section {
