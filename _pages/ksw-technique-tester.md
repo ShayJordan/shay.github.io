@@ -37,7 +37,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   #feedback-buttons {
-    display: flex;
+    display: none;
     justify-content: center;       /* Center items horizontally */
     align-items: center;           /* Align vertically (optional) */
     gap: 20px;                     /* Space between buttons */
@@ -229,7 +229,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const output = document.getElementById('output');
     if (currentIndex < currentList.length) {
       output.textContent = currentList[currentIndex];
-      document.getElementById('feedback-buttons').style.display = 'block';
+      const fb = document.getElementById('feedback-buttons');
+      fb.style.display = 'flex'; // Flex layout preserves centering
     } else {
       output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
