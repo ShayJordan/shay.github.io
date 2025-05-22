@@ -5,7 +5,7 @@ excerpt: "A random generator for Kuk Sool Won self-defense techniques."
 header:
   overlay_image: home.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
-author_profile: true
+author_profile: false
 og_image: og_image.png
 ---
 LaTeX Files
