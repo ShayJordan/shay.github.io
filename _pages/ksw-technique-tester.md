@@ -79,6 +79,19 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     column-gap: 40px;
     max-width: 100%;
   }
+  
+  .checkbox-grid label {
+    display: block;
+    break-inside: avoid;     /* Prevents awkward splits */
+    margin-bottom: 5px;
+  }
+  
+  /* Mobile: switch to 1 column below 600px */
+  @media screen and (max-width: 600px) {
+    .checkbox-grid {
+      column-count: 1;
+    }
+  }
 </style>
 
 <div class="form-section">
