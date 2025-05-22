@@ -145,60 +145,53 @@ LaTeX Files
     psbn: ['ksn', 'Jee Peng Ee Sool', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool']
   };
 
-  let currentList = [];
-  let currentIndex = 0;
+  function expandCategory(cat, visited = new Set()) {
+    if (visited.has(cat)) return [];
+    visited.add(cat);
+    if (!categoryMap[cat]) return [cat];
+    return categoryMap[cat].flatMap(sub => expandCategory(sub, visited));
+  }
 
-  function expandCategory(cat) {
-    const expanded = [];
-    (function recurse(key) {
-      if (categoryMap[key]) {
-        categoryMap[key].forEach(sub => recurse(sub));
-      } else {
-        expanded.push(key);
-      }
-    })(cat);
-    return expanded;
+  function togglePerItemInput() {
+    const isPer = document.getElementById('perItemMode').checked;
+    document.getElementById('perItemInputs').style.display = isPer ? 'block' : 'none';
+    document.getElementById('singleCountInput').style.display = isPer ? 'none' : 'block';
   }
 
   function gatherSelectedItems() {
     const cat = document.querySelector('input[name="category"]:checked');
-    if (cat) {
-      return expandCategory(cat.dataset.category);
-    }
+    if (cat) return expandCategory(cat.dataset.category);
     return Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value);
   }
 
   function buildTechniqueList(sets, count, perMode) {
     const list = [];
-  
+
     if (perMode) {
-      // Per-set mode: generate `count` random numbers (1–limit) per set
       sets.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
-  
         for (let i = 0; i < count; i++) {
           const n = Math.floor(Math.random() * limit) + 1;
           list.push(`${setName}: ${n}`);
         }
       });
     } else {
-      // Total mode: generate `count` total random outputs from all selected sets
-      const pool = [];
-  
-      sets.forEach(setName => {
+      const pool = sets.map(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        const limit = parseInt(checkbox?.dataset.limit || '10');
-        pool.push({ setName, limit });
+        return {
+          setName,
+          limit: parseInt(checkbox?.dataset.limit || '10')
+        };
       });
-  
+
       for (let i = 0; i < count; i++) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
         list.push(`${entry.setName}: ${n}`);
       }
     }
-  
+
     return list;
   }
 
@@ -210,13 +203,16 @@ LaTeX Files
     return arr;
   }
 
+  let currentList = [];
+  let currentIndex = 0;
+
   function displayNext() {
     const output = document.getElementById('output');
     if (currentIndex < currentList.length) {
       output.textContent = currentList[currentIndex];
       document.getElementById('feedback-buttons').style.display = 'block';
     } else {
-      output.textContent = 'Summary';
+      output.textContent = 'All items rated.';
       document.getElementById('feedback-buttons').style.display = 'none';
     }
   }
@@ -239,10 +235,8 @@ LaTeX Files
     }
 
     currentList = buildTechniqueList(selectedItems, count, perMode);
-    if (!perMode && currentList.length > count) {
-      currentList = shuffle(currentList).slice(0, count);
-    } else if (document.getElementById('randomOrder').checked) {
-      currentList = shuffle(currentList);
+    if (!perMode && document.getElementById('randomOrder').checked) {
+      shuffle(currentList);
     }
 
     displayNext();
@@ -260,25 +254,24 @@ LaTeX Files
     displayNext();
   }
 
-  document.querySelectorAll('.category').forEach(radio => {
-    radio.addEventListener('change', () => {
-      const sets = expandCategory(radio.dataset.category);
-      document.querySelectorAll('.item').forEach(cb => {
-        cb.checked = sets.includes(cb.value);
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.category').forEach(radio => {
+      radio.addEventListener('change', () => {
+        const sets = expandCategory(radio.dataset.category);
+        document.querySelectorAll('.item').forEach(cb => {
+          cb.checked = sets.includes(cb.value);
+        });
       });
     });
-  });
 
-  document.querySelectorAll('.item').forEach(cb => {
-    cb.addEventListener('change', () => {
-      document.querySelectorAll('.category').forEach(r => r.checked = false);
+    document.querySelectorAll('.item').forEach(cb => {
+      cb.addEventListener('change', () => {
+        document.querySelectorAll('.category').forEach(r => r.checked = false);
+      });
     });
-  });
 
-  function togglePerItemInput() {
-    const isPer = document.getElementById('perItemMode').checked;
-    document.getElementById('perItemInputs').style.display = isPer ? 'block' : 'none';
-    document.getElementById('singleCountInput').style.display = isPer ? 'none' : 'block';
-  }
+    togglePerItemInput(); // show/hide on load
+  });
 </script>
+
 {% endraw %}
