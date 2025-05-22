@@ -75,12 +75,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   .checkbox-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: auto auto;
-    grid-auto-columns: 180px;
-    gap: 10px 30px;
-    align-items: start;
+    column-count: 2;
+    column-gap: 40px;
+    max-width: 100%;
   }
 </style>
 
