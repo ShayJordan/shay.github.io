@@ -35,16 +35,17 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     text-align: center;
     min-height: 40px;
   }
-  
+
   #feedback-buttons {
     display: flex;
-    justify-content: center;       /* Center items horizontally */
-    align-items: center;           /* Align vertically (optional) */
-    gap: 20px;                     /* Space between buttons */
-    margin: 30px auto;             /* Center container and add spacing */
-    width: 100%;                   /* Ensure container takes full width */
-    max-width: 100%;               /* Prevent accidental constraining */
-    box-sizing: border-box;        /* Consistent layout behavior */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: none;
   }
 
   #feedback-buttons button {
@@ -62,34 +63,32 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   input[type="checkbox"] {
     margin-right: 8px;
   }
-  
+
   #start-button {
     display: block;
     font-size: 1.4em;
     padding: 15px 30px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
   }
 
   .form-section {
     margin-bottom: 20px;
   }
-  
+
   .checkbox-grid {
     column-count: 2;
     column-gap: 40px;
     max-width: 100%;
   }
-  
+
   .checkbox-grid label {
-    display: flex;                /* Keep checkbox + text on same line */
+    display: flex;
     align-items: center;
-    break-inside: avoid;         /* Prevent splitting across columns */
+    break-inside: avoid;
     margin-bottom: 6px;
   }
-  
-  /* Mobile: switch to 1 column below 600px */
+
   @media screen and (max-width: 600px) {
     .checkbox-grid {
       column-count: 1;
@@ -159,7 +158,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </div>
 
 <div class="form-section">
-  <label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
+  <label class="inline-label"><input type="checkbox" id="perItemMode" onchange="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
     <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
   </div>
@@ -173,7 +172,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
 <div id="output"></div>
 
-<div id="feedback-buttons" style="text-align: center; display: none;">
+<div id="feedback-buttons">
   <button onclick="rateItem('correct')">👍</button>
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
@@ -194,6 +193,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     sbn: ['psbn','Ssahng Jee Ahp Sool', 'Chahl Sah Jahng', 'Bahng Wong Ki']
   };
 
+  let currentList = [];
+  let currentIndex = 0;
+
   function expandCategory(cat, visited = new Set()) {
     if (visited.has(cat)) return [];
     visited.add(cat);
@@ -208,8 +210,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function gatherSelectedItems() {
-    const cat = document.querySelector('input[name="category"]:checked');
-    if (cat) return expandCategory(cat.dataset.category);
+    const cat = document.getElementById('categorySelect').value;
+    if (cat) return expandCategory(cat);
     return Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value);
   }
 
@@ -223,7 +225,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
         shuffle(availableNumbers);
         for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
-        list.push(`${setName}: ${availableNumbers[i]}`);
+          list.push(`${setName} ${availableNumbers[i]}`);
         }
       });
     } else {
@@ -253,27 +255,27 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     return arr;
   }
 
-  let currentList = [];
-  let currentIndex = 0;
-
   function displayNext() {
     const output = document.getElementById('output');
     if (currentIndex < currentList.length) {
       output.textContent = currentList[currentIndex];
-      document.getElementById('feedback-buttons').style.display = 'block';
+      document.getElementById('feedback-buttons').style.display = 'flex';
     } else {
       output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
+      document.getElementById('start-button').style.display = 'block';
     }
   }
 
   function startGeneration() {
     currentIndex = 0;
     document.getElementById('summary').innerHTML = '';
+    document.getElementById('start-button').style.display = 'none';
 
     const selectedItems = gatherSelectedItems();
     if (!selectedItems.length) {
       alert("Select at least one set of techniques.");
+      document.getElementById('start-button').style.display = 'block';
       return;
     }
 
@@ -281,6 +283,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
     if (isNaN(count) || count < 1) {
       alert("Enter a valid number.");
+      document.getElementById('start-button').style.display = 'block';
       return;
     }
 
@@ -304,36 +307,35 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     displayNext();
   }
 
-  window.addEventListener('load', function () {
-    document.getElementById('categorySelect').addEventListener('change', function () {
-        const selected = this.value;
-        const sets = selected ? expandCategory(selected) : [];
-        document.querySelectorAll('.item').forEach(cb => {
-            cb.checked = sets.includes(cb.value);
-        });
+  document.addEventListener('DOMContentLoaded', function () {
+    const select = document.getElementById('categorySelect');
+    const checkboxes = document.querySelectorAll('.item');
+
+    select.addEventListener('change', () => {
+      const selected = select.value;
+      const sets = selected ? expandCategory(selected) : [];
+      checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
     });
 
-    document.querySelectorAll('.item').forEach(cb => {
-        cb.addEventListener('change', () => {
-            const selected = Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value).sort().join('|');
-            let matched = false;
-        
-            for (const key in categoryMap) {
-            const items = expandCategory(key).sort().join('|');
-            if (items === selected) {
-                document.getElementById('categorySelect').value = key;
-                matched = true;
-                break;
-            }
-            }
-        
-            if (!matched) {
-            document.getElementById('categorySelect').value = '';
-            }
-        });
-    });
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', () => {
+        const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value).sort().join('|');
+        let matched = false;
 
-    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
+        for (const key in categoryMap) {
+          const items = expandCategory(key).sort().join('|');
+          if (items === selected) {
+            select.value = key;
+            matched = true;
+            break;
+          }
+        }
+
+        if (!matched) {
+          select.value = '';
+        }
+      });
+    });
 
     togglePerItemInput();
   });

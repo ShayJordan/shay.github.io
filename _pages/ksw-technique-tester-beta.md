@@ -225,7 +225,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
         shuffle(availableNumbers);
         for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
-          list.push(`${setName}: ${availableNumbers[i]}`);
+          list.push(`${setName} ${availableNumbers[i]}`);
         }
       });
     } else {
@@ -240,7 +240,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       for (let i = 0; i < count; i++) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(`${entry.setName}: ${n}`);
+        list.push(`${entry.setName} ${n}`);
       }
     }
 
