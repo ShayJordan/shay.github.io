@@ -13,6 +13,7 @@ LaTeX Files
 **Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
 {: .notice}
 
+{% raw %}
 <style>
   .correct {
     color: green;
@@ -25,7 +26,8 @@ LaTeX Files
   }
 
   .inline-label {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-bottom: 5px;
   }
 
@@ -193,7 +195,7 @@ LaTeX Files
       output.textContent = currentList[currentIndex];
       document.getElementById('feedback-buttons').style.display = 'block';
     } else {
-      output.textContent = 'All done!';
+      output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
     }
   }
@@ -258,3 +260,4 @@ LaTeX Files
     document.getElementById('singleCountInput').style.display = isPer ? 'none' : 'block';
   }
 </script>
+{% endraw %}
