@@ -13,12 +13,14 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 {% raw %}
 <style>
   .correct {
+    display: block;
     color: green;
     font-weight: bold;
     text-align: left;
   }
 
   .incorrect {
+    display: block;
     color: red;
     font-weight: bold;
     text-align: right;
