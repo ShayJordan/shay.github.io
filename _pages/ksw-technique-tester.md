@@ -15,8 +15,7 @@ LaTeX Files
 
 
 {% raw %}
-<div style="max-width: 800px; margin:auto;">
-	<!DOCTYPE html>
+<div style="max-width:auto; margin:auto;">
 	<html lang="en">
 	<head>
 	  <meta charset="UTF-8">
