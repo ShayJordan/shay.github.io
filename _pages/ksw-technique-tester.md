@@ -114,10 +114,10 @@ LaTeX Files
 <div class="form-section">
   <label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
-    <label class="inline-label">How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
+    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
   </div>
   <div id="perItemInputs" style="display:none;">
-    <label class="inline-label">How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
+    <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
   </div>
   <label class="inline-label"><input type="checkbox" id="randomOrder" checked> Randomise order</label><br><br>
   <button onclick="startGeneration()">Start</button>
@@ -169,16 +169,16 @@ LaTeX Files
 
     if (perMode) {
       sets.forEach(setName => {
-        const checkbox = document.querySelector(\`.item[value="\${setName}"]\`);
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
         for (let i = 0; i < count; i++) {
           const n = Math.floor(Math.random() * limit) + 1;
-          list.push(\`\${setName}: \${n}\`);
+          list.push(`${setName}: ${n}`);
         }
       });
     } else {
       const pool = sets.map(setName => {
-        const checkbox = document.querySelector(\`.item[value="\${setName}"]\`);
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
         return {
           setName,
           limit: parseInt(checkbox?.dataset.limit || '10')
@@ -188,7 +188,7 @@ LaTeX Files
       for (let i = 0; i < count; i++) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(\`\${entry.setName}: \${n}\`);
+        list.push(`${entry.setName}: ${n}`);
       }
     }
 
@@ -254,23 +254,25 @@ LaTeX Files
     displayNext();
   }
 
-  // Safe to bind immediately, works in Markdown/Jekyll
-  document.querySelectorAll('.category').forEach(radio => {
-    radio.addEventListener('change', () => {
-      const sets = expandCategory(radio.dataset.category);
-      document.querySelectorAll('.item').forEach(cb => {
-        cb.checked = sets.includes(cb.value);
+  window.addEventListener('load', function () {
+    document.querySelectorAll('.category').forEach(radio => {
+      radio.addEventListener('change', () => {
+        const sets = expandCategory(radio.dataset.category);
+        document.querySelectorAll('.item').forEach(cb => {
+          cb.checked = sets.includes(cb.value);
+        });
       });
     });
-  });
 
-  document.querySelectorAll('.item').forEach(cb => {
-    cb.addEventListener('change', () => {
-      document.querySelectorAll('.category').forEach(r => r.checked = false);
+    document.querySelectorAll('.item').forEach(cb => {
+      cb.addEventListener('change', () => {
+        document.querySelectorAll('.category').forEach(r => r.checked = false);
+      });
     });
-  });
 
-  // Run toggle immediately in case the checkbox is already active
-  togglePerItemInput();
+    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
+
+    togglePerItemInput();
+  });
 </script>
 {% endraw %}
