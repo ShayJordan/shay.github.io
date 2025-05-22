@@ -154,7 +154,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </div>
 
 <div class="form-section">
-  <br><label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
+  <label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
     <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
   </div>
