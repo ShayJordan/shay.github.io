@@ -58,64 +58,64 @@ LaTeX Files
 
 <div class="form-section">
   <strong>Choose a rank category:</strong><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="white">White</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="yellow">Yellow</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="blue">Blue</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="red">Red</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="brown">Brown</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="dbn">DBN</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="jkn">JKN</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="ksn">KSN</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="psbn">PSBN</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="white">White Belt</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="yellow">Yellow Belt</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="blue">Blue Belt</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="red">Red Belt</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="brown">Brown Belt</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="dbn">Dahn Bo Nim</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="jkn">Jo Kyo Nim</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="ksn">Kyo Sa Nim</label><br>
+  <label class="inline-label"><input type="radio" name="category" class="category" data-category="psbn">Pu Sa Bum Nim</label><br>
 </div>
 
 <div class="form-section">
   <strong>Or choose individual sets:</strong><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Sohn Ppae Ki" data-limit="10">Sohn Ppae Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ki Bohn Soo" data-limit="15">Ki Bohn Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Sohn Mohk Soo" data-limit="14">Sohn Mohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Eui Bohk Soo" data-limit="12">Eui Bohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ahn Sohn Mohk Soo" data-limit="8">Ahn Sohn Mohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Maek Chi Ki" data-limit="15">Maek Chi Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Maek Cha Ki" data-limit="10">Maek Cha Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Joo Muhk Maga Ki Bohn Soo" data-limit="10">Joo Muhk Maga Ki Bohn Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Joong Geup Sohn Mohk Soo" data-limit="10">Joong Geup Sohn Mohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ahp Eui Bohk Soo" data-limit="10">Ahp Eui Bohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Dee Eui Bohk Soo" data-limit="10">Dee Eui Bohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Kwahn Juhl Ki" data-limit="10">Kwahn Juhl Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Too Ki" data-limit="10">Too Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Mohk Joh Leu Ki" data-limit="10">Mohk Joh Leu Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Bahn Too Ki" data-limit="10">Bahn Too Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Yahng Sohn Mohk Soo" data-limit="10">Yahng Sohn Mohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ssahng Soo" data-limit="10">Ssahng Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Dahn Doh Mahk Ki" data-limit="10">Dahn Doh Mahk Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ki Bohn Bohn" data-limit="10">Ki Bohn Bohn</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Gahk Doh Bub" data-limit="10">Gahk Doh Bub</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Juhn Hwahn Bub" data-limit="10">Juhn Hwahn Bub</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Goh Geup Sohn Mohk Soo" data-limit="10">Goh Geup Sohn Mohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Goh Geup Eui Bohk Soo" data-limit="10">Goh Geup Eui Bohk Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Jah Ki" data-limit="10">Jah Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Wah Ki" data-limit="10">Wah Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Ee In Jeh Ahp Sool" data-limit="10">Ee In Jeh Ahp Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Jahp Ki" data-limit="10">Jahp Ki</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Johk Bahng Uh Sool" data-limit="10">Johk Bahng Uh Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Keun Dae Ryuhn" data-limit="10">Keun Dae Ryuhn</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Jee Ahp Sool" data-limit="10">Jee Ahp Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Yuhn Heng Sool" data-limit="10">Yuhn Heng Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Po Bahk Sool" data-limit="10">Po Bahk Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Jee Peng Ee Sool" data-limit="10">Jee Peng Ee Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Pyhung Soo" data-limit="10">Pyhung Soo</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Bu Chae Sool" data-limit="10">Bu Chae Sool</label><br>
-  <label class="inline-label"><input type="checkbox" class="item" value="Bahk Sool" data-limit="10">Bahk Sool</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="13" value="Eui Bohk Soo"> Eui Bohk Soo (13)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="6" value="Ahn Sohn Mohk Soo"> Ahn Sohn Mohk Soo (6)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Maek Chi Ki"> Maek Chi Ki (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Maek Cha Ki"> Maek Cha Ki (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Joo Muhk Maga Ki Bohn Soo"> Joo Muhk Maga Ki Bohn Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="7" value="Joong Geup Sohn Mohk Soo"> Joong Geup Sohn Mohk Soo (7)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="20" value="Ahp Eui Bohk Soo"> Ahp Eui Bohk Soo (20)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="23" value="Dee Eui Bohk Soo"> Dee Eui Bohk Soo (23)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="13" value="Kwahn Juhl Ki"> Kwahn Juhl Ki (13)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="13" value="Too Ki"> Too Ki (13)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Mohk Joh Leu Ki"> Mohk Joh Leu Ki (5)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Bahn Too Ki"> Bahn Too Ki (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Yahng Sohn Mohk Soo"> Yahng Sohn Mohk Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Ssahng Soo"> Ssahng Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Dahn Doh Mahk Ki"> Dahn Doh Mahk Ki (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Ki Bohn Bohn"> Ki Bohn Bohn (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Gahk Doh Bub"> Gahk Doh Bub (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Juhn Hwahn Bub"> Juhn Hwahn Bub (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Goh Geup Sohn Mohk Soo"> Goh Geup Sohn Mohk Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Goh Geup Eui Bohk Soo"> Goh Geup Eui Bohk Soo (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Jah Ki"> Jah Ki (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Wah Ki"> Wah Ki (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Ee In Jeh Ahp Sool"> Ee In Jeh Ahp Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="20" value="Jahp Ki"> Jahp Ki (20)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Johk Bahng Uh Sool"> Johk Bahng Uh Sool (15)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Keun Dae Ryuhn"> Keun Dae Ryuhn (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Jee Ahp Sool"> Jee Ahp Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Yuhn Heng Sool"> Yuhn Heng Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Po Bahk Sool"> Po Bahk Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Jee Peng Ee Sool"> Jee Peng Ee Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Pyhung Soo"> Pyhung Soo (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Bu Chae Sool"> Bu Chae Sool (10)</label><br>
+  <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Bahk Sool"> Bahk Sool (10)</label><br>
 </div>
 
 <div class="form-section">
   <label><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
-    <label>Number of techniques total: <input type="number" id="numberToGenerate" min="1" value="5"></label>
+    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
   </div>
   <div id="perItemInputs" style="display:none;">
-    <label>Number per selected set: <input type="number" id="perItemCount" min="1" value="2"></label>
+    <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
   </div>
   <label><input type="checkbox" id="randomOrder" checked> Randomise order</label><br><br>
   <button onclick="startGeneration()">Start</button>
