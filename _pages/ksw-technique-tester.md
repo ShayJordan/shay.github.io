@@ -223,7 +223,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
         shuffle(availableNumbers);
         for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
-          list.push(`${setName}: ${availableNumbers[i]}`);
+        list.push(`${setName}: ${availableNumbers[i]}`);
         }
       });
     } else {
@@ -264,19 +264,16 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     } else {
       output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
-      document.getElementById('start-button').style.display = 'block'; // 👈 Show the Start button again
     }
   }
 
   function startGeneration() {
     currentIndex = 0;
     document.getElementById('summary').innerHTML = '';
-    document.getElementById('start-button').style.display = 'none'; // 👈 Hide the Start button
 
     const selectedItems = gatherSelectedItems();
     if (!selectedItems.length) {
       alert("Select at least one set of techniques.");
-      document.getElementById('start-button').style.display = 'block'; // 👈 Show again on error
       return;
     }
 
@@ -284,7 +281,6 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
     if (isNaN(count) || count < 1) {
       alert("Enter a valid number.");
-      document.getElementById('start-button').style.display = 'block'; // 👈 Show again on error
       return;
     }
 
@@ -310,34 +306,35 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
   window.addEventListener('load', function () {
     document.getElementById('categorySelect').addEventListener('change', function () {
-      const selected = this.value;
-      const sets = selected ? expandCategory(selected) : [];
-      document.querySelectorAll('.item').forEach(cb => {
-        cb.checked = sets.includes(cb.value);
-      });
+        const selected = this.value;
+        const sets = selected ? expandCategory(selected) : [];
+        document.querySelectorAll('.item').forEach(cb => {
+            cb.checked = sets.includes(cb.value);
+        });
     });
 
     document.querySelectorAll('.item').forEach(cb => {
-      cb.addEventListener('change', () => {
-        const selected = Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value).sort().join('|');
-        let matched = false;
-
-        for (const key in categoryMap) {
-          const items = expandCategory(key).sort().join('|');
-          if (items === selected) {
-            document.getElementById('categorySelect').value = key;
-            matched = true;
-            break;
-          }
-        }
-
-        if (!matched) {
-          document.getElementById('categorySelect').value = '';
-        }
-      });
+        cb.addEventListener('change', () => {
+            const selected = Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value).sort().join('|');
+            let matched = false;
+        
+            for (const key in categoryMap) {
+            const items = expandCategory(key).sort().join('|');
+            if (items === selected) {
+                document.getElementById('categorySelect').value = key;
+                matched = true;
+                break;
+            }
+            }
+        
+            if (!matched) {
+            document.getElementById('categorySelect').value = '';
+            }
+        });
     });
 
     document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
+
     togglePerItemInput();
   });
 </script>
