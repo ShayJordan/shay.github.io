@@ -68,7 +68,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     font-size: 1.4em;
     padding: 15px 30px;
     cursor: pointer;
-    margin: 15px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .form-section {
