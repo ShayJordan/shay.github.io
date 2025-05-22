@@ -276,7 +276,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const selectedItems = gatherSelectedItems();
     if (!selectedItems.length) {
       alert("Select at least one set of techniques.");
-      document.getElementById('start-button').style.display = 'block'; // Show it back if error
+      document.getElementById('start-button').style.display = 'block';
       return;
     }
 
@@ -284,7 +284,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
     if (isNaN(count) || count < 1) {
       alert("Enter a valid number.");
-      document.getElementById('start-button').style.display = 'block'; // Show it back if error
+      document.getElementById('start-button').style.display = 'block';
       return;
     }
 
@@ -308,7 +308,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     displayNext();
   }
 
-  window.addEventListener('load', function () {
+  window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('categorySelect').addEventListener('change', function () {
       const selected = this.value;
       const sets = selected ? expandCategory(selected) : [];
@@ -338,7 +338,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     });
 
     document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
-    togglePerItemInput(); // Initialize on load
+    togglePerItemInput();
   });
 </script>
 {% endraw %}
