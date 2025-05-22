@@ -75,15 +75,16 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   .checkbox-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
-    gap: 10px 40px;                        /* Row gap, column gap */
+    column-count: 2;
+    column-gap: 40px;
+    max-width: 100%;
   }
-
+  
   .checkbox-grid label {
-    display: flex;
-    align-items: flex-start;
-    gap: 8px;
+    display: flex;                /* Keep checkbox + text on same line */
+    align-items: center;
+    break-inside: avoid;         /* Prevent splitting across columns */
+    margin-bottom: 6px;
   }
   
   /* Mobile: switch to 1 column below 600px */
@@ -114,7 +115,6 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 <div class="form-section">
   <strong>Or Select Specific Sets</strong><br><br>
   <div class="checkbox-grid">
-      <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label><br>
       <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label><br>
       <label class="inline-label"><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label><br>
       <label class="inline-label"><input type="checkbox" class="item" data-limit="13" value="Eui Bohk Soo"> Eui Bohk Soo (13)</label><br>
@@ -180,7 +180,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
 <script>
   const categoryMap = {
-    white: ['Sohn Ppae Ki', 'Ki Bohn Soo'],
+    white: ['Ki Bohn Soo'],
     yellow: ['white', 'Sohn Mohk Soo'],
     blue: ['yellow', 'Eui Bohk Soo'],
     red: ['blue', 'Ahn Sohn Mohk Soo', 'Maek Chi Ki'],
