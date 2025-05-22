@@ -174,7 +174,7 @@ LaTeX Files
         const limit = parseInt(checkbox?.dataset.limit || '10');
         for (let i = 0; i < count; i++) {
           const n = Math.floor(Math.random() * limit) + 1;
-          list.push(`${setName}: ${n}`);
+          list.push(`${setName} ${n}`);
         }
       });
     } else {
@@ -189,7 +189,7 @@ LaTeX Files
       for (let i = 0; i < count; i++) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(`${entry.setName}: ${n}`);
+        list.push(`${entry.setName} ${n}`);
       }
     }
 
