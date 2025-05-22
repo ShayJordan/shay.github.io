@@ -56,20 +56,55 @@ LaTeX Files
 
 	<div class="category-list">
 	  <strong>Categories (select one):</strong>
-	  <label><input type="radio" name="category" class="category" data-category="upper"> Upper Body</label>
-	  <label><input type="radio" name="category" class="category" data-category="core"> Core</label>
-	  <label><input type="radio" name="category" class="category" data-category="strength"> Strength (Upper + Core)</label>
-	  <label><input type="radio" name="category" class="category" data-category="all"> Select All</label>
+	  <label><input type="radio" name="category" class="category" data-category="white"> White Belt</label>
+	  <label><input type="radio" name="category" class="category" data-category="yellow"> Yellow Belt</label>
+	  <label><input type="radio" name="category" class="category" data-category="blue"> Blue Belt</label>
+	  <label><input type="radio" name="category" class="category" data-category="red"> Red Belt</label>
+	  <label><input type="radio" name="category" class="category" data-category="brown"> Brown Belt</label>
+	  <label><input type="radio" name="category" class="category" data-category="dbn"> Dahn Bo Nim</label>
+	  <label><input type="radio" name="category" class="category" data-category="jkn"> Jo Kyo Nim</label>
+	  <label><input type="radio" name="category" class="category" data-category="ksn"> Kyo Sa Nim</label>
+	  <label><input type="radio" name="category" class="category" data-category="psbn"> Pu Sa Bum Nim</label>
 	</div>
 
 	<div class="item-list">
 	  <strong>Items:</strong>
-	  <label><input type="checkbox" class="item" data-limit="5" value="Push-ups"> Push-ups (limit 5)</label>
-	  <label><input type="checkbox" class="item" data-limit="10" value="Squats"> Squats (limit 10)</label>
-	  <label><input type="checkbox" class="item" data-limit="3" value="Burpees"> Burpees (limit 3)</label>
-	  <label><input type="checkbox" class="item" data-limit="8" value="Sit-ups"> Sit-ups (limit 8)</label>
-	  <label><input type="checkbox" class="item" data-limit="6" value="Plank"> Plank (limit 6)</label>
-	  <label><input type="checkbox" class="item" data-limit="7" value="Pull-ups"> Pull-ups (limit 7)</label>
+	  <label><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label>
+	  <label><input type="checkbox" class="item" data-limit="13" value="Eui Bohk Soo"> Eui Bohk Soo (13)</label>
+	  <label><input type="checkbox" class="item" data-limit="6" value="Ahn Sohn Mohk Soo"> Ahn Sohn Mohk Soo (6)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Maek Chi Ki"> Maek Chi Ki (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Maek Cha Ki"> Maek Cha Ki (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Joo Muhk Maga Ki Bohn Soo"> Joo Muhk Maga Ki Bohn Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="7" value="Joong Geup Sohn Mohk Soo"> Joong Geup Sohn Mohk Soo (7)</label>
+	  <label><input type="checkbox" class="item" data-limit="20" value="Ahp Eui Bohk Soo"> Ahp Eui Bohk Soo (20)</label>
+	  <label><input type="checkbox" class="item" data-limit="23" value="Dee Eui Bohk Soo"> Dee Eui Bohk Soo (23)</label>
+	  <label><input type="checkbox" class="item" data-limit="13" value="Kwahn Juhl Ki"> Kwahn Juhl Ki (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="13" value="Too Ki"> Too Ki (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="5" value="Mohk Joh Leu Ki"> Mohk Joh Leu Ki (5)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Bahn Too Ki"> Bahn Too Ki (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Yahng Sohn Mohk Soo"> Yahng Sohn Mohk Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Ssahng Soo"> Ssahng Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Dahn Doh Mahk Ki"> Dahn Doh Mahk Ki (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Ki Bohn Bohn"> Ki Bohn Bohn (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Gahk Doh Bub"> Gahk Doh Bub (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Juhn Hwahn Bub"> Juhn Hwahn Bub (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Goh Geup Sohn Mohk Soo"> Goh Geup Sohn Mohk Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Goh Geup Eui Bohk Soo"> Goh Geup Eui Bohk Soo (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Jah Ki"> Jah Ki (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Wah Ki"> Wah Ki (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Ee In Jeh Ahp Sool"> Ee In Jeh Ahp Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="20" value="Jahp Ki"> Jahp Ki (20)</label>
+	  <label><input type="checkbox" class="item" data-limit="15" value="Johk Bahng Uh Sool"> Johk Bahng Uh Sool (15)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Keun Dae Ryuhn"> Keun Dae Ryuhn (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Jee Ahp Sool"> Jee Ahp Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Yuhn Heng Sool"> Yuhn Heng Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Po Bahk Sool"> Po Bahk Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Jee Peng Ee Sool"> Jee Peng Ee Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Pyhung Soo"> Pyhung Soo (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Bu Chae Sool"> Bu Chae Sool (10)</label>
+	  <label><input type="checkbox" class="item" data-limit="10" value="Bahk Sool"> Bahk Sool (10)</label>
 	</div>
 
 	<label>
@@ -103,12 +138,15 @@ LaTeX Files
 
 	<script>
 	  const categoryMap = {
-		upper: ['Push-ups', 'Pull-ups'],
-		core: ['Sit-ups', 'Plank'],
-		lower: ['Squats'],
-		full: ['Burpees'],
-		strength: ['upper', 'core'],
-		all: ['strength', 'lower', 'full']
+		white: ['Sohn Ppae Ki', 'Ki Bohn Soo'],
+		yellow: ['white', 'Sohn Mohk Soo'],
+		blue: ['yellow', 'Eui Bohk Soo'],
+		red: ['blue', 'Ahn Sohn Mohk Soo', 'Maek Chi Ki'],
+		brown: ['red', 'Maek Cha Ki', 'Joo Muhk Maga Ki Bohn Soo'],
+		dbn: ['brown', 'Joong Geup Sohn Mohk Soo', 'Ahp Eui Bohk Soo', 'Dee Eui Bohk Soo', 'Kwahn Juhl Ki', 'Too Ki', 'Mohk Joh Leu Ki', 'Bahn Too Ki', 'Yahng Sohn Mohk Soo', 'Ssahng Soo', 'Dahn Doh Mahk Ki'],
+		jkn: ['dbn', 'Ki Bohn Bohn', 'Gahk Doh Bub', 'Juhn Hwahn Bub', 'Goh Geup Sohn Mohk Soo', 'Goh Geup Eui Bohk Soo', 'Jah Ki', 'Wah Ki', 'Ee In Jeh Ahp Sool', 'Jahp Ki', 'Johk Bahng Uh Sool', 'Keun Dae Ryuhn']
+		ksn: ['jkn', 'Jee Ahp Sool', 'Yuhn Heng Sool', 'Po Bahk Sool', 'Jee Peng Ee Sool']
+		psbn: ['ksn', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool']
 	  };
 
 	  function getItemsInCategory(category, visited = new Set()) {
