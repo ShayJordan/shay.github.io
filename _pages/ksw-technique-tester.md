@@ -75,16 +75,15 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   .checkbox-grid {
-    column-count: 2;
-    column-gap: 40px;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 10px 40px;                        /* Row gap, column gap */
   }
-  
+
   .checkbox-grid label {
-    display: flex;                /* Keep checkbox + text on same line */
+    display: flex;
     align-items: flex-start;
-    break-inside: avoid;         /* Prevent splitting across columns */
-    margin-bottom: 6px;
+    gap: 8px;
   }
   
   /* Mobile: switch to 1 column below 600px */
