@@ -212,7 +212,7 @@ LaTeX Files
       output.textContent = currentList[currentIndex];
       document.getElementById('feedback-buttons').style.display = 'block';
     } else {
-      output.textContent = 'All items rated.';
+      output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
     }
   }
