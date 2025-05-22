@@ -76,7 +76,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </style>
 
 <div class="form-section">
-  <label for="categorySelect"><strong>Select Sets by Rank</strong></label><br><br>
+  <label for="categorySelect"><strong>Select Sets by Rank</strong></label><br>
   <select id="categorySelect">
     <option value="">-- Select a Rank --</option>
     <option value="white">White Belt</option>
