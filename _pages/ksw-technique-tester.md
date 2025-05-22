@@ -49,9 +49,6 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     font-size: 3em;
     padding: 20px 30px;
     cursor: pointer;
-    flex: 1 1 auto;
-    max-width: 100px;
-    min-width: 60px;
   }
 
   #summary {
@@ -295,5 +292,5 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   });
 </script>
 {% endraw %}
-**Important!** Whilst this resource is free to use, it costs me time and money to create and maintain. If you use this resource, a small donation to support its creator would be greatly appreciated. [Click here to donate via PayPal](https://paypal.me/sh4y).
+**Notice:** Whilst this resource is free to use, it costs me time and money to create and maintain. If you use this resource, a small donation to support its upkeep would be greatly appreciated. [Click here to donate via PayPal](https://paypal.me/sh4y).
 {: .notice}
