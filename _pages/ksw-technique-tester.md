@@ -14,6 +14,40 @@ LaTeX Files
 {: .notice}
 
 {% raw %}
+<style>
+  #output {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    min-height: 3em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #feedback-buttons {
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  #feedback-buttons button {
+    font-size: 2.5rem;
+    margin: 0 1em;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: transform 0.15s ease;
+  }
+
+  #feedback-buttons button:hover {
+    transform: scale(1.3);
+  }
+
+  #summary {
+    margin-top: 1.5em;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+</style>
+
 <div style="max-width:auto; margin:auto;">
 
   <h2>Random Item Generator</h2>
@@ -93,13 +127,12 @@ LaTeX Files
 
   <div id="output"></div>
 
-  <div id="feedback-buttons" style="text-align: center; display: none;">
-    <button onclick="rateItem('correct')">👍</button>
-    <button onclick="rateItem('incorrect')">👎</button>
+  <div id="feedback-buttons" style="display: none;">
+    <button id="btn-correct" aria-label="Mark as correct">👍</button>
+    <button id="btn-incorrect" aria-label="Mark as incorrect">👎</button>
   </div>
 
   <div id="summary"></div>
-
 </div>
 
 <script>
