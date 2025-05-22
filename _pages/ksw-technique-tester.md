@@ -54,7 +54,7 @@ LaTeX Files
 	<h2>Random Item Generator</h2>
 
 	<div class="category-list">
-	  <strong>Categories (select one):</strong>
+	  <strong>Select Sets by Rank</strong>
 	  <label><input type="radio" name="category" class="category" data-category="white"> White Belt</label>
 	  <label><input type="radio" name="category" class="category" data-category="yellow"> Yellow Belt</label>
 	  <label><input type="radio" name="category" class="category" data-category="blue"> Blue Belt</label>
@@ -67,7 +67,7 @@ LaTeX Files
 	</div>
 
 	<div class="item-list">
-	  <strong>Items:</strong>
+	  <strong>or Select Specific Sets</strong>
 	  <label><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label>
 	  <label><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label>
 	  <label><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label>
@@ -107,10 +107,10 @@ LaTeX Files
 	</div>
 
 	<label>
-	  <input type="checkbox" id="perItemMode" onchange="togglePerItemInput()"> Generate multiple numbers per item
+	  <input type="checkbox" id="perItemMode" onchange="togglePerItemInput()"> Generate specific number of techniques per set
 	</label>
 	<div id="perItemInputs" style="display: none;">
-	  <label>How many numbers per item:
+	  <label>How many techniques per set?
 		<input type="number" id="perItemCount" min="1" value="1">
 	  </label>
 	  <label>
@@ -119,7 +119,7 @@ LaTeX Files
 	</div>
 
 	<div id="singleCountInput">
-	  <label for="numberToGenerate">How many items to generate:</label>
+	  <label for="numberToGenerate">How many techniques?</label>
 	  <input type="number" id="numberToGenerate" min="1" value="1">
 	</div>
 
