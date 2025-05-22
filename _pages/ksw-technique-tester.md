@@ -171,21 +171,44 @@ LaTeX Files
   function buildTechniqueList(sets, count, perMode) {
     const list = [];
 
-    sets.forEach(setName => {
-      const checkbox = document.querySelector(`.item[value="${setName}"]`);
-      const limit = parseInt(checkbox?.dataset.limit || '10');
+    if (perMode) {
+      // Per set: select `count` unique numbers per set (or up to the set's limit)
+      sets.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        const limit = parseInt(checkbox?.dataset.limit || '10');
 
-      if (perMode) {
         const howMany = Math.min(count, limit);
         const numbers = Array.from({ length: limit }, (_, i) => i + 1);
         shuffle(numbers);
-        const chosen = numbers.slice(0, howMany);
-        chosen.forEach(n => list.push(`${setName}: ${n}`));
-      } else {
-        const randomNum = Math.floor(Math.random() * limit) + 1;
-        list.push(`${setName}: ${randomNum}`);
-      }
-    });
+
+        numbers.slice(0, howMany).forEach(n => {
+          list.push(`${setName}: ${n}`);
+        });
+      });
+    } else {
+      // Total mode: select `count` items from selected sets
+      const expanded = [];
+
+      sets.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        const limit = parseInt(checkbox?.dataset.limit || '10');
+
+        for (let i = 0; i < limit; i++) {
+          expanded.push(setName); // just replicate the set name
+        }
+      });
+
+      // Now select `count` entries from the expanded pool
+      shuffle(expanded);
+      const selected = expanded.slice(0, count);
+
+      selected.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        const limit = parseInt(checkbox?.dataset.limit || '10');
+        const n = Math.floor(Math.random() * limit) + 1;
+        list.push(`${setName}: ${n}`);
+      });
+    }
 
     return list;
   }
