@@ -13,9 +13,6 @@ LaTeX Files
 **Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
 {: .notice}
 
-
-{% raw %}
-<div style="max-width:auto; margin:auto;">
 	<html lang="en">
 	<head>
 	  <meta charset="UTF-8">
@@ -315,5 +312,3 @@ LaTeX Files
 
 	</body>
 	</html>
-</div>
-{% endraw %}
