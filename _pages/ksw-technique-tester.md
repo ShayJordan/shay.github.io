@@ -64,10 +64,11 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   #start-button {
-    font-size: 1.5em;
+    display: block;
+    font-size: 1.4em;
     padding: 15px 30px;
     cursor: pointer;
-    margin-top: 15px;
+    margin: 15px auto;
   }
 
   .form-section {
