@@ -168,33 +168,27 @@ LaTeX Files
     return Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value);
   }
 
-  function buildTechniqueList(sets, perSet, perMode) {
-	  const list = [];
+  function buildTechniqueList(sets, count, perMode) {
+    const list = [];
 
-	  sets.forEach(setName => {
-		const checkbox = document.querySelector(`.item[value="${setName}"]`);
-		const limit = parseInt(checkbox?.dataset.limit || 10);
+    sets.forEach(setName => {
+      const checkbox = document.querySelector(`.item[value="${setName}"]`);
+      const limit = parseInt(checkbox?.dataset.limit || '10');
 
-		let count = perMode ? Math.min(perSet, limit) : 1;
+      if (perMode) {
+        const howMany = Math.min(count, limit);
+        const numbers = Array.from({ length: limit }, (_, i) => i + 1);
+        shuffle(numbers);
+        const chosen = numbers.slice(0, howMany);
+        chosen.forEach(n => list.push(`${setName}: ${n}`));
+      } else {
+        const randomNum = Math.floor(Math.random() * limit) + 1;
+        list.push(`${setName}: ${randomNum}`);
+      }
+    });
 
-		// Generate array [1, 2, ..., limit]
-		const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-
-		// Shuffle numbers
-		const shuffled = shuffle(availableNumbers);
-
-		// Take only as many as needed
-		const selectedNumbers = shuffled.slice(0, count);
-
-		// Add formatted items to list
-		selectedNumbers.forEach(n => {
-		  list.push(`${setName} #${n}`);
-		});
-	  });
-
-	  return list;
-	}
-
+    return list;
+  }
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
