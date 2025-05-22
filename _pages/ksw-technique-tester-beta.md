@@ -15,11 +15,13 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   .correct {
     color: green;
     font-weight: bold;
+    text-align: left;
   }
 
   .incorrect {
     color: red;
     font-weight: bold;
+    text-align: right;
   }
 
   .inline-label {
