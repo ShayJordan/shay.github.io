@@ -76,16 +76,19 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </style>
 
 <div class="form-section">
-  <strong>Select Sets by Rank</strong><br><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="white">White Belt</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="yellow">Yellow Belt</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="blue">Blue Belt</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="red">Red Belt</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="brown">Brown Belt</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="dbn">Dahn Bo Nim</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="jkn">Jo Kyo Nim</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="ksn">Kyo Sa Nim</label><br>
-  <label class="inline-label"><input type="radio" name="category" class="category" data-category="psbn">Pu Sa Bum Nim</label><br>
+  <label for="categorySelect"><strong>Select Sets by Rank</strong></label><br><br>
+  <select id="categorySelect">
+    <option value="">-- Select a Rank --</option>
+    <option value="white">White Belt</option>
+    <option value="yellow">Yellow Belt</option>
+    <option value="blue">Blue Belt</option>
+    <option value="red">Red Belt</option>
+    <option value="brown">Brown Belt</option>
+    <option value="dbn">Dahn Bo Nim</option>
+    <option value="jkn">Jo Kyo Nim</option>
+    <option value="ksn">Kyo Sa Nim</option>
+    <option value="psbn">Pu Sa Bum Nim</option>
+  </select>
 </div>
 
 <div class="form-section">
@@ -143,7 +146,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
 <div id="output"></div>
 
-<div id="feedback-buttons" style="display: none;">
+<div id="feedback-buttons" style="text-align: center; display: none;">
   <button onclick="rateItem('correct')">👍</button>
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
@@ -274,19 +277,32 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   window.addEventListener('load', function () {
-    document.querySelectorAll('.category').forEach(radio => {
-      radio.addEventListener('change', () => {
-        const sets = expandCategory(radio.dataset.category);
+    document.getElementById('categorySelect').addEventListener('change', function () {
+        const selected = this.value;
+        const sets = selected ? expandCategory(selected) : [];
         document.querySelectorAll('.item').forEach(cb => {
-          cb.checked = sets.includes(cb.value);
+            cb.checked = sets.includes(cb.value);
         });
-      });
     });
 
     document.querySelectorAll('.item').forEach(cb => {
-      cb.addEventListener('change', () => {
-        document.querySelectorAll('.category').forEach(r => r.checked = false);
-      });
+        cb.addEventListener('change', () => {
+            const selected = Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value).sort().join('|');
+            let matched = false;
+        
+            for (const key in categoryMap) {
+            const items = expandCategory(key).sort().join('|');
+            if (items === selected) {
+                document.getElementById('categorySelect').value = key;
+                matched = true;
+                break;
+            }
+            }
+        
+            if (!matched) {
+            document.getElementById('categorySelect').value = '';
+            }
+        });
     });
 
     document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
