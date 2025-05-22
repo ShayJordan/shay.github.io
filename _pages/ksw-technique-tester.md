@@ -37,7 +37,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   #feedback-buttons {
-    display: none;
+    display: flex;
     justify-content: center;       /* Center items horizontally */
     align-items: center;           /* Align vertically (optional) */
     gap: 20px;                     /* Space between buttons */
@@ -143,7 +143,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
 <div id="output"></div>
 
-<div id="feedback-buttons">
+<div id="feedback-buttons" style="display: none;">
   <button onclick="rateItem('correct')">👍</button>
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
@@ -229,8 +229,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     const output = document.getElementById('output');
     if (currentIndex < currentList.length) {
       output.textContent = currentList[currentIndex];
-      const fb = document.getElementById('feedback-buttons');
-      fb.style.display = 'flex'; // Flex layout preserves centering
+      document.getElementById('feedback-buttons').style.display = 'block';
     } else {
       output.textContent = 'Summary';
       document.getElementById('feedback-buttons').style.display = 'none';
