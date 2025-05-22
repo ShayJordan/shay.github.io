@@ -174,9 +174,22 @@ LaTeX Files
       const checkbox = document.querySelector(`.item[value="${setName}"]`);
       const limit = parseInt(checkbox?.dataset.limit || 10);
       const count = perMode ? Math.min(perSet, limit) : 1;
-      for (let i = 1; i <= count; i++) {
-        list.push(`${setName} #${i}`);
-      }
+      function buildTechniqueList(sets, perSet, perMode) {
+		  const list = [];
+		  sets.forEach(setName => {
+			const checkbox = document.querySelector(`.item[value="${setName}"]`);
+			const limit = parseInt(checkbox?.dataset.limit || 10);
+			const count = perMode ? Math.min(perSet, limit) : 1;
+
+			const nums = Array.from({ length: limit }, (_, i) => i + 1); // [1, 2, ..., limit]
+			shuffle(nums); // shuffle the list
+			const selectedNums = nums.slice(0, count); // take the first 'count' items
+
+			selectedNums.forEach(n => list.push(`${setName} #${n}`));
+		  });
+		  return list;
+  }
+
     });
     return list;
   }
