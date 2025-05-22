@@ -41,14 +41,13 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     justify-content: center;
     gap: 20px;
     flex-wrap: nowrap;
-    flex-direction: row;
     align-items: center;
     margin-top: 20px;
   }
 
   #feedback-buttons button {
-    font-size: 2.5em;
-    padding: 10px 20px;
+    font-size: 3em;
+    padding: 20px 30px;
     cursor: pointer;
     flex: 1 1 auto;
     max-width: 100px;
@@ -133,7 +132,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 <div class="form-section">
   <label class="inline-label"><input type="checkbox" id="perItemMode" onclick="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
   <div id="singleCountInput">
-    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="5"></label>
+    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
   </div>
   <div id="perItemInputs" style="display:none;">
     <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
