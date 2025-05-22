@@ -57,7 +57,7 @@ LaTeX Files
 </style>
 
 <div class="form-section">
-  <strong>Choose a rank category:</strong><br>
+  <strong>Select Sets by Rank</strong><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="white">White Belt</label><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="yellow">Yellow Belt</label><br>
   <label class="inline-label"><input type="radio" name="category" class="category" data-category="blue">Blue Belt</label><br>
@@ -70,7 +70,7 @@ LaTeX Files
 </div>
 
 <div class="form-section">
-  <strong>Or choose individual sets:</strong><br>
+  <strong>Or Select Specific Sets</strong><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Sohn Ppae Ki"> Sohn Ppae Ki (5)</label><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="15" value="Ki Bohn Soo"> Ki Bohn Soo (15)</label><br>
   <label class="inline-label"><input type="checkbox" class="item" data-limit="11" value="Sohn Mohk Soo"> Sohn Mohk Soo (11)</label><br>
