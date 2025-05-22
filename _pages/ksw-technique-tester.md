@@ -270,8 +270,7 @@ LaTeX Files
       });
     });
 
-    togglePerItemInput(); // show/hide on load
+    togglePerItemInput(); // show/hide input fields on load
   });
 </script>
-
 {% endraw %}
