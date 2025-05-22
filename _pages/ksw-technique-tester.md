@@ -161,9 +161,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     red: ['blue', 'Ahn Sohn Mohk Soo', 'Maek Chi Ki'],
     brown: ['red', 'Maek Cha Ki', 'Joo Muhk Maga Ki Bohn Soo'],
     dbn: ['brown', 'Joong Geup Sohn Mohk Soo', 'Ahp Eui Bohk Soo', 'Dee Eui Bohk Soo', 'Kwahn Juhl Ki', 'Too Ki', 'Mohk Joh Leu Ki', 'Bahn Too Ki', 'Yahng Sohn Mohk Soo', 'Ssahng Soo', 'Dahn Doh Mahk Ki'],
-    jkn: ['dbn', 'Ki Bohn Bohn', 'Gahk Doh Bub', 'Juhn Hwahn Bub', 'Goh Geup Sohn Mohk Soo', 'Goh Geup Eui Bohk Soo', 'Jah Ki', 'Wah Ki', 'Ee In Jeh Ahp Sool'],
-    ksn: ['jkn', 'Jahp Ki', 'Johk Bahng Uh Sool', 'Keun Dae Ryuhn', 'Jee Ahp Sool', 'Yuhn Heng Sool', 'Po Bahk Sool'],
-    psbn: ['ksn', 'Jee Peng Ee Sool', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool']
+    jkn: ['dbn', 'Ki Bohn Bohn', 'Gahk Doh Bub', 'Juhn Hwahn Bub', 'Goh Geup Sohn Mohk Soo', 'Goh Geup Eui Bohk Soo', 'Jah Ki', 'Wah Ki', 'Ee In Jeh Ahp Sool', 'Jahp Ki', 'Johk Bahng Uh Sool', 'Keun Dae Ryuhn'],
+    ksn: ['jkn', 'Jee Ahp Sool', 'Yuhn Heng Sool', 'Po Bahk Sool','Jee Peng Ee Sool'],
+    psbn: ['ksn', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool']
   };
 
   function expandCategory(cat, visited = new Set()) {
