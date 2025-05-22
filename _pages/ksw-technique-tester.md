@@ -170,46 +170,35 @@ LaTeX Files
 
   function buildTechniqueList(sets, count, perMode) {
     const list = [];
-
+  
     if (perMode) {
-      // Per set: select `count` unique numbers per set (or up to the set's limit)
+      // Per-set mode: generate `count` random numbers (1–limit) per set
       sets.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
-
-        const howMany = Math.min(count, limit);
-        const numbers = Array.from({ length: limit }, (_, i) => i + 1);
-        shuffle(numbers);
-
-        numbers.slice(0, howMany).forEach(n => {
+  
+        for (let i = 0; i < count; i++) {
+          const n = Math.floor(Math.random() * limit) + 1;
           list.push(`${setName}: ${n}`);
-        });
-      });
-    } else {
-      // Total mode: select `count` items from selected sets
-      const expanded = [];
-
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        const limit = parseInt(checkbox?.dataset.limit || '10');
-
-        for (let i = 0; i < limit; i++) {
-          expanded.push(setName); // just replicate the set name
         }
       });
-
-      // Now select `count` entries from the expanded pool
-      shuffle(expanded);
-      const selected = expanded.slice(0, count);
-
-      selected.forEach(setName => {
+    } else {
+      // Total mode: generate `count` total random outputs from all selected sets
+      const pool = [];
+  
+      sets.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
-        const n = Math.floor(Math.random() * limit) + 1;
-        list.push(`${setName}: ${n}`);
+        pool.push({ setName, limit });
       });
+  
+      for (let i = 0; i < count; i++) {
+        const entry = pool[Math.floor(Math.random() * pool.length)];
+        const n = Math.floor(Math.random() * entry.limit) + 1;
+        list.push(`${entry.setName}: ${n}`);
+      }
     }
-
+  
     return list;
   }
 
