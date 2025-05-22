@@ -108,6 +108,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     <option value="jkn">Jo Kyo Nim</option>
     <option value="ksn">Kyo Sa Nim</option>
     <option value="psbn">Pu Sa Bum Nim</option>
+    <option value="sbn">Sa Bum Nim</option>
   </select>
 </div>
 
@@ -150,6 +151,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Pyhung Soo"> Pyhung Soo (10)</label><br>
       <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Bu Chae Sool"> Bu Chae Sool (10)</label><br>
       <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Bahk Sool"> Bahk Sool (10)</label><br>
+      <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Ssahng Jee Ahp Sool"> Ssahng Jee Ahp Sool (10)</label><br>
+      <label class="inline-label"><input type="checkbox" class="item" data-limit="10" value="Chahl Sah Jahng"> Chahl Sah Jahng (10)</label><br>
+      <label class="inline-label"><input type="checkbox" class="item" data-limit="5" value="Bahng Wong Ki"> Bahng Wong Ki (5)</label><br>
   </div>
 </div>
 
@@ -185,7 +189,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     dbn: ['brown', 'Joong Geup Sohn Mohk Soo', 'Ahp Eui Bohk Soo', 'Dee Eui Bohk Soo', 'Kwahn Juhl Ki', 'Too Ki', 'Mohk Joh Leu Ki', 'Bahn Too Ki', 'Yahng Sohn Mohk Soo', 'Ssahng Soo', 'Dahn Doh Mahk Ki'],
     jkn: ['dbn', 'Ki Bohn Bohn', 'Gahk Doh Bub', 'Juhn Hwahn Bub', 'Goh Geup Sohn Mohk Soo', 'Goh Geup Eui Bohk Soo', 'Jah Ki', 'Wah Ki', 'Ee In Jeh Ahp Sool', 'Jahp Ki', 'Johk Bahng Uh Sool', 'Keun Dae Ryuhn'],
     ksn: ['jkn', 'Jee Ahp Sool', 'Yuhn Heng Sool', 'Po Bahk Sool','Jee Peng Ee Sool'],
-    psbn: ['ksn', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool']
+    psbn: ['ksn', 'Pyhung Soo', 'Bu Chae Sool', 'Bahk Sool'],
+    sbn: ['psbn','Ssahng Jee Ahp Sool', 'Chahl Sah Jahng', 'Bahng Wong Ki']
   };
 
   function expandCategory(cat, visited = new Set()) {
