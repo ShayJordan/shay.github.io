@@ -163,7 +163,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   </div>
   <div id="perItemInputs" style="display:none;">
     <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
-    <label class="inline-label"><input type="checkbox" id="randomOrder" checked> Randomise order</label>
+    <label class="inline-label"><input type="checkbox" id="randomOrder"> Randomise order of sets</label>
   </div>
   <br>
   <button onclick="startGeneration()">Start</button>
