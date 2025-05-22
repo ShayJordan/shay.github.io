@@ -118,8 +118,9 @@ LaTeX Files
   </div>
   <div id="perItemInputs" style="display:none;">
     <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
+    <label class="inline-label"><input type="checkbox" id="randomOrder" checked> Randomise order</label>
   </div>
-  <label class="inline-label"><input type="checkbox" id="randomOrder" checked> Randomise order</label><br><br>
+  <br><br>
   <button onclick="startGeneration()">Start</button>
 </div>
 
