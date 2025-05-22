@@ -77,7 +77,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   .checkbox-grid {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: auto auto;
     gap: 10px 40px;
     align-items: start;
   }
