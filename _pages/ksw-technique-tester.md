@@ -64,10 +64,11 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   #start-button {
-    font-size: 1.5em;
-    padding: 15px 30px;
+    display: block;
+    font-size: 2em;
+    padding: 18px 36px;
     cursor: pointer;
-    margin-top: 15px;
+    margin: 20px auto;
   }
 
   .form-section {
@@ -166,7 +167,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     <label class="inline-label"><input type="checkbox" id="randomOrder"> Randomise order of sets</label>
   </div>
   <br>
-  <button onclick="startGeneration()">Start</button>
+  <button id="start-button" onclick="startGeneration()">Start</button>
 </div>
 
 <div id="output"></div>
@@ -271,7 +272,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
     const selectedItems = gatherSelectedItems();
     if (!selectedItems.length) {
-      alert("Select at least one item or category.");
+      alert("Select at least one set of techniques.");
       return;
     }
 
