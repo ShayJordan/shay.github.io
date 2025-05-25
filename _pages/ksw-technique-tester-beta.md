@@ -223,56 +223,55 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function buildTechniqueList(sets, count, perMode) {
-    const list = [];
+      const list = [];
 
-    if (perMode) {
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        if (!checkbox) return;
+      if (perMode) {
+        sets.forEach(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          if (!checkbox) return;
 
-        const limit = parseInt(checkbox.dataset.limit || '10');
-        const allNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-        shuffle(allNumbers);
+          const limit = parseInt(checkbox.dataset.limit || '10');
+          const all = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
+          const usage = new Map(all.map(item => [item, 0]));
+
+          for (let i = 0; i < count; i++) {
+            const minUsage = Math.min(...usage.values());
+            const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+            const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+            usage.set(choice, usage.get(choice) + 1);
+            list.push(choice);
+          }
+        });
+      } else {
+        const pool = sets.map(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          return {
+            setName,
+            limit: parseInt(checkbox?.dataset.limit || '10')
+          };
+        });
+
+        const allCombinations = [];
+        pool.forEach(({ setName, limit }) => {
+          for (let i = 1; i <= limit; i++) {
+            allCombinations.push(`${setName} ${i}`);
+          }
+        });
+
+        const usage = new Map(allCombinations.map(item => [item, 0]));
 
         for (let i = 0; i < count; i++) {
-          if (i < allNumbers.length) {
-            list.push(`${setName} ${allNumbers[i]}`);
-          } else {
-            const fallback = Math.floor(Math.random() * limit) + 1;
-            list.push(`${setName} ${fallback}`);
-          }
-        }
-      });
-    } else {
-      const pool = sets.map(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        return {
-          setName,
-          limit: parseInt(checkbox?.dataset.limit || '10')
-        };
-      });
-
-      const allCombinations = [];
-      pool.forEach(entry => {
-        for (let i = 1; i <= entry.limit; i++) {
-          allCombinations.push(`${entry.setName} ${i}`);
-        }
-      });
-
-      shuffle(allCombinations);
-
-      for (let i = 0; i < count; i++) {
-        if (i < allCombinations.length) {
-          list.push(allCombinations[i]);
-        } else {
-          const randomEntry = allCombinations[Math.floor(Math.random() * allCombinations.length)];
-          list.push(randomEntry);
+          const minUsage = Math.min(...usage.values());
+          const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+          const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+          usage.set(choice, usage.get(choice) + 1);
+          list.push(choice);
         }
       }
-    }
 
-    return list;
+      return list;
   }
+
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
