@@ -223,61 +223,52 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function buildTechniqueList(sets, count, perMode) {
-    const list = [];
+      const list = [];
 
-    if (perMode) {
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        if (!checkbox) return; // Skip if not found
-  
-        const limit = parseInt(checkbox.dataset.limit || '10');
-        const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-  
-        if (count <= limit) {
-          shuffle(availableNumbers);
+      if (perMode) {
+        sets.forEach(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          if (!checkbox) return;
+
+          const limit = parseInt(checkbox.dataset.limit || '10');
+          const available = Array.from({ length: limit }, (_, i) => i + 1);
+
+          shuffle(available);
+
           for (let i = 0; i < count; i++) {
-            list.push(`${setName} ${availableNumbers[i]}`);
+            if (i < limit) {
+              list.push(`${setName} ${available[i]}`);
+            } else {
+              // Start allowing repeats
+              const random = Math.floor(Math.random() * limit) + 1;
+              list.push(`${setName} ${random}`);
+            }
           }
-        } else {
-          for (let i = 0; i < count; i++) {
-            const n = Math.floor(Math.random() * limit) + 1;
-            list.push(`${setName} ${n}`);
-          }
-        }
-      });
-    } else {
-      const pool = sets.map(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        if (!checkbox) return null;
-        return {
-          setName,
-          limit: parseInt(checkbox.dataset.limit || '10')
-        };
-      }).filter(Boolean); // remove any nulls
-  
-      const allCombinations = [];
-      pool.forEach(entry => {
-        for (let i = 1; i <= entry.limit; i++) {
-          allCombinations.push(`${entry.setName} ${i}`);
-        }
-      });
-  
-      shuffle(allCombinations);
-  
-      if (count <= allCombinations.length) {
-        list.push(...allCombinations.slice(0, count));
+        });
       } else {
-        list.push(...allCombinations);
-        while (list.length < count) {
-          const entry = pool[Math.floor(Math.random() * pool.length)];
-          const n = Math.floor(Math.random() * entry.limit) + 1;
-          list.push(`${entry.setName} ${n}`);
+        const pool = sets.map(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          if (!checkbox) return null;
+          const limit = parseInt(checkbox.dataset.limit || '10');
+          return Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
+        }).flat().filter(Boolean);
+
+        shuffle(pool);
+
+        for (let i = 0; i < count; i++) {
+          if (i < pool.length) {
+            list.push(pool[i]);
+          } else {
+            // Start allowing repeats
+            const entry = pool[Math.floor(Math.random() * pool.length)];
+            list.push(entry);
+          }
         }
       }
-    }
-  
-    return list;
+
+      return list;
   }
+
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
