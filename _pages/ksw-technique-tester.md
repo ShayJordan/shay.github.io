@@ -164,14 +164,37 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </div>
 
 <div class="form-section">
-  <label class="inline-label"><input type="checkbox" id="perItemMode" onchange="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
-  <div id="singleCountInput">
-    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
+  <label class="inline-label">
+    <input type="checkbox" id="allMode" onchange="toggleInputs()"> Run through all techniques from selected sets
+  </label><br>
+
+  <div id="countOptions">
+    <label class="inline-label">
+      <input type="checkbox" id="perItemMode" onchange="toggleInputs()"> Generate specific number of techniques per set
+    </label><br>
+
+    <div id="singleCountInput">
+      <label>How many techniques in total?
+        <input type="number" id="numberToGenerate" min="1" value="10">
+      </label>
+    </div>
+
+    <div id="perItemInputs" style="display:none;">
+      <label>How many techniques per selected set?
+        <input type="number" id="perItemCount" min="1" value="2">
+      </label>
+      <label class="inline-label">
+        <input type="checkbox" id="randomOrder"> Randomise order of sets
+      </label>
+    </div>
   </div>
-  <div id="perItemInputs" style="display:none;">
-    <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
-    <label class="inline-label"><input type="checkbox" id="randomOrder"> Randomise order of sets</label>
+
+  <div id="allModeOptions" style="display:none;">
+    <label class="inline-label">
+      <input type="checkbox" id="shuffleWithinSet"> Randomise numbers within each set
+    </label>
   </div>
+
   <br>
   <button id="start-button" onclick="startGeneration()">Start</button>
 </div>
@@ -209,11 +232,17 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     return categoryMap[cat].flatMap(sub => expandCategory(sub, visited));
   }
 
-  function togglePerItemInput() {
-    const isPer = document.getElementById('perItemMode').checked;
-    document.getElementById('perItemInputs').style.display = isPer ? 'block' : 'none';
-    document.getElementById('singleCountInput').style.display = isPer ? 'none' : 'block';
+  function toggleInputs() {
+      const allMode = document.getElementById('allMode').checked;
+      const perMode = document.getElementById('perItemMode').checked;
+
+      document.getElementById('countOptions').style.display = allMode ? 'none' : 'block';
+      document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
+      document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
+
+      document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
   }
+
 
   function gatherSelectedItems() {
     const cat = document.getElementById('categorySelect').value;
@@ -222,8 +251,23 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function buildTechniqueList(sets, count, perMode) {
+      const allMode = document.getElementById('allMode').checked;
+      const shuffleWithin = document.getElementById('shuffleWithinSet')?.checked;
       const list = [];
 
+      if (allMode) {
+          sets.forEach(setName => {
+            const checkbox = document.querySelector(`.item[value="${setName}"]`);
+            if (!checkbox) return;
+            const limit = parseInt(checkbox.dataset.limit || '10');
+            let numbers = Array.from({ length: limit }, (_, i) => i + 1);
+            if (shuffleWithin) shuffle(numbers);
+            numbers.forEach(n => list.push(`${setName} ${n}`));
+          });
+          return list;
+      }
+
+      
       if (perMode) {
         sets.forEach(setName => {
           const checkbox = document.querySelector(`.item[value="${setName}"]`);
@@ -334,37 +378,34 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('categorySelect');
-    const checkboxes = document.querySelectorAll('.item');
+      const select = document.getElementById('categorySelect');
+      const checkboxes = document.querySelectorAll('.item');
 
-    select.addEventListener('change', () => {
-      const selected = select.value;
-      const sets = selected ? expandCategory(selected) : [];
-      checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
-    });
-
-    checkboxes.forEach(cb => {
-      cb.addEventListener('change', () => {
-        const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value).sort().join('|');
-        let matched = false;
-
-        for (const key in categoryMap) {
-          const items = expandCategory(key).sort().join('|');
-          if (items === selected) {
-            select.value = key;
-            matched = true;
-            break;
-          }
-        }
-
-        if (!matched) {
-          select.value = '';
-        }
+      select.addEventListener('change', () => {
+        const selected = select.value;
+        const sets = selected ? expandCategory(selected) : [];
+        checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
       });
-    });
 
-    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
-    togglePerItemInput();
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', () => {
+          const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value).sort().join('|');
+          let matched = false;
+          for (const key in categoryMap) {
+            const items = expandCategory(key).sort().join('|');
+            if (items === selected) {
+              select.value = key;
+              matched = true;
+              break;
+            }
+          }
+          if (!matched) select.value = '';
+        });
+      });
+
+      document.getElementById('allMode').addEventListener('change', toggleInputs);
+      document.getElementById('perItemMode').addEventListener('change', toggleInputs);
+      toggleInputs();
   });
 </script>
 {% endraw %}
