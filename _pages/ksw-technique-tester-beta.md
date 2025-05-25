@@ -14,17 +14,19 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 {% raw %}
 <style>
   .correct {
-    display: block;
+    #display: block;
     color: green;
     font-weight: bold;
-    text-align: left;
+    #text-align: left;
+    padding-left: 10px;
   }
 
   .incorrect {
-    display: block;
+    #display: block;
     color: red;
     font-weight: bold;
-    text-align: right;
+    #text-align: right;
+    padding-left: 10px;
   }
 
   .inline-label {
@@ -326,7 +328,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   function rateItem(feedback) {
     const summary = document.getElementById('summary');
     const span = document.createElement('span');
-    span.textContent = currentList[currentIndex];
+    const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
+    span.textContent = symbol + currentList[currentIndex];
     span.className = feedback === 'correct' ? 'correct' : 'incorrect';
     summary.appendChild(span);
     summary.appendChild(document.createElement('br'));
