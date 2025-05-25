@@ -165,7 +165,20 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </div>
 
 <div class="form-section">
-  <label class="inline-label"><input type="checkbox" id="perItemMode" onchange="togglePerItemInput()"> Generate specific number of techniques per set</label><br>
+  <label class="inline-label">
+    <input type="checkbox" id="allMode" onchange="toggleInputs()"> Run through all techniques from selected sets
+  </label>
+  <div id="allModeOptions" style="display:none;">
+    <label class="inline-label">
+      <input type="checkbox" id="shuffleEachSet"> Randomise order of techniques within each set
+    </label>
+  </div>
+</div>
+
+<div class="form-section">
+  <label class="inline-label">
+    <input type="checkbox" id="perItemMode" onchange="toggleInputs()"> Generate specific number of techniques per set
+  </label><br>
   <div id="singleCountInput">
     <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
   </div>
@@ -210,68 +223,70 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     return categoryMap[cat].flatMap(sub => expandCategory(sub, visited));
   }
 
-  function togglePerItemInput() {
-    const isPer = document.getElementById('perItemMode').checked;
-    document.getElementById('perItemInputs').style.display = isPer ? 'block' : 'none';
-    document.getElementById('singleCountInput').style.display = isPer ? 'none' : 'block';
+  function toggleInputs() {
+    const allMode = document.getElementById('allMode').checked;
+    const perMode = document.getElementById('perItemMode').checked;
+
+    document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
+    document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
+    document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
   }
 
   function gatherSelectedItems() {
-    const cat = document.getElementById('categorySelect').value;
-    if (cat) return expandCategory(cat);
     return Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value);
   }
 
-  function buildTechniqueList(sets, count, perMode) {
-      const list = [];
+  function buildTechniqueList(sets, count, perMode, allMode, shuffleWithinSets) {
+    const list = [];
 
-      if (perMode) {
-        sets.forEach(setName => {
-          const checkbox = document.querySelector(`.item[value="${setName}"]`);
-          if (!checkbox) return;
-
-          const limit = parseInt(checkbox.dataset.limit || '10');
-          const all = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
-          const usage = new Map(all.map(item => [item, 0]));
-
-          for (let i = 0; i < count; i++) {
-            const minUsage = Math.min(...usage.values());
-            const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
-            const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
-            usage.set(choice, usage.get(choice) + 1);
-            list.push(choice);
-          }
-        });
-      } else {
-        const pool = sets.map(setName => {
-          const checkbox = document.querySelector(`.item[value="${setName}"]`);
-          return {
-            setName,
-            limit: parseInt(checkbox?.dataset.limit || '10')
-          };
-        });
-
-        const allCombinations = [];
-        pool.forEach(({ setName, limit }) => {
-          for (let i = 1; i <= limit; i++) {
-            allCombinations.push(`${setName} ${i}`);
-          }
-        });
-
-        const usage = new Map(allCombinations.map(item => [item, 0]));
-
-        for (let i = 0; i < count; i++) {
-          const minUsage = Math.min(...usage.values());
-          const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
-          const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
-          usage.set(choice, usage.get(choice) + 1);
-          list.push(choice);
-        }
-      }
-
+    if (allMode) {
+      sets.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        if (!checkbox) return;
+        const limit = parseInt(checkbox.dataset.limit || '10');
+        let nums = Array.from({ length: limit }, (_, i) => i + 1);
+        if (shuffleWithinSets) shuffle(nums);
+        nums.forEach(n => list.push(`${setName} ${n}`));
+      });
       return list;
-  }
+    }
 
+    if (perMode) {
+      sets.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        if (!checkbox) return;
+
+        const limit = parseInt(checkbox.dataset.limit || '10');
+        const pool = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
+        shuffle(pool);
+        for (let i = 0; i < count; i++) {
+          list.push(pool[i % limit]);
+        }
+      });
+    } else {
+      const pool = sets.map(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        return {
+          setName,
+          limit: parseInt(checkbox?.dataset.limit || '10')
+        };
+      });
+
+      const allCombinations = [];
+      pool.forEach(({ setName, limit }) => {
+        for (let i = 1; i <= limit; i++) {
+          allCombinations.push(`${setName} ${i}`);
+        }
+      });
+
+      shuffle(allCombinations);
+      for (let i = 0; i < count; i++) {
+        list.push(allCombinations[i % allCombinations.length]);
+      }
+    }
+
+    return list;
+  }
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -306,17 +321,13 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     }
 
     const perMode = document.getElementById('perItemMode').checked;
+    const allMode = document.getElementById('allMode').checked;
+    const shuffleSets = document.getElementById('randomOrder')?.checked;
+    const shuffleWithinSets = document.getElementById('shuffleEachSet')?.checked;
     const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
-    if (isNaN(count) || count < 1) {
-      alert("Enter a valid number.");
-      document.getElementById('start-button').style.display = 'block';
-      return;
-    }
 
-    currentList = buildTechniqueList(selectedItems, count, perMode);
-    if (!perMode && document.getElementById('randomOrder')?.checked) {
-      shuffle(currentList);
-    }
+    currentList = buildTechniqueList(selectedItems, count, perMode, allMode, shuffleWithinSets);
+    if (!allMode && !perMode && shuffleSets) shuffle(currentList);
 
     displayNext();
   }
@@ -335,37 +346,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    const select = document.getElementById('categorySelect');
-    const checkboxes = document.querySelectorAll('.item');
-
-    select.addEventListener('change', () => {
-      const selected = select.value;
-      const sets = selected ? expandCategory(selected) : [];
-      checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
-    });
-
-    checkboxes.forEach(cb => {
-      cb.addEventListener('change', () => {
-        const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value).sort().join('|');
-        let matched = false;
-
-        for (const key in categoryMap) {
-          const items = expandCategory(key).sort().join('|');
-          if (items === selected) {
-            select.value = key;
-            matched = true;
-            break;
-          }
-        }
-
-        if (!matched) {
-          select.value = '';
-        }
-      });
-    });
-
-    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
-    togglePerItemInput();
+    toggleInputs();
   });
 </script>
 {% endraw %}
