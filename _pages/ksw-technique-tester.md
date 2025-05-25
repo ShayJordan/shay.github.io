@@ -92,6 +92,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   #summary {
     margin-top: 30px;
     font-size: 1.2em;
+    display: none;
   }
 
   input[type="radio"],
@@ -358,6 +359,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         output.textContent = 'Summary';
         document.getElementById('feedback-buttons').style.display = 'none';
         document.getElementById('start-button').style.display = 'block';
+        summary.style.display = 'block';
 
         const correct = document.querySelectorAll('.correct').length;
         const total = document.querySelectorAll('.correct, .incorrect').length;
