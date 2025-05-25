@@ -228,9 +228,17 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
         const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-        shuffle(availableNumbers);
-        for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
-          list.push(`${setName} ${availableNumbers[i]}`);
+  
+        if (count <= limit) {
+          shuffle(availableNumbers);
+          for (let i = 0; i < count; i++) {
+            list.push(`${setName}: ${availableNumbers[i]}`);
+          }
+        } else {
+          for (let i = 0; i < count; i++) {
+            const n = Math.floor(Math.random() * limit) + 1;
+            list.push(`${setName}: ${n}`);
+          }
         }
       });
     } else {
@@ -241,28 +249,31 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
           limit: parseInt(checkbox?.dataset.limit || '10')
         };
       });
-
-      const used = new Set();
-
-      while (list.length < count) {
-        const entry = pool[Math.floor(Math.random() * pool.length)];
-        const n = Math.floor(Math.random() * entry.limit) + 1;
-        const pair = `${entry.setName}: ${n}`;
-        
-        if (!used.has(pair)) {
-          used.add(pair);
-          list.push(pair);
+  
+      const allCombinations = [];
+      pool.forEach(entry => {
+        for (let i = 1; i <= entry.limit; i++) {
+          allCombinations.push(`${entry.setName}: ${i}`);
         }
+      });
+  
+      shuffle(allCombinations);
 
-        // To avoid infinite loop if count > possible unique pairs
-        if (used.size >= pool.reduce((sum, e) => sum + e.limit, 0)) {
-          break;
+      if (count <= allCombinations.length) {
+        list.push(...allCombinations.slice(0, count));
+      } else {
+        list.push(...allCombinations);
+        while (list.length < count) {
+          const entry = pool[Math.floor(Math.random() * pool.length)];
+          const n = Math.floor(Math.random() * entry.limit) + 1;
+          list.push(`${entry.setName}: ${n}`);
         }
       }
     }
-
+  
     return list;
   }
+
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
