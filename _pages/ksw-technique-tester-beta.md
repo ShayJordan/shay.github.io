@@ -338,6 +338,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function startGeneration() {
+    correctCount = 0;
     currentIndex = 0;
     document.getElementById('summary').innerHTML = '';
     document.getElementById('start-button').style.display = 'none';
@@ -365,6 +366,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     displayNext();
   }
 
+  let correctCount = 0;
+
   function rateItem(feedback) {
     const summary = document.getElementById('summary');
     const span = document.createElement('span');
@@ -373,8 +376,23 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     span.className = feedback === 'correct' ? 'correct' : 'incorrect';
     summary.appendChild(span);
     summary.appendChild(document.createElement('br'));
+  
+    if (feedback === 'correct') {
+      correctCount++;
+    }
 
     currentIndex++;
+
+    if (currentIndex >= currentList.length) {
+      // Display final score
+      const percentage = Math.round((correctCount / currentList.length) * 100);
+      const scoreDisplay = document.createElement('div');
+      scoreDisplay.innerHTML = `<strong>Score:</strong> ${correctCount} out of ${currentList.length} (${percentage}%)`;
+      scoreDisplay.style.marginTop = '20px';
+      scoreDisplay.style.fontWeight = 'bold';
+      summary.appendChild(scoreDisplay);
+    }
+
     displayNext();
   }
 
