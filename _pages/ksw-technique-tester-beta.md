@@ -289,15 +289,19 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function displayNext() {
-    const output = document.getElementById('output');
-    if (currentIndex < currentList.length) {
-      output.textContent = currentList[currentIndex];
-      document.getElementById('feedback-buttons').style.display = 'flex';
-    } else {
-      output.textContent = 'Summary';
-      document.getElementById('feedback-buttons').style.display = 'none';
-      document.getElementById('start-button').style.display = 'block';
-    }
+      const output = document.getElementById('output');
+      const feedbackButtons = document.getElementById('feedback-buttons');
+
+      if (currentIndex < currentList.length) {
+        output.textContent = currentList[currentIndex];
+        feedbackButtons.style.display = 'flex'; // Show thumbs
+      } else {
+        output.textContent = 'All items rated.';
+        feedbackButtons.style.display = 'none';
+
+        // Reveal the start button again
+        document.getElementById('start-button').style.display = 'block';
+      }
   }
 
   function startGeneration() {
