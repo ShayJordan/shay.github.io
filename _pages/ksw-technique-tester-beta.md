@@ -212,13 +212,10 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       <label>How many techniques per selected set?
         <input type="number" id="perItemCount" min="1" value="2">
       </label>
+      <label class="inline-label">
+        <input type="checkbox" id="randomOrder"> Randomise order of sets
+      </label>
     </div>
-  </div>
-
-  <div id="randomOrderOption" style="display:none;">
-    <label class="inline-label">
-      <input type="checkbox" id="randomOrder"> Randomise order of sets
-    </label>
   </div>
 
   <div id="allModeOptions" style="display:none;">
@@ -265,15 +262,13 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function toggleInputs() {
-      const allMode = document.getElementById('allMode').checked;
-      const perMode = document.getElementById('perItemMode').checked;
+    const allMode = document.getElementById('allMode').checked;
+    const perMode = document.getElementById('perItemMode').checked;
 
-      document.getElementById('countOptions').style.display = allMode ? 'none' : 'block';
-      document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
-      document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
-
-      document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
-      document.getElementById('randomOrderOption').style.display = allMode || perMode ? 'block' : 'none';
+    document.getElementById('countOptions').style.display = allMode ? 'none' : 'block';
+    document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
+    document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
+    document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
   }
 
   function gatherSelectedItems() {
@@ -380,7 +375,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         }
 
         scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
-        summary.appendChild(scoreBox);
+        summary.prepend(scoreBox);
       }
   }
 
