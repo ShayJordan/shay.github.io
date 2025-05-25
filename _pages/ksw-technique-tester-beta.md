@@ -361,10 +361,12 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         document.getElementById('feedback-buttons').style.display = 'none';
         document.getElementById('start-button').style.display = 'block';
 
+        // Calculate score
         const correct = document.querySelectorAll('.correct').length;
         const total = document.querySelectorAll('.correct, .incorrect').length;
         const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
 
+        // Create score box
         const scoreBox = document.createElement('div');
         scoreBox.className = 'score-box';
 
@@ -378,12 +380,15 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
         scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
 
-        summary.innerHTML = '';              // Clear previous content
-        summary.prepend(scoreBox);           // Add score first
-        summary.style.display = 'block';     // 👈 Show summary section now
+        // Clear existing and re-append score and items
+        summary.style.display = 'block';
+        const summaryItems = Array.from(summary.children).filter(el => el.tagName === 'SPAN' || el.tagName === 'BR');
+        summary.innerHTML = '';
+        summary.appendChild(scoreBox);
+        summaryItems.forEach(item => summary.appendChild(item));
       }
   }
-
+  
   function startGeneration() {
     currentIndex = 0;
     document.getElementById('summary').innerHTML = '';
