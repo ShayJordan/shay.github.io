@@ -224,24 +224,29 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
   function buildTechniqueList(sets, count, perMode) {
     const list = [];
-
+  
     if (perMode) {
       sets.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         const limit = parseInt(checkbox?.dataset.limit || '10');
-        const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-  
-        if (count <= limit) {
-          shuffle(availableNumbers);
+        const allNums = Array.from({ length: limit }, (_, i) => i + 1);
+        shuffle(allNums);
+
+        const entries = [];
+
+        if (perMode && count <= limit) {
           for (let i = 0; i < count; i++) {
-            list.push(`${setName} ${availableNumbers[i]}`);
+            entries.push(`${setName} ${allNums[i]}`);
           }
         } else {
-          for (let i = 0; i < count; i++) {
-            const n = Math.floor(Math.random() * limit) + 1;
-            list.push(`${setName} ${n}`);
+          entries.push(...allNums);
+          while (entries.length < count) {
+            const rand = Math.floor(Math.random() * limit) + 1;
+            entries.push(`${setName} ${rand}`);
           }
         }
+
+        list.push(...entries);
       });
     } else {
       const pool = sets.map(setName => {
@@ -251,14 +256,14 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
           limit: parseInt(checkbox?.dataset.limit || '10')
         };
       });
-  
+
       const allCombinations = [];
       pool.forEach(entry => {
         for (let i = 1; i <= entry.limit; i++) {
           allCombinations.push(`${entry.setName} ${i}`);
         }
       });
-  
+
       shuffle(allCombinations);
 
       if (count <= allCombinations.length) {
@@ -268,11 +273,11 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         while (list.length < count) {
           const entry = pool[Math.floor(Math.random() * pool.length)];
           const n = Math.floor(Math.random() * entry.limit) + 1;
-          list.push(`${entry.setName}: ${n}`);
+          list.push(`${entry.setName} ${n}`);
         }
       }
     }
-  
+
     return list;
   }
 
