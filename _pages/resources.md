@@ -10,17 +10,6 @@ og_image: og_image.png
 redirect_from: 
   - /downloads/
 ---
-Kuk Sool Won Resources
-------
-I will share various resources here relating to the Korean Traditional Martial Art of Kuk Sool Won.
-
-**Technique Tester**
-
-I developed browser-based technique tester to help with practising recall of the hundreds of self-defence techniques within Kuk Sool Won's vast curriculum.
-
-[Use Resource](/ksw-technique-tester/){: .btn .btn--info}}    [Find Out More](/2025-05-22-ksw-technique-tester/){: .btn .btn--primary}
-
-
 LaTeX Files
 ------
 **Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
@@ -49,7 +38,11 @@ I used this to produce some concise, bulleted revision notes which decorated my 
 
 Other Resources
 ------
-I don't have anything interesting to go here yet, but it seems a shame to leave it blank -- so here's a powerpoint lesson on 3D Trigonometry I created whilst on my teacher training.
+**Kuk Sool Won Technique Tester**
+
+A browser-based resource for practising and testing recall of the hundreds of self-defence techniques in Kuk Sool Won’s vast curriculum.
+
+[Use Resource](/ksw-technique-tester/){: .btn .btn--info}    [Find Out More](/2025-05-22-ksw-technique-tester/){: .btn .btn--primary}
 
 **3D Trigonometry Lesson PowerPoint**
 
