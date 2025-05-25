@@ -2,7 +2,7 @@
 title: "Kuk Sool Won Technique Tester"
 collection: projects
 permalink: /projects/2025-05-22-ksw-technique-tester/
-excerpt: 'This personal project involved building a dynamic technique tester using HTML, CSS, and JavaScript to help martial arts students review and randomise techniques, with built-in feedback and scoring features.'
+excerpt: 'This personal project involved building a dynamic technique tester using HTML, CSS, and JavaScript to help martial arts students review and randomise the curriculum of self-defense techniques, with built-in feedback and scoring features.'
 date: 2025-05-22
 ---
 This personal project involved building a dynamic, browser-based Kuk Sool Won (martial arts) self-defence technique tester using HTML, CSS, and JavaScript. Preparing for advanced black belt testing requires memorising and practising hundreds of self-defence techniques — no small task. At the time of creating the resource, I was in the process of testing for my fourth degree black belt after [twenty years of training](/posts/2024/12/twenty-years-of-kuk-sool-part-1/), at which stage I was required to know 444 self-defence techniques, alongside everything else in Kuk Sool's vast curriculum. 
