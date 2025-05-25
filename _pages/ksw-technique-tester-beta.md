@@ -14,7 +14,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 {% raw %}
 <style>
   .correct {
-    #display: block;
+    display: block;
     #color: green;
     font-weight: bold;
     #text-align: left;
@@ -22,7 +22,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   .incorrect {
-    #display: block;
+    display: block;
     #color: red;
     font-weight: bold;
     #text-align: right;
