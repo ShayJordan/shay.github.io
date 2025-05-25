@@ -18,7 +18,7 @@ For the first time, I collaborated with AI to assist in development — a new ex
 This resource will continue to grow as I add new features based on my own reflections and feedback from other Kuk Sool practitioners. When I shared the first public version on 22 May 2025, it included the following features:
 
 * **Rank-Based Set Selection**  
-Quickly select all relevant technique sets based on belt rank (White Belt, Yellow Belt, ..., up to Fourth Degree Black Belt / Sa Bum Nim), including inherited sets from previous ranks.
+Quickly select all relevant technique sets based on belt rank (from White Belt to Fourth Degree Black Belt), including inherited sets from previous ranks.
 
 * **Manual Set Selection**  
 Choose specific technique sets manually from a comprehensive list, with visual indicators of how many techniques are in each.
