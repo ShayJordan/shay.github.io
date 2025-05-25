@@ -46,7 +46,7 @@ No installation required — works seamlessly on desktop and mobile.
 On 25 May 2025, several new features were added:
 
 * **Score Box**  
-I added a colour-coded score box to the end-of-session summary that shows your overall score as a percentage. This was a suggestion from someone who used the resource.
+I added a colour-coded score box to the end-of-session summary that shows users' overall score as a percentage, as determined by their use of the intuitive thumbs-up/down button feedback system. This was a suggestion from someone who used the resource.
 
 * **Additional Generation Methods**  
 I added a feature to go through every technique in the selected sets, with the option to show them in order or shuffled. This helps users identify personal weak areas in their syllabus. I included it because I knew it would be useful for my own training too.
