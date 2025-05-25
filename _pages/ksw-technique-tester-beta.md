@@ -286,13 +286,26 @@ function rateItem(feedback) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const checkboxesContainer = document.getElementById('checkboxes-container');
-  Object.entries(allSets).forEach(([name, limit]) => {
-    const label = document.createElement('label');
-    label.className = 'inline-label';
-    label.innerHTML = `<input type="checkbox" class="item" value="${name}"> ${name} (${limit})`;
-    checkboxesContainer.appendChild(label);
-  });
+    const checkboxesContainer = document.getElementById('checkboxes-container');
+    Object.entries(allSets).forEach(([name, limit]) => {
+      const wrapper = document.createElement('div');
+      wrapper.style.breakInside = 'avoid';
+      wrapper.style.marginBottom = '6px';
+  
+      const label = document.createElement('label');
+      label.className = 'inline-label';
+  
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'item';
+      checkbox.value = name;
+  
+      label.appendChild(checkbox);
+      label.append(`${name} (${limit})`);
+      wrapper.appendChild(label);
+      checkboxesContainer.appendChild(wrapper);
+    });
+
 
   const select = document.getElementById('categorySelect');
   select.addEventListener('change', () => {
