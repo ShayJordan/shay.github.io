@@ -301,32 +301,40 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function startGeneration() {
-    currentIndex = 0;
-    document.getElementById('summary').innerHTML = '';
-    document.getElementById('start-button').style.display = 'none';
+      currentIndex = 0;
+      currentList = [];
 
-    const selectedItems = gatherSelectedItems();
-    if (!selectedItems.length) {
-      alert("Select at least one set of techniques.");
-      document.getElementById('start-button').style.display = 'block';
-      return;
-    }
+      // Reset and hide summary sections
+      document.getElementById('summary').style.display = 'none';
+      document.getElementById('correct-list').style.display = 'none';
+      document.getElementById('incorrect-list').style.display = 'none';
+      document.getElementById('correct-list').innerHTML = '<h3>Correct</h3>';
+      document.getElementById('incorrect-list').innerHTML = '<h3>Incorrect</h3>';
 
-    const perMode = document.getElementById('perItemMode').checked;
-    const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
-    if (isNaN(count) || count < 1) {
-      alert("Enter a valid number.");
-      document.getElementById('start-button').style.display = 'block';
-      return;
-    }
+      const selectedItems = gatherSelectedItems();
+      if (!selectedItems.length) {
+        alert("Select at least one set of techniques.");
+        return;
+      }
 
-    currentList = buildTechniqueList(selectedItems, count, perMode);
-    if (!perMode && document.getElementById('randomOrder').checked) {
-      shuffle(currentList);
-    }
+      const perMode = document.getElementById('perItemMode').checked;
+      const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
+      if (isNaN(count) || count < 1) {
+        alert("Enter a valid number.");
+        return;
+      }
 
-    displayNext();
+      currentList = buildTechniqueList(selectedItems, count, perMode);
+      if (!perMode && document.getElementById('randomOrder').checked) {
+        shuffle(currentList);
+      }
+
+      // Hide the start button during session
+      document.getElementById('start-button').style.display = 'none';
+
+      displayNext();
   }
+
 
   function rateItem(feedback) {
       const listId = feedback === 'correct' ? 'correct-list' : 'incorrect-list';
