@@ -30,6 +30,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   
   .score-box {
     margin-top: 20px;
+    margin-bottom: 40px;
     padding: 15px;
     font-size: 1.5em;
     font-weight: bold;
@@ -374,7 +375,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         }
 
         scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
-        summary.appendChild(scoreBox);
+        summary.prepend(scoreBox);
       }
   }
 
