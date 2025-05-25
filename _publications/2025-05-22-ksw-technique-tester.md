@@ -55,7 +55,7 @@ I added a feature to go through every technique in the selected sets, with the o
 The original resource didn’t keep track of which techniques had already been shown, so users could get the same one multiple times while missing others completely. To fix this, I added a feature called *tiered repetition control*. This ensures that every technique is shown once before any repeats happen, and that no technique appears a third time until all others have been shown twice — and so on. I added this feature because I personally wanted more balanced practise.
 
 * **Visual Improvements**  
-I added ✅ and ❌ emojis to show which answers were correct or incorrect in the end-of-session summary. This made things clearer and more accessible, especially for users who might have trouble seeing green and red text colours used in the original version.
+I added ✅ and ❌ emojis to show which techniques were correct or incorrect in the end-of-session summary. This made things clearer and more accessible, especially for users who might have trouble seeing green and red text colours used in the original version.
 
 <div style="text-align: center;">
   <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a>
