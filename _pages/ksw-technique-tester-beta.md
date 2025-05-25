@@ -215,7 +215,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     </div>
   </div>
 
-  <div id="sharedRandomiseCheckbox" style="display:none;">
+  <div id="randomOrderOption" style="display:none;">
     <label class="inline-label">
       <input type="checkbox" id="randomOrder"> Randomise order of sets
     </label>
@@ -273,11 +273,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
 
       document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
-
-      // Always show shared random order checkbox if either mode allows it
-      document.getElementById('sharedRandomiseCheckbox').style.display = (allMode || perMode) ? 'block' : 'none';
+      document.getElementById('randomOrderOption').style.display = allMode || perMode ? 'block' : 'none';
   }
-
 
   function gatherSelectedItems() {
     const cat = document.getElementById('categorySelect').value;
