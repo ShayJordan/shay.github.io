@@ -7,7 +7,9 @@ date: 2025-05-25
 ---
 This personal project involved building a dynamic, browser-based Kuk Sool Won (martial arts) self-defence technique tester using HTML, CSS, and JavaScript. Preparing for advanced black belt testing requires memorising and practising hundreds of self-defence techniques — no small task. At the time of creating the resource, I was in the process of testing for my fourth degree black belt after [twenty years of training](/posts/2024/12/twenty-years-of-kuk-sool-part-1/), at which stage I was required to know 444 self-defence techniques, alongside everything else in Kuk Sool's vast curriculum. 
 
-Over the years, I created various tools to help, including a spreadsheet randomiser and a Siri Shortcut for iOS. Whilst functional, these were limited by platform restrictions, or a lack of flexibility. Wanting something better, I set out to build a more accessible and efficient solution. For the first time, I collaborated with AI to assist in development — a new experience that challenged me to clearly articulate requirements, troubleshoot effectively, and maintain the integrity of the resource throughout. It became a rewarding exercise in both technical problem-solving and communication.
+Over the years, I created various tools to help, including a spreadsheet randomiser and a Siri Shortcut for iOS. Whilst functional, these were limited by platform restrictions, or a lack of flexibility. Wanting something better, I set out to build a more accessible and efficient solution. 
+
+For the first time, I collaborated with AI to assist in development — a new experience that challenged me to clearly articulate requirements, troubleshoot effectively, and maintain the integrity of the resource throughout. It became a rewarding exercise in both technical problem-solving and communication.
 
 [Use the resource here](/ksw-technique-tester/).
 
