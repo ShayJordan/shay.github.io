@@ -13,13 +13,19 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 {% raw %}
 <style>
   .correct {
-    color: green;
+    display: block;
+    #color: green;
     font-weight: bold;
+    #text-align: left;
+    padding-left: 10px;
   }
 
   .incorrect {
-    color: red;
+    display: block;
+    #color: red;
     font-weight: bold;
+    #text-align: right;
+    padding-left: 10px;
   }
 
   .inline-label {
@@ -216,36 +222,55 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function buildTechniqueList(sets, count, perMode) {
-    const list = [];
+      const list = [];
 
-    if (perMode) {
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        const limit = parseInt(checkbox?.dataset.limit || '10');
-        const availableNumbers = Array.from({ length: limit }, (_, i) => i + 1);
-        shuffle(availableNumbers);
-        for (let i = 0; i < Math.min(count, availableNumbers.length); i++) {
-          list.push(`${setName} ${availableNumbers[i]}`);
+      if (perMode) {
+        sets.forEach(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          if (!checkbox) return;
+
+          const limit = parseInt(checkbox.dataset.limit || '10');
+          const all = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
+          const usage = new Map(all.map(item => [item, 0]));
+
+          for (let i = 0; i < count; i++) {
+            const minUsage = Math.min(...usage.values());
+            const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+            const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+            usage.set(choice, usage.get(choice) + 1);
+            list.push(choice);
+          }
+        });
+      } else {
+        const pool = sets.map(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          return {
+            setName,
+            limit: parseInt(checkbox?.dataset.limit || '10')
+          };
+        });
+
+        const allCombinations = [];
+        pool.forEach(({ setName, limit }) => {
+          for (let i = 1; i <= limit; i++) {
+            allCombinations.push(`${setName} ${i}`);
+          }
+        });
+
+        const usage = new Map(allCombinations.map(item => [item, 0]));
+
+        for (let i = 0; i < count; i++) {
+          const minUsage = Math.min(...usage.values());
+          const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+          const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+          usage.set(choice, usage.get(choice) + 1);
+          list.push(choice);
         }
-      });
-    } else {
-      const pool = sets.map(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        return {
-          setName,
-          limit: parseInt(checkbox?.dataset.limit || '10')
-        };
-      });
-
-      for (let i = 0; i < count; i++) {
-        const entry = pool[Math.floor(Math.random() * pool.length)];
-        const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(`${entry.setName} ${n}`);
       }
-    }
 
-    return list;
+      return list;
   }
+
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -288,7 +313,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     }
 
     currentList = buildTechniqueList(selectedItems, count, perMode);
-    if (!perMode && document.getElementById('randomOrder').checked) {
+    if (!perMode && document.getElementById('randomOrder')?.checked) {
       shuffle(currentList);
     }
 
@@ -298,7 +323,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   function rateItem(feedback) {
     const summary = document.getElementById('summary');
     const span = document.createElement('span');
-    span.textContent = currentList[currentIndex];
+    const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
+    span.textContent = symbol + currentList[currentIndex];
     span.className = feedback === 'correct' ? 'correct' : 'incorrect';
     summary.appendChild(span);
     summary.appendChild(document.createElement('br'));
@@ -337,6 +363,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       });
     });
 
+    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
     togglePerItemInput();
   });
 </script>
