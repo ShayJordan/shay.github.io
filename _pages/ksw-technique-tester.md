@@ -461,9 +461,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 {% endraw %}
 
 <div class="notice">
-  <p><strong>Notice:</strong> This resource is free to use, but it takes time and money to keep it going. If you find it helpful, a small donation to support its upkeep would be appreciated! 
-    <a href="https://paypal.me/sh4y">Click here to donate via PayPal</a>.
-  </p>
+  <p><strong>Notice:</strong> This resource is free to use, but it takes time and money to keep it going. If you find it helpful, a small donation to support its upkeep would be appreciated!</p>
   <div style="text-align: center; margin-top: 1.5em;">
     <a href="https://paypal.me/sh4y" class="btn btn--info" style="margin-right: 10px;">Donate via PayPal</a>
     <a href="/projects/2025-05-22-ksw-technique-tester/" class="btn btn--primary">Find Out More</a>
