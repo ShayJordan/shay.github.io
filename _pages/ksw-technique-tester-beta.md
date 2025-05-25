@@ -184,7 +184,10 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
 
-<div id="summary"></div>
+<div id="summary">
+  <div id="correct-list"><h3>Correct</h3></div>
+  <div id="incorrect-list"><h3>Incorrect</h3></div>
+</div>
 
 <script>
   const categoryMap = {
@@ -326,13 +329,14 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function rateItem(feedback) {
-    const summary = document.getElementById('summary');
+    const listId = feedback === 'correct' ? 'correct-list' : 'incorrect-list';
+    const container = document.getElementById(listId);
     const span = document.createElement('span');
     const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
     span.textContent = symbol + currentList[currentIndex];
-    span.className = feedback === 'correct' ? 'correct' : 'incorrect';
-    summary.appendChild(span);
-    summary.appendChild(document.createElement('br'));
+    span.className = feedback;
+    container.appendChild(span);
+    container.appendChild(document.createElement('br'));
 
     currentIndex++;
     displayNext();
