@@ -167,25 +167,35 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 <div class="form-section">
   <label class="inline-label">
     <input type="checkbox" id="allMode" onchange="toggleInputs()"> Run through all techniques from selected sets
-  </label>
+  </label><br>
+
+  <div id="countOptions">
+    <label class="inline-label">
+      <input type="checkbox" id="perItemMode" onchange="toggleInputs()"> Generate specific number of techniques per set
+    </label><br>
+
+    <div id="singleCountInput">
+      <label>How many techniques in total?
+        <input type="number" id="numberToGenerate" min="1" value="10">
+      </label>
+    </div>
+
+    <div id="perItemInputs" style="display:none;">
+      <label>How many techniques per selected set?
+        <input type="number" id="perItemCount" min="1" value="2">
+      </label>
+      <label class="inline-label">
+        <input type="checkbox" id="randomOrder"> Randomise order of sets
+      </label>
+    </div>
+  </div>
+
   <div id="allModeOptions" style="display:none;">
     <label class="inline-label">
-      <input type="checkbox" id="shuffleEachSet"> Randomise order of techniques within each set
+      <input type="checkbox" id="shuffleWithinSet"> Randomise numbers within each set
     </label>
   </div>
-</div>
 
-<div class="form-section">
-  <label class="inline-label">
-    <input type="checkbox" id="perItemMode" onchange="toggleInputs()"> Generate specific number of techniques per set
-  </label><br>
-  <div id="singleCountInput">
-    <label>How many techniques in total?<input type="number" id="numberToGenerate" min="1" value="10"></label>
-  </div>
-  <div id="perItemInputs" style="display:none;">
-    <label>How many techniques per selected set? <input type="number" id="perItemCount" min="1" value="2"></label>
-    <label class="inline-label"><input type="checkbox" id="randomOrder"> Randomise order of sets</label>
-  </div>
   <br>
   <button id="start-button" onclick="startGeneration()">Start</button>
 </div>
@@ -225,70 +235,87 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
   function toggleInputs() {
       const allMode = document.getElementById('allMode').checked;
-      const perItemMode = document.getElementById('perItemMode').checked;
+      const perMode = document.getElementById('perItemMode').checked;
 
-      document.getElementById('perItemMode').closest('.form-section').style.display = allMode ? 'none' : 'block';
+      document.getElementById('countOptions').style.display = allMode ? 'none' : 'block';
+      document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
+      document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
+
       document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
-
-      document.getElementById('perItemInputs').style.display = !allMode && perItemMode ? 'block' : 'none';
-      document.getElementById('singleCountInput').style.display = !allMode && !perItemMode ? 'block' : 'none';
   }
 
+
   function gatherSelectedItems() {
+    const cat = document.getElementById('categorySelect').value;
+    if (cat) return expandCategory(cat);
     return Array.from(document.querySelectorAll('.item:checked')).map(cb => cb.value);
   }
 
-  function buildTechniqueList(sets, count, perMode, allMode, shuffleWithinSets) {
-    const list = [];
+  function buildTechniqueList(sets, count, perMode) {
+      const allMode = document.getElementById('allMode').checked;
+      const shuffleWithin = document.getElementById('shuffleWithinSet')?.checked;
+      const list = [];
 
-    if (allMode) {
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        if (!checkbox) return;
-        const limit = parseInt(checkbox.dataset.limit || '10');
-        let nums = Array.from({ length: limit }, (_, i) => i + 1);
-        if (shuffleWithinSets) shuffle(nums);
-        nums.forEach(n => list.push(`${setName} ${n}`));
-      });
-      return list;
-    }
-
-    if (perMode) {
-      sets.forEach(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        if (!checkbox) return;
-
-        const limit = parseInt(checkbox.dataset.limit || '10');
-        const pool = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
-        shuffle(pool);
-        for (let i = 0; i < count; i++) {
-          list.push(pool[i % limit]);
-        }
-      });
-    } else {
-      const pool = sets.map(setName => {
-        const checkbox = document.querySelector(`.item[value="${setName}"]`);
-        return {
-          setName,
-          limit: parseInt(checkbox?.dataset.limit || '10')
-        };
-      });
-
-      const allCombinations = [];
-      pool.forEach(({ setName, limit }) => {
-        for (let i = 1; i <= limit; i++) {
-          allCombinations.push(`${setName} ${i}`);
-        }
-      });
-
-      shuffle(allCombinations);
-      for (let i = 0; i < count; i++) {
-        list.push(allCombinations[i % allCombinations.length]);
+      if (allMode) {
+          sets.forEach(setName => {
+            const checkbox = document.querySelector(`.item[value="${setName}"]`);
+            if (!checkbox) return;
+            const limit = parseInt(checkbox.dataset.limit || '10');
+            let numbers = Array.from({ length: limit }, (_, i) => i + 1);
+            if (shuffleWithin) shuffle(numbers);
+            numbers.forEach(n => list.push(`${setName} ${n}`));
+          });
+          return list;
       }
-    }
 
-    return list;
+      
+      if (perMode) {
+        sets.forEach(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          if (!checkbox) return;
+
+          const limit = parseInt(checkbox.dataset.limit || '10');
+          const all = Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
+          const usage = new Map(all.map(item => [item, 0]));
+
+          for (let i = 0; i < count; i++) {
+            const minUsage = Math.min(...usage.values());
+            const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+            const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+            usage.set(choice, usage.get(choice) + 1);
+            list.push(choice);
+          }
+        });
+      } else {
+        const pool = sets.map(setName => {
+          const checkbox = document.querySelector(`.item[value="${setName}"]`);
+          return {
+            setName,
+            limit: parseInt(checkbox?.dataset.limit || '10')
+          };
+        });
+
+        const allCombinations = [];
+        pool.forEach(({ setName, limit }) => {
+          for (let i = 1; i <= limit; i++) {
+            allCombinations.push(`${setName} ${i}`);
+          }
+        });
+
+        const usage = new Map(allCombinations.map(item => [item, 0]));
+
+        for (let i = 0; i < count; i++) {
+          const minUsage = Math.min(...usage.values());
+          const candidates = Array.from(usage.entries()).filter(([_, u]) => u === minUsage);
+          const [choice] = candidates[Math.floor(Math.random() * candidates.length)];
+          usage.set(choice, usage.get(choice) + 1);
+          list.push(choice);
+        }
+      }
+
+      return list;
   }
+
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -323,13 +350,17 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     }
 
     const perMode = document.getElementById('perItemMode').checked;
-    const allMode = document.getElementById('allMode').checked;
-    const shuffleSets = document.getElementById('randomOrder')?.checked;
-    const shuffleWithinSets = document.getElementById('shuffleEachSet')?.checked;
     const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
+    if (isNaN(count) || count < 1) {
+      alert("Enter a valid number.");
+      document.getElementById('start-button').style.display = 'block';
+      return;
+    }
 
-    currentList = buildTechniqueList(selectedItems, count, perMode, allMode, shuffleWithinSets);
-    if (!allMode && !perMode && shuffleSets) shuffle(currentList);
+    currentList = buildTechniqueList(selectedItems, count, perMode);
+    if (!perMode && document.getElementById('randomOrder')?.checked) {
+      shuffle(currentList);
+    }
 
     displayNext();
   }
@@ -348,9 +379,6 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-      toggleInputs();
-
-      // Dropdown → Checkboxes
       const select = document.getElementById('categorySelect');
       const checkboxes = document.querySelectorAll('.item');
 
@@ -360,15 +388,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
       });
 
-      // Checkboxes → Dropdown
       checkboxes.forEach(cb => {
         cb.addEventListener('change', () => {
-          const selected = Array.from(checkboxes)
-            .filter(cb => cb.checked)
-            .map(cb => cb.value)
-            .sort()
-            .join('|');
-
+          const selected = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value).sort().join('|');
           let matched = false;
           for (const key in categoryMap) {
             const items = expandCategory(key).sort().join('|');
@@ -382,9 +404,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         });
       });
 
-      // Mode switchers
       document.getElementById('allMode').addEventListener('change', toggleInputs);
       document.getElementById('perItemMode').addEventListener('change', toggleInputs);
+      toggleInputs();
   });
 </script>
 {% endraw %}
