@@ -1,13 +1,26 @@
 ---
-permalink: /downloads/
-title: "Downloads"
-excerpt: "Here, you can download various files which seem fit to be on my website."
+permalink: /resources/
+title: "Resources"
+excerpt: "Here, you can find various resources to use or download which seem fit to be on my website."
 header:
   overlay_image: downloads.JPG
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true
 og_image: og_image.png
+redirect_from: 
+  - /downloads/
 ---
+Kuk Sool Won Resources
+------
+I will share various resources here relating to the Korean Traditional Martial Art of Kuk Sool Won.
+
+**Technique Tester**
+
+I developed browser-based technique tester to help with practising recall of the hundreds of self-defence techniques within Kuk Sool Won's vast curriculum.
+
+[Use Resource](/ksw-technique-tester/){: .btn .btn--info}}    [Find Out More](/2025-05-22-ksw-technique-tester/){: .btn .btn--primary}
+
+
 LaTeX Files
 ------
 **Important!** In order to use the `.tex` files linked below, you must also download the associated `.cls` file and either put it in the same folder as the `.tex` file, or in your TeX system files.
@@ -34,7 +47,7 @@ I used this to produce some concise, bulleted revision notes which decorated my 
 [Preview](https://shayjordan.co.uk/files/revision.pdf){: .btn .btn--info}    [Download .cls](https://shayjordan.co.uk/files/revision.cls){: .btn .btn--primary}    [Download .tex](https://shayjordan.co.uk/files/revision.tex){: .btn .btn--primary}
 
 
-Other Downloads
+Other Resources
 ------
 I don't have anything interesting to go here yet, but it seems a shame to leave it blank -- so here's a powerpoint lesson on 3D Trigonometry I created whilst on my teacher training.
 
