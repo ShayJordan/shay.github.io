@@ -31,6 +31,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   
   .score-box {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 15px;
     font-size: 1.5em;
     font-weight: bold;
