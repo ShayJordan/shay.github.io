@@ -42,7 +42,7 @@ Other Resources
 
 A browser-based resource for practising and testing recall of the hundreds of self-defence techniques in Kuk Sool Won’s vast curriculum.
 
-[Use Resource](/ksw-technique-tester/){: .btn .btn--info}    [Find Out More](/2025-05-22-ksw-technique-tester/){: .btn .btn--primary}
+[Use Resource](/ksw-technique-tester/){: .btn .btn--info}    [Find Out More](/projects/2025-05-22-ksw-technique-tester/){: .btn .btn--primary}
 
 **3D Trigonometry Lesson PowerPoint**
 
