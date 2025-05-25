@@ -11,7 +11,7 @@ Over the years, I created various tools to help, including a spreadsheet randomi
 
 For the first time, I collaborated with AI to assist in development — a new experience that challenged me to clearly articulate requirements, troubleshoot effectively, and maintain the integrity of the resource throughout. It became a rewarding exercise in both technical problem-solving and communication.
 
-<center>[Use the resource here](/ksw-technique-tester/){: .btn .btn--info}</center>
+[Use the resource here](/ksw-technique-tester/){: .btn .btn--info}
 
 The project will evolve over time, as I plan to introduce new features based on my own reflections as well as the feedback of other Kuk Sool practitioners using the resource. At the time of sharing the first public version of the resource on 23 May 2025, it had the following features:
 
@@ -55,4 +55,4 @@ The original resource didn’t keep track of which techniques had already been s
 * **Visual Improvements**  
 I added ✅ and ❌ emojis to show which answers were correct or incorrect in the end-of-session summary. This made things clearer and more accessible, especially for users who might have trouble seeing green and red text colours used in the original version.
 
-<center>[Use the resource here](/ksw-technique-tester/){: .btn .btn--info}</center>
+[Use the resource here](/ksw-technique-tester/){: .btn .btn--info}
