@@ -1,7 +1,7 @@
 ---
 title: "Kuk Sool Won Technique Tester"
 collection: projects
-permalink: /projects/2025-05-25-ksw-technique-tester/
+permalink: /projects/2025-05-22-ksw-technique-tester/
 excerpt: 'This personal project involved building a dynamic technique tester using HTML, CSS, and JavaScript to help martial arts students review and randomise techniques, with built-in feedback and scoring features.'
 date: 2025-05-22
 ---
