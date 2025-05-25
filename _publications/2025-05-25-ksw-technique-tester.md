@@ -3,7 +3,7 @@ title: "Kuk Sool Won Technique Tester"
 collection: projects
 permalink: /projects/2025-05-25-ksw-technique-tester/
 excerpt: 'This personal project involved building a dynamic technique tester using HTML, CSS, and JavaScript to help martial arts students review and randomise techniques, with built-in feedback and scoring features.'
-date: 2025-05-23
+date: 2025-05-22
 ---
 This personal project involved building a dynamic, browser-based Kuk Sool Won (martial arts) self-defence technique tester using HTML, CSS, and JavaScript. Preparing for advanced black belt testing requires memorising and practising hundreds of self-defence techniques — no small task. At the time of creating the resource, I was in the process of testing for my fourth degree black belt after [twenty years of training](/posts/2024/12/twenty-years-of-kuk-sool-part-1/), at which stage I was required to know 444 self-defence techniques, alongside everything else in Kuk Sool's vast curriculum. 
 
@@ -15,8 +15,7 @@ For the first time, I collaborated with AI to assist in development — a new ex
   <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a>
 </div>
 <br>
-
-This resource will continue to grow as I add new features based on my own reflections and feedback from other Kuk Sool practitioners. When I shared the first public version on 23 May 2025, it included the following features:
+This resource will continue to grow as I add new features based on my own reflections and feedback from other Kuk Sool practitioners. When I shared the first public version on 22 May 2025, it included the following features:
 
 * **Rank-Based Set Selection**  
 Quickly select all relevant technique sets based on belt rank (White Belt, Yellow Belt, ..., up to Fourth Degree Black Belt / Sa Bum Nim), including inherited sets from previous ranks.
