@@ -30,32 +30,31 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
   
   .score-box {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 15px;
     font-size: 1.5em;
     font-weight: bold;
-    border-radius: 8px;
     text-align: center;
-    border: 2px solid transparent;
+    border-radius: 8px;
   }
 
   /* Color-coded classes */
   .score-high {
-    color: #2b7a0b;
-    background-color: #e6f4ea;
-    border-color: #2b7a0b;
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb
   }
 
   .score-medium {
-    color: #b45309;
-    background-color: #fff4e5;
-    border-color: #b45309;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 2px solid #ffeeba;
   }
 
   .score-low {
-    color: #9b1c1c;
-    background-color: #fcebea;
-    border-color: #9b1c1c;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 2px solid #f5c6cb;
   }
 
   .inline-label {
@@ -349,37 +348,37 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function displayNext() {
-    const output = document.getElementById('output');
-    const summary = document.getElementById('summary');
+      const output = document.getElementById('output');
+      const summary = document.getElementById('summary');
 
-    if (currentIndex < currentList.length) {
-      output.textContent = currentList[currentIndex];
-      document.getElementById('feedback-buttons').style.display = 'flex';
-    } else {
-      output.textContent = 'Summary';
-      document.getElementById('feedback-buttons').style.display = 'none';
-      document.getElementById('start-button').style.display = 'block';
-
-      // Score calculation
-      const correct = document.querySelectorAll('.correct').length;
-      const total = document.querySelectorAll('.correct, .incorrect').length;
-      const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
-
-      const scoreBox = document.createElement('div');
-      scoreBox.className = 'score-box';
-
-      if (percent >= 80) {
-        scoreBox.classList.add('score-high');
-      } else if (percent >= 50) {
-        scoreBox.classList.add('score-medium');
+      if (currentIndex < currentList.length) {
+        output.textContent = currentList[currentIndex];
+        document.getElementById('feedback-buttons').style.display = 'flex';
       } else {
-        scoreBox.classList.add('score-low');
-      }
+        output.textContent = 'Summary';
+        document.getElementById('feedback-buttons').style.display = 'none';
+        document.getElementById('start-button').style.display = 'block';
 
-      scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
-      summary.appendChild(scoreBox);
-    }
+        const correct = document.querySelectorAll('.correct').length;
+        const total = document.querySelectorAll('.correct, .incorrect').length;
+        const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+        const scoreBox = document.createElement('div');
+        scoreBox.className = 'score-box';
+
+        if (percent >= 80) {
+          scoreBox.classList.add('score-high');
+        } else if (percent >= 50) {
+          scoreBox.classList.add('score-medium');
+        } else {
+          scoreBox.classList.add('score-low');
+        }
+
+        scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
+        summary.appendChild(scoreBox);
+      }
   }
+
 
   function startGeneration() {
     currentIndex = 0;
