@@ -460,7 +460,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 </script>
 {% endraw %}
 
-<div class="notice" style="padding: 1.5em; background-color: #f5f5f5; border-left: 6px solid #007acc; margin: 2em 0;">
+<div class="notice">
   <p><strong>Notice:</strong> This resource is free to use, but it takes time and money to keep it going. If you find it helpful, a small donation to support its upkeep would be appreciated! 
     <a href="https://paypal.me/sh4y">Click here to donate via PayPal</a>.
   </p>
