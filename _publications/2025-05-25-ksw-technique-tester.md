@@ -3,7 +3,7 @@ title: "Kuk Sool Won Technique Tester"
 collection: projects
 permalink: /projects/2025-05-25-ksw-technique-tester/
 excerpt: 'This personal project involved building a dynamic technique tester using HTML, CSS, and JavaScript to help martial arts students review and randomise techniques, with built-in feedback and scoring features.'
-date: 2025-05-25
+date: 2025-05-23
 ---
 This personal project involved building a dynamic, browser-based Kuk Sool Won (martial arts) self-defence technique tester using HTML, CSS, and JavaScript. Preparing for advanced black belt testing requires memorising and practising hundreds of self-defence techniques — no small task. At the time of creating the resource, I was in the process of testing for my fourth degree black belt after [twenty years of training](/posts/2024/12/twenty-years-of-kuk-sool-part-1/), at which stage I was required to know 444 self-defence techniques, alongside everything else in Kuk Sool's vast curriculum. 
 
@@ -13,7 +13,7 @@ For the first time, I collaborated with AI to assist in development — a new ex
 
 [Use the resource here](/ksw-technique-tester/).
 
-The project will evolve over time, as I plan to introduce new features based on my own reflections as well as the feedback of other Kuk Sool practitioners using the resource. At the time of sharing the first public version of the resource, it had the following features:
+The project will evolve over time, as I plan to introduce new features based on my own reflections as well as the feedback of other Kuk Sool practitioners using the resource. At the time of sharing the first public version of the resource on 23 May 2025, it had the following features:
 
 * **Rank-Based Set Selection**  
 Quickly select all relevant technique sets based on belt rank (e.g. White Belt, Red Belt, etc.), including inherited sets from previous ranks.
@@ -23,8 +23,7 @@ Choose specific technique sets manually from a comprehensive list, with visual i
 
 * **Multiple Generation Modes**  
   *  Generate a specific number of random techniques from across all selected sets
-  *  Generate a fixed number of techniques per selected set
-  *  Run through all techniques from the selected sets.
+  *  Generate a fixed number of techniques per selected set.
 
 * **Randomisation Options**  
   * Randomise the order of sets (per-set mode)
@@ -37,11 +36,23 @@ Techniques are shown one at a time with large, centred text to support focused s
 Users rate each technique as “correct” or “incorrect” using intuitive thumbs-up/down buttons.
 
 * **End-of-Session Summary**  
-A clear summary appears at the end showing:
-  * Which techniques were marked correct/incorrect
-  * A colour-coded score box indicating total performance as a percentage.
+A clear summary appears at the end showing which techniques were marked correct/incorrect,
 
 * **Fully Browser-Based & Mobile-Friendly**  
 No installation required — works seamlessly on desktop and mobile.
+
+On 25 May 2025, several new features were added:
+
+* **Score Box**  
+I added a colour-coded score box to the end-of-session summary that shows your overall score as a percentage. This was a suggestion from someone who used the resource.
+
+* **Additional Generation Methods**  
+I added a feature to go through every technique in the selected sets, with the option to show them in order or shuffled. This helps users identify personal weak areas in their syllabus. I included it because I knew it would be useful for my own training too.
+
+* **Better Randomisation**  
+The original resource didn’t keep track of which techniques had already been shown, so users could get the same one multiple times while missing others completely. To fix this, I added a feature called *tiered repetition control*. This ensures that every technique is shown once before any repeats happen, and that no technique appears a third time until all others have been shown twice — and so on. I added this feature because I personally wanted more balanced practise.
+
+* **Visual Improvements**  
+I added ✅ and ❌ emojis to show which answers were correct or incorrect in the end-of-session summary. This made things clearer and more accessible, especially for users who might have trouble seeing green and red text colours used in the original version.
 
 [Use the resource here](/ksw-technique-tester/).
