@@ -385,6 +385,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   function startGeneration() {
     currentIndex = 0;
     document.getElementById('summary').innerHTML = '';
+    document.getElementById('summary').style.display = 'none';
     document.getElementById('start-button').style.display = 'none';
 
     const selectedItems = gatherSelectedItems();
