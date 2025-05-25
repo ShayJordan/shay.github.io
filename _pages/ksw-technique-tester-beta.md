@@ -184,9 +184,9 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
 
-<div id="summary">
-  <div id="correct-list"><h3>Correct</h3></div>
-  <div id="incorrect-list"><h3>Incorrect</h3></div>
+<div id="summary" style="display: none;">
+  <div id="correct-list" style="display: none;"><h3>Correct</h3></div>
+  <div id="incorrect-list" style="display: none;"><h3>Incorrect</h3></div>
 </div>
 
 <script>
@@ -329,18 +329,30 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function rateItem(feedback) {
-    const listId = feedback === 'correct' ? 'correct-list' : 'incorrect-list';
-    const container = document.getElementById(listId);
-    const span = document.createElement('span');
-    const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
-    span.textContent = symbol + currentList[currentIndex];
-    span.className = feedback;
-    container.appendChild(span);
-    container.appendChild(document.createElement('br'));
+      const listId = feedback === 'correct' ? 'correct-list' : 'incorrect-list';
+      const container = document.getElementById(listId);
+      const summary = document.getElementById('summary');
 
-    currentIndex++;
-    displayNext();
+      // Show summary container and specific list if hidden
+      if (summary.style.display === 'none') {
+        summary.style.display = 'block';
+      }
+      if (container.style.display === 'none') {
+        container.style.display = 'block';
+      }
+
+      // Add the result with tick or cross symbol
+      const span = document.createElement('span');
+      const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
+      span.textContent = symbol + currentList[currentIndex];
+      span.className = feedback;
+      container.appendChild(span);
+      container.appendChild(document.createElement('br'));
+
+      currentIndex++;
+      displayNext();
   }
+
 
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('categorySelect');
