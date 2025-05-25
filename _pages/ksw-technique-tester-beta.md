@@ -224,12 +224,14 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function toggleInputs() {
-    const allMode = document.getElementById('allMode').checked;
-    const perMode = document.getElementById('perItemMode').checked;
+      const allMode = document.getElementById('allMode').checked;
+      const perItemMode = document.getElementById('perItemMode').checked;
 
-    document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
-    document.getElementById('perItemInputs').style.display = !allMode && perMode ? 'block' : 'none';
-    document.getElementById('singleCountInput').style.display = !allMode && !perMode ? 'block' : 'none';
+      document.getElementById('perItemMode').closest('.form-section').style.display = allMode ? 'none' : 'block';
+      document.getElementById('allModeOptions').style.display = allMode ? 'block' : 'none';
+
+      document.getElementById('perItemInputs').style.display = !allMode && perItemMode ? 'block' : 'none';
+      document.getElementById('singleCountInput').style.display = !allMode && !perItemMode ? 'block' : 'none';
   }
 
   function gatherSelectedItems() {
@@ -346,7 +348,43 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    toggleInputs();
+      toggleInputs();
+
+      // Dropdown → Checkboxes
+      const select = document.getElementById('categorySelect');
+      const checkboxes = document.querySelectorAll('.item');
+
+      select.addEventListener('change', () => {
+        const selected = select.value;
+        const sets = selected ? expandCategory(selected) : [];
+        checkboxes.forEach(cb => cb.checked = sets.includes(cb.value));
+      });
+
+      // Checkboxes → Dropdown
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', () => {
+          const selected = Array.from(checkboxes)
+            .filter(cb => cb.checked)
+            .map(cb => cb.value)
+            .sort()
+            .join('|');
+
+          let matched = false;
+          for (const key in categoryMap) {
+            const items = expandCategory(key).sort().join('|');
+            if (items === selected) {
+              select.value = key;
+              matched = true;
+              break;
+            }
+          }
+          if (!matched) select.value = '';
+        });
+      });
+
+      // Mode switchers
+      document.getElementById('allMode').addEventListener('change', toggleInputs);
+      document.getElementById('perItemMode').addEventListener('change', toggleInputs);
   });
 </script>
 {% endraw %}
