@@ -241,10 +241,22 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         };
       });
 
-      for (let i = 0; i < count; i++) {
+      const used = new Set();
+
+      while (list.length < count) {
         const entry = pool[Math.floor(Math.random() * pool.length)];
         const n = Math.floor(Math.random() * entry.limit) + 1;
-        list.push(`${entry.setName} ${n}`);
+        const pair = `${entry.setName}: ${n}`;
+        
+        if (!used.has(pair)) {
+          used.add(pair);
+          list.push(pair);
+        }
+
+        // To avoid infinite loop if count > possible unique pairs
+        if (used.size >= pool.reduce((sum, e) => sum + e.limit, 0)) {
+          break;
+        }
       }
     }
 
