@@ -234,12 +234,12 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         if (count <= limit) {
           shuffle(availableNumbers);
           for (let i = 0; i < count; i++) {
-            list.push(`${setName}: ${availableNumbers[i]}`);
+            list.push(`${setName} ${availableNumbers[i]}`);
           }
         } else {
           for (let i = 0; i < count; i++) {
             const n = Math.floor(Math.random() * limit) + 1;
-            list.push(`${setName}: ${n}`);
+            list.push(`${setName} ${n}`);
           }
         }
       });
@@ -255,7 +255,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       const allCombinations = [];
       pool.forEach(entry => {
         for (let i = 1; i <= entry.limit; i++) {
-          allCombinations.push(`${entry.setName}: ${i}`);
+          allCombinations.push(`${entry.setName} ${i}`);
         }
       });
   
