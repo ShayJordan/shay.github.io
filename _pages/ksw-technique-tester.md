@@ -296,7 +296,10 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     }
 
     if (perMode) {
-      sets.forEach(setName => {
+      const randomiseSets = document.getElementById('randomOrder')?.checked;
+      const setsToUse = randomiseSets ? shuffle([...sets]) : sets;
+    
+      setsToUse.forEach(setName => {
         const checkbox = document.querySelector(`.item[value="${setName}"]`);
         if (!checkbox) return;
         const limit = parseInt(checkbox.dataset.limit || '10');
