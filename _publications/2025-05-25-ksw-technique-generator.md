@@ -41,3 +41,5 @@ A clear summary appears at the end showing:
 
 * **Fully Browser-Based & Mobile-Friendly**  
 No installation required — works seamlessly on desktop and mobile.
+
+[Use the resource here](/ksw-technique-tester/).
