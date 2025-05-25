@@ -7,6 +7,7 @@ header:
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: false
 og_image: og_image.png
+sitemap: false
 ---
 Select your rank to be tested on all technique sets up to your next grade, or manually select which sets you wish to be tested from.
 
