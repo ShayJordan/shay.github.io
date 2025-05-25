@@ -12,13 +12,13 @@ Over the years, I created various tools to help, including a spreadsheet randomi
 For the first time, I collaborated with AI to assist in development — a new experience that challenged me to clearly articulate requirements, troubleshoot effectively, and maintain the integrity of the resource throughout. It became a rewarding exercise in both technical problem-solving and communication.
 
 <div style="text-align: center;">
-  <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a>
+  <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a><br>
 </div>
 
 This resource will continue to grow as I add new features based on my own reflections and feedback from other Kuk Sool practitioners. When I shared the first public version on 23 May 2025, it included the following features:
 
 * **Rank-Based Set Selection**  
-Quickly select all relevant technique sets based on belt rank (e.g. White Belt, Red Belt, etc.), including inherited sets from previous ranks.
+Quickly select all relevant technique sets based on belt rank (White Belt, Yellow Belt, ..., up to Fourth Degree Black Belt / Sa Bum Nim), including inherited sets from previous ranks.
 
 * **Manual Set Selection**  
 Choose specific technique sets manually from a comprehensive list, with visual indicators of how many techniques are in each.
