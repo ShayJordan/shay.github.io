@@ -184,10 +184,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   <button onclick="rateItem('incorrect')">👎</button>
 </div>
 
-<div id="summary" style="display: none;">
-  <div id="correct-list" style="display: none;"><h3>Correct</h3></div>
-  <div id="incorrect-list" style="display: none;"><h3>Incorrect</h3></div>
-</div>
+<div id="summary"></div>
 
 <script>
   const categoryMap = {
@@ -289,84 +286,57 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function displayNext() {
-      const output = document.getElementById('output');
-      const feedbackButtons = document.getElementById('feedback-buttons');
-
-      if (currentIndex < currentList.length) {
-        output.textContent = currentList[currentIndex];
-        feedbackButtons.style.display = 'flex'; // Show thumbs
-      } else {
-        output.textContent = 'All items rated.';
-        feedbackButtons.style.display = 'none';
-
-        // Reveal the start button again
-        document.getElementById('start-button').style.display = 'block';
-      }
+    const output = document.getElementById('output');
+    if (currentIndex < currentList.length) {
+      output.textContent = currentList[currentIndex];
+      document.getElementById('feedback-buttons').style.display = 'flex';
+    } else {
+      output.textContent = 'Summary';
+      document.getElementById('feedback-buttons').style.display = 'none';
+      document.getElementById('start-button').style.display = 'block';
+    }
   }
 
   function startGeneration() {
-      currentIndex = 0;
-      currentList = [];
+    currentIndex = 0;
+    document.getElementById('summary').innerHTML = '';
+    document.getElementById('start-button').style.display = 'none';
 
-      // Reset and hide summary sections
-      document.getElementById('summary').style.display = 'none';
-      document.getElementById('correct-list').style.display = 'none';
-      document.getElementById('incorrect-list').style.display = 'none';
-      document.getElementById('correct-list').innerHTML = '<h3>Correct</h3>';
-      document.getElementById('incorrect-list').innerHTML = '<h3>Incorrect</h3>';
+    const selectedItems = gatherSelectedItems();
+    if (!selectedItems.length) {
+      alert("Select at least one set of techniques.");
+      document.getElementById('start-button').style.display = 'block';
+      return;
+    }
 
-      const selectedItems = gatherSelectedItems();
-      if (!selectedItems.length) {
-        alert("Select at least one set of techniques.");
-        return;
-      }
+    const perMode = document.getElementById('perItemMode').checked;
+    const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
+    if (isNaN(count) || count < 1) {
+      alert("Enter a valid number.");
+      document.getElementById('start-button').style.display = 'block';
+      return;
+    }
 
-      const perMode = document.getElementById('perItemMode').checked;
-      const count = parseInt(document.getElementById(perMode ? 'perItemCount' : 'numberToGenerate').value || '1');
-      if (isNaN(count) || count < 1) {
-        alert("Enter a valid number.");
-        return;
-      }
+    currentList = buildTechniqueList(selectedItems, count, perMode);
+    if (!perMode && document.getElementById('randomOrder').checked) {
+      shuffle(currentList);
+    }
 
-      currentList = buildTechniqueList(selectedItems, count, perMode);
-      if (!perMode && document.getElementById('randomOrder').checked) {
-        shuffle(currentList);
-      }
-
-      // Hide the start button during session
-      document.getElementById('start-button').style.display = 'none';
-
-      displayNext();
+    displayNext();
   }
-  window.startGeneration = startGeneration;
-
 
   function rateItem(feedback) {
-      const listId = feedback === 'correct' ? 'correct-list' : 'incorrect-list';
-      const container = document.getElementById(listId);
-      const summary = document.getElementById('summary');
+    const summary = document.getElementById('summary');
+    const span = document.createElement('span');
+    const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
+    span.textContent = symbol + currentList[currentIndex];
+    span.className = feedback === 'correct' ? 'correct' : 'incorrect';
+    summary.appendChild(span);
+    summary.appendChild(document.createElement('br'));
 
-      // Show summary container and specific list if hidden
-      if (summary.style.display === 'none') {
-        summary.style.display = 'block';
-      }
-      if (container.style.display === 'none') {
-        container.style.display = 'block';
-      }
-
-      // Add the result with tick or cross symbol
-      const span = document.createElement('span');
-      const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
-      span.textContent = symbol + currentList[currentIndex];
-      span.className = feedback;
-      container.appendChild(span);
-      container.appendChild(document.createElement('br'));
-
-      currentIndex++;
-      displayNext();
+    currentIndex++;
+    displayNext();
   }
-  window.rateItem = rateItem;
-
 
   document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('categorySelect');
