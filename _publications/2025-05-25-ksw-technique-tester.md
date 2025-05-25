@@ -12,8 +12,10 @@ Over the years, I created various tools to help, including a spreadsheet randomi
 For the first time, I collaborated with AI to assist in development — a new experience that challenged me to clearly articulate requirements, troubleshoot effectively, and maintain the integrity of the resource throughout. It became a rewarding exercise in both technical problem-solving and communication.
 
 <div style="text-align: center;">
-  <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a><br>
+  <a href="/ksw-technique-tester/" class="btn btn--info">Use the resource here</a>
 </div>
+
+<br></br>
 
 This resource will continue to grow as I add new features based on my own reflections and feedback from other Kuk Sool practitioners. When I shared the first public version on 23 May 2025, it included the following features:
 
