@@ -31,7 +31,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   
   .score-box {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 15px;
     font-size: 1.5em;
     font-weight: bold;
@@ -91,6 +91,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   #summary {
+    display: none;
     margin-top: 30px;
     font-size: 1.2em;
   }
@@ -376,10 +377,12 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
         }
 
         scoreBox.textContent = `🎯 Score: ${correct} / ${total} (${percent}%)`;
-        summary.prepend(scoreBox);
+
+        summary.innerHTML = '';              // Clear previous content
+        summary.prepend(scoreBox);           // Add score first
+        summary.style.display = 'block';     // 👈 Show summary section now
       }
   }
-
 
   function startGeneration() {
     currentIndex = 0;
