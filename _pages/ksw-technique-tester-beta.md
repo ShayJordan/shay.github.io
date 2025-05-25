@@ -225,6 +225,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
 
   let currentList = [];
   let currentIndex = 0;
+  let correctCount = 0;
 
   function expandCategory(cat, visited = new Set()) {
     if (visited.has(cat)) return [];
@@ -338,8 +339,8 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function startGeneration() {
-    correctCount = 0;
     currentIndex = 0;
+    correctCount = 0;
     document.getElementById('summary').innerHTML = '';
     document.getElementById('start-button').style.display = 'none';
 
@@ -369,31 +370,30 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   let correctCount = 0;
 
   function rateItem(feedback) {
-    const summary = document.getElementById('summary');
-    const span = document.createElement('span');
-    const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
-    span.textContent = symbol + currentList[currentIndex];
-    span.className = feedback === 'correct' ? 'correct' : 'incorrect';
-    summary.appendChild(span);
-    summary.appendChild(document.createElement('br'));
-  
-    if (feedback === 'correct') {
-      correctCount++;
-    }
+      const summary = document.getElementById('summary');
+      const span = document.createElement('span');
+      const symbol = feedback === 'correct' ? '✅ ' : '❌ ';
+      span.textContent = symbol + currentList[currentIndex];
+      span.className = feedback === 'correct' ? 'correct' : 'incorrect';
+      summary.appendChild(span);
+      summary.appendChild(document.createElement('br'));
 
-    currentIndex++;
+      if (feedback === 'correct') {
+        correctCount++;
+      }
 
-    if (currentIndex >= currentList.length) {
-      // Display final score
-      const percentage = Math.round((correctCount / currentList.length) * 100);
-      const scoreDisplay = document.createElement('div');
-      scoreDisplay.innerHTML = `<strong>Score:</strong> ${correctCount} out of ${currentList.length} (${percentage}%)`;
-      scoreDisplay.style.marginTop = '20px';
-      scoreDisplay.style.fontWeight = 'bold';
-      summary.appendChild(scoreDisplay);
-    }
+      currentIndex++;
+      displayNext();
 
-    displayNext();
+      // Show score when done
+      if (currentIndex === currentList.length) {
+        const percentage = Math.round((correctCount / currentList.length) * 100);
+        const scoreLine = document.createElement('div');
+        scoreLine.innerHTML = `<strong>Score:</strong> ${correctCount} out of ${currentList.length} (${percentage}%)`;
+        scoreLine.style.marginTop = '20px';
+        scoreLine.style.fontWeight = 'bold';
+        summary.appendChild(scoreLine);
+      }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
