@@ -223,52 +223,56 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   }
 
   function buildTechniqueList(sets, count, perMode) {
-      const list = [];
+    const list = [];
 
-      if (perMode) {
-        sets.forEach(setName => {
-          const checkbox = document.querySelector(`.item[value="${setName}"]`);
-          if (!checkbox) return;
+    if (perMode) {
+      sets.forEach(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        if (!checkbox) return;
 
-          const limit = parseInt(checkbox.dataset.limit || '10');
-          const available = Array.from({ length: limit }, (_, i) => i + 1);
-
-          shuffle(available);
-
-          for (let i = 0; i < count; i++) {
-            if (i < limit) {
-              list.push(`${setName} ${available[i]}`);
-            } else {
-              // Start allowing repeats
-              const random = Math.floor(Math.random() * limit) + 1;
-              list.push(`${setName} ${random}`);
-            }
-          }
-        });
-      } else {
-        const pool = sets.map(setName => {
-          const checkbox = document.querySelector(`.item[value="${setName}"]`);
-          if (!checkbox) return null;
-          const limit = parseInt(checkbox.dataset.limit || '10');
-          return Array.from({ length: limit }, (_, i) => `${setName} ${i + 1}`);
-        }).flat().filter(Boolean);
-
-        shuffle(pool);
+        const limit = parseInt(checkbox.dataset.limit || '10');
+        const allNumbers = Array.from({ length: limit }, (_, i) => i + 1);
+        shuffle(allNumbers);
 
         for (let i = 0; i < count; i++) {
-          if (i < pool.length) {
-            list.push(pool[i]);
+          if (i < allNumbers.length) {
+            list.push(`${setName} ${allNumbers[i]}`);
           } else {
-            // Start allowing repeats
-            const entry = pool[Math.floor(Math.random() * pool.length)];
-            list.push(entry);
+            const fallback = Math.floor(Math.random() * limit) + 1;
+            list.push(`${setName} ${fallback}`);
           }
         }
+      });
+    } else {
+      const pool = sets.map(setName => {
+        const checkbox = document.querySelector(`.item[value="${setName}"]`);
+        return {
+          setName,
+          limit: parseInt(checkbox?.dataset.limit || '10')
+        };
+      });
+
+      const allCombinations = [];
+      pool.forEach(entry => {
+        for (let i = 1; i <= entry.limit; i++) {
+          allCombinations.push(`${entry.setName} ${i}`);
+        }
+      });
+
+      shuffle(allCombinations);
+
+      for (let i = 0; i < count; i++) {
+        if (i < allCombinations.length) {
+          list.push(allCombinations[i]);
+        } else {
+          const randomEntry = allCombinations[Math.floor(Math.random() * allCombinations.length)];
+          list.push(randomEntry);
+        }
       }
+    }
 
-      return list;
+    return list;
   }
-
 
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -311,7 +315,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
     }
 
     currentList = buildTechniqueList(selectedItems, count, perMode);
-    if (!perMode && document.getElementById('randomOrder').checked) {
+    if (!perMode && document.getElementById('randomOrder')?.checked) {
       shuffle(currentList);
     }
 
@@ -361,6 +365,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
       });
     });
 
+    document.getElementById('perItemMode').addEventListener('change', togglePerItemInput);
     togglePerItemInput();
   });
 </script>
