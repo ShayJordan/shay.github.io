@@ -460,11 +460,22 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   });
 </script>
 {% endraw %}
-<div class="supporters" style="margin-top: 2em; text-align: center;">
-  <h3 style="margin-bottom: 0.5em;">With thanks to the following supporters:</h3>
-  <ul style="list-style: none; padding: 0; font-style: italic;">
-    <li>Andrew P. – Florida, USA</li>
-    <!-- Add more supporters here as needed -->
-  </ul>
-  <p style="font-size: 0.9em; margin-top: 1em;">Your support helps keep this resource alive – thank you!</p>
+<div class="notice" style="margin-top: 2em;">
+  <p><strong>Notice:</strong> This resource is free to use, but it takes time and money to keep it going. If you find it helpful, a small donation to support its upkeep would be appreciated!</p>
+  <div style="text-align: center; margin-top: 1.5em;">
+    <a href="https://paypal.me/sh4y" class="btn btn--info" style="margin-right: 10px;">Donate via PayPal</a>
+    <a href="/projects/2025-05-22-ksw-technique-tester/" class="btn btn--primary">Find Out More</a>
+  </div>
+
+  <div style="margin-top: 2em; text-align: center;">
+    <p style="font-weight: bold; margin-bottom: 0.5em;">With thanks to the following supporters:</p>
+    <ul style="list-style: none; padding: 0; margin: 0; font-style: italic;">
+      <li>Alex W. – Toronto, Canada</li>
+      <li>Sara J. – Norwich, UK</li>
+      <li>Min-ho K. – Seoul, South Korea</li>
+      <li>Jared L. – Austin, Texas</li>
+      <!-- Add more supporters here -->
+    </ul>
+    <p style="font-size: 0.9em; margin-top: 1em;">Your support helps keep this project going — thank you!</p>
+  </div>
 </div>
