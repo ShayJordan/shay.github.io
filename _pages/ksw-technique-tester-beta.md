@@ -460,3 +460,11 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   });
 </script>
 {% endraw %}
+<div class="supporters" style="margin-top: 2em; text-align: center;">
+  <h3 style="margin-bottom: 0.5em;">With thanks to the following supporters:</h3>
+  <ul style="list-style: none; padding: 0; font-style: italic;">
+    <li>Andrew P. – Florida, USA</li>
+    <!-- Add more supporters here as needed -->
+  </ul>
+  <p style="font-size: 0.9em; margin-top: 1em;">Your support helps keep this resource alive – thank you!</p>
+</div>
