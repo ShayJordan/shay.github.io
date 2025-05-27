@@ -470,10 +470,7 @@ Select your rank to be tested on all technique sets up to your next grade, or ma
   <div style="margin-top: 2em; text-align: center;">
     <p style="font-weight: bold; margin-bottom: 0.5em;">With thanks to the following supporters:</p>
     <ul style="list-style: none; padding: 0; margin: 0; font-style: italic;">
-      <li>Alex W. – Toronto, Canada</li>
-      <li>Sara J. – Norwich, UK</li>
-      <li>Min-ho K. – Seoul, South Korea</li>
-      <li>Jared L. – Austin, Texas</li>
+      <li>Andrew P. – Florida, USA</li>
       <!-- Add more supporters here -->
     </ul>
     <p style="font-size: 0.9em; margin-top: 1em;">Your support helps keep this project going — thank you!</p>
