@@ -4,7 +4,7 @@ collection: projects
 permalink: /projects/2021-07-23-number-puzzles/
 excerpt: 'Supervised by [Dr Sinead Lyle](https://research-portal.uea.ac.uk/en/persons/sinead-lyle) and [Dr Carl-Fredrik Nyberg Brodda](https://sites.google.com/view/cf-nb/), I researched the mathematics of number puzzles such as Sudoku and Futoshiki. My research paper was never finished, however the incomplete paper has been uploaded here. During this project, a number sequence was discovered and was published in the OEIS.'
 date: 2021-07-23
-paperurl: 'https://shayjordan.co.uk/files/2021-07-23-number-puzzles.pdf'
+paperurl: '/files/2021-07-23-number-puzzles.pdf'
 redirect_from: 
   - /projects/Number_Puzzles/
 ---
@@ -12,4 +12,4 @@ In the summer of 2021, I undertook a research project funded by the University o
 
 [See the published number sequence here.](https://oeis.org/A346008)
 
-[Download the paper here.](https://shayjordan.co.uk/files/2021-07-23-number-puzzles.pdf)
+[Download the paper here.](/files/2021-07-23-number-puzzles.pdf)
