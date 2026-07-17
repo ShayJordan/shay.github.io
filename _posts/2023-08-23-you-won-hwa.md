@@ -41,6 +41,7 @@ We are at our best when we are at harmony with our environment. A sailor does be
 ![Eum Yang](https://upload.wikimedia.org/wikipedia/commons/a/ad/Taegeuk.svg){: .align-center width="50%"}
 
 *The Taegeuk symbol from the flag of South Korea, representing the "great duality" of Eum (negative, in blue) and Yang (positive, in red).*
+{: .text-center}
 
 The manifestation of the Theory of YOU-WON-HWA is that as flowing water seeks to be in harmony with its surroundings, adapting effortlessly to external influences, we should also maintain harmony within our personal circle and redirect any disturbances with equal magnitude to the force which they introduce.
 
