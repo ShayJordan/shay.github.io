@@ -17,10 +17,9 @@ In education, several theories of learning are employed to better the effectiven
 
 Russian psychologist, Lev Vygotsky, was an influential theorist of constructivism in education -- building upon the idea that learners do not develop knowledge and understanding from passive reception, but rather they *construct* an understanding of knowledge through experience and social interaction. One of Vygotsky's most notable ideas include that of a *Zone of Proximal Development (ZPD)*, which refers to the space between what a learner can do independently, and what a learner is unable to do: the area of development which the learner is capable of reaching through the guidance of a teacher or someone with more knowledge on the topic.
 
-<div class="text-center">
-![Zone of Proximal Development(ZPD)](https://upload.wikimedia.org/wikipedia/commons/9/92/Zone_of_proximal_development.svg){: width="50%"}
+![Zone of Proximal Development(ZPD)](https://upload.wikimedia.org/wikipedia/commons/9/92/Zone_of_proximal_development.svg){: .align-center width="50%"}
+
 *A diagram illustrating the Zone of Proximal Development (ZPD).*
-</div>
 
 Whilst Vygotsky's ideas typically refer to cognitive development and the effective acquisition of new knowledge, there is also space for the theory to be explored with regards to physical development in martial arts training.
 
