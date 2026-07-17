@@ -37,4 +37,4 @@ I am also a keen photographer, and share my images on [Instagram](https://instag
 For more info 💁‍♂️
 ------
 
-For more information about me, view [my CV](/files/shay-jordan-cv.pdf).
+For more information about me, [view my CV](/files/shay-jordan-cv.pdf).
