@@ -12,4 +12,4 @@ My article on *the benefits of attending a summer school* explores the different
 
 [View my article](/files/2026-09-01-utd-teachers-guide.pdf), or [read the entire guide](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/) (2027 edition featuring my article not yet published).
 
-[![UniTasterDays Parents' Guide 2026](/images/utd-teachers-banner.jpg)](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/){: .align-center width="90%"}
+[![UniTasterDays Parents' Guide 2026](/images/utd-teachers-banner.jpg)](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/){: .align-center width="100%"}

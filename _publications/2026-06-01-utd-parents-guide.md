@@ -12,4 +12,4 @@ My article on *The 2026 Changes to Personal Statements* explains how the new UCA
 
 [View my article](/files/2026-06-01-utd-parents-guide.pdf), or [read the entire guide](https://www.unitasterdays.com/university-support-for-parents/parents-guide-to-university-brochure/).
 
-[![UniTasterDays Parents' Guide 2026](/images/utd-parents-banner.jpg)](https://www.unitasterdays.com/university-support-for-parents/parents-guide-to-university-brochure/){: .align-center width="90%"}
+[![UniTasterDays Parents' Guide 2026](/images/utd-parents-banner.jpg)](https://www.unitasterdays.com/university-support-for-parents/parents-guide-to-university-brochure/){: .align-center width="100%"}
