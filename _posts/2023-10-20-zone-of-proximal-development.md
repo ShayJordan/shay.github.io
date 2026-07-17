@@ -19,7 +19,8 @@ Russian psychologist, Lev Vygotsky, was an influential theorist of constructivis
 
 ![Zone of Proximal Development(ZPD)](https://upload.wikimedia.org/wikipedia/commons/9/92/Zone_of_proximal_development.svg){: .align-center width="50%"}
 
-*A diagram illustrating the Zone of Proximal Development (ZPD).*{: .align-center}
+*A diagram illustrating the Zone of Proximal Development (ZPD).*
+{: .align-center}
 
 Whilst Vygotsky's ideas typically refer to cognitive development and the effective acquisition of new knowledge, there is also space for the theory to be explored with regards to physical development in martial arts training.
 
