@@ -2,7 +2,7 @@
 title: "The Mathematics of Number Puzzles"
 collection: projects
 permalink: /projects/2021-07-23-number-puzzles/
-excerpt: 'Supervised by [Dr Sinead Lyle](https://research-portal.uea.ac.uk/en/persons/sinead-lyle) and [Dr Carl-Fredrik Nyberg Brodda](https://sites.google.com/view/cf-nb/), I researched the mathematics of number puzzles such as Sudoku and Futoshiki. My research paper was never finished, however the incomplete paper has been uploaded here. During this project, a number sequence was discovered and was published in the OEIS.'
+excerpt: 'Supervised by [Dr Sinead Lyle](https://research-portal.uea.ac.uk/en/persons/sinead-lyle) and [Dr Carl-Fredrik Nyberg Brodda](https://sites.google.com/view/cf-nb/), I researched the mathematics of number puzzles such as Sudoku and Futoshiki. My research paper was never finished, however the incomplete paper has been uploaded here. During this project, a number sequence was discovered and was [published in the OEIS](https://oeis.org/A346008).'
 date: 2021-07-23
 paperurl: '/files/2021-07-23-number-puzzles.pdf'
 redirect_from: 
