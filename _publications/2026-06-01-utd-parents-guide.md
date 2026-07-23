@@ -2,7 +2,7 @@
 title: "The 2026 Changes to Personal Statements"
 collection: projects
 permalink: /projects/2026-06-01-utd-parents-guide/
-excerpt: "This article was written to help parents and carers support applicants through the UCAS application process by explaining the new structured format of the personal statement. It was commissioned for and published in the [UniTasterDays Parents' Guide to University](https://www.unitasterdays.com/university-support-for-parents/parents-guide-to-university-brochure/)."
+excerpt: "This article was written to help parents and carers support applicants through the UCAS application process by explaining the new structured format of the personal statement. It was commissioned for and published in the [UniTasterDays Parents' Guide to University 2026](https://www.unitasterdays.com/university-support-for-parents/parents-guide-to-university-brochure/)."
 date: 2026-06-01
 paperurl: '/files/2026-06-01-utd-parents-guide.pdf'
 ---
