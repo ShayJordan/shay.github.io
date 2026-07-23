@@ -2,7 +2,7 @@
 title: "Supporting Applicants through UCAS Clearing"
 collection: projects
 permalink: /projects/2026-03-16-uea-clearing-guide/
-excerpt: "This article was written to help teachers and advisers understand the benefits of higher education summer schools, enabling them to better support students in identifying and engaging with appropriate opportunities. It was commissioned for and published in the [UniTasterDays Teachers' Guide to University 2027](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/)."
+excerpt: "A guide to help parents, carers, teachers, and advisers in understanding and navigating UCAS Clearing, to effectively support applicants. This was funded by the University of East Anglia's (UEA) Access and Participation Plan funding from the Office for Students, and remains property of UEA."
 date: 2026-03-16
 paperurl: '/files/2026-03-16-uea-clearing-guide.pdf'
 ---
