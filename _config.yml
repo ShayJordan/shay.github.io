@@ -295,7 +295,7 @@ jekyll-archives:
   enabled:
     - tags
   layouts:
-    tag: liquid
+    tag: archive
   permalinks:
     tag: /tags/:name/
 
