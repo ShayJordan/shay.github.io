@@ -295,7 +295,7 @@ jekyll-archives:
   enabled:
     - tags
   layouts:
-    tag: archive
+    tag: archive-taxonomy
   permalinks:
     tag: /tags/:name/
 
