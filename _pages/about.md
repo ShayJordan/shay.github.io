@@ -7,6 +7,7 @@ header:
   overlay_filter: rgba(51, 51, 90, 0.75)
 author_profile: true
 og_image: og_image.png
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
