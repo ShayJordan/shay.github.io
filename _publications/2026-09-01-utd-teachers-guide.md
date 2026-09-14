@@ -10,6 +10,6 @@ The Teachers’ Guide to University 2027 is created for the teachers and careers
 
 My article on *the benefits of attending a summer school* explores the different types of higher education summer schools available, the evidence supporting their impact on attainment and progression, and the ways they help students develop confidence, a sense of belonging, and the skills needed to succeed in higher education. It also highlights how teachers and advisers can use these opportunities to support students' educational aspirations and decision-making.
 
-[View my article](/files/2026-09-01-utd-teachers-guide.pdf), or [read the entire guide](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/) (2027 edition featuring my article not yet published).
+[View my article](/files/2026-09-01-utd-teachers-guide.pdf), or [read the entire guide](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/).
 
-[![UniTasterDays Parents' Guide 2026](/images/utd-teachers-banner.jpg){: .align-center width="100%"}](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/)
+[![UniTasterDays Parents' Guide 2027](/images/utd-teachers-banner.jpg){: .align-center width="100%"}](https://www.unitasterdays.com/university-support-for-schools/teachers-guide-to-university-brochure/)
