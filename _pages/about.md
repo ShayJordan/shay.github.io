@@ -32,7 +32,7 @@ Outside of work and academia, I am a martial artist with over [twenty years of e
 
 I enjoy reading, with my favourite books being [The Cat and the City](https://atlantic-books.co.uk/book/the-cat-and-the-city/) and [Four Seasons in Japan](https://www.penguin.co.uk/books/455266/four-seasons-in-japan-by-bradley-nick/) by [Nick Bradley](https://www.nickbradleywriter.com/), [What You Are Looking for is in the Library](https://www.penguin.co.uk/books/452650/what-you-are-looking-for-is-in-the-library-by-aoyama-michiko/) by [Michiko Aoyama](https://www.penguin.co.uk/authors/293365/michiko-aoyama), and [Tokyo Express](https://www.penguin.co.uk/books/316578/tokyo-express-by-matsumoto-seicho/9780241439081) by [Seichō Matsumoto](https://en.wikipedia.org/wiki/Seich%C5%8D_Matsumoto). Quite fittingly, these books all dwell on Japanese culture -- and South-East Asian culture is something which I am very interested in. I am a keen traveller and have visited Thailand many times, and hope to travel more of South-East Asia in the future -- including Japan and South Korea.
 
-I am also a keen photographer, and share my images on [Instagram](https://instagram.com/sh4yjordan).
+I am also a keen photographer, and share my images on [Instagram](https://instagram.com/shayj.photo).
 
 For more info 💁‍♂️
 ------
