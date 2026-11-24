@@ -1,5 +1,5 @@
 ---
-permalink: /ksw-syllabus/
+permalink: /ksw-syllabus
 title: "Kuk Sool Won Syllabus"
 excerpt: "The Kuk Sool Won Syllabus and associated resources."
 author_profile: false
