@@ -69,7 +69,7 @@ A reference guide to Kuk Sool Won syllabus materials, organised by grade. Video 
 
 | Material | Korean | Video |
 |:--|:--|:--|
-| Cho Geup Hyung | 고급형 | [Watch video](https://youtu.be/jj1EK0Y4QWE) |
+| Goh Geup Hyung | 고급형 | [Watch video](https://youtu.be/jj1EK0Y4QWE) |
 
 ### Techniques
 
